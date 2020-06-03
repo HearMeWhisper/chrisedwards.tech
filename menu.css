@@ -1,0 +1,23 @@
+#ham{position:absolute; top:0px; left:0px; background-color:#999999 ; margin-right: 5%;  }
+#menu{color:blue; background-color:white;width:50px;height:50px;box-shadow: 5px 5px 2.5px #5F5F5F;position:absolute; top:5px; left:5px;z-index:5; margin-right: 5%;}
+#bars, #bigx{height:50px; width:50px}
+.ham-menu {height:100%; width:0%;display:none; border:black solid 2px;box-shadow: 10px 10px 5px #5F5F5F
+}
+.ham-menu2 {display:inline;border:black solid 2px;box-shadow: 10px 10px 5px #5F5F5F;position:absolute; top:5px; left:5px; z-index:5; margin-right: 5%;}
+#ham a {color:white; text-decoration:none; z-index:10 !important; }
+#ham ul{ list-style-type: none; margin-right: 15%;}
+#ham:focus{outline-color:black; }
+#site{margin-right: 15%;}
+#bars {
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+}
+
+
+#bigx {
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  z-index:11;
+}
+
+#body {z-index:0;}
