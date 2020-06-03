@@ -1,0 +1,28 @@
+body {background-color:#cce5cc; background-image:url("house.jpg");
+    background-size:cover; background-repeat:no-repeat ; height:100%; -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  }
+
+@media screen and (max-device-width: 740px) and (orientation:portrait) {
+    #bars{display:block; height:72px; margin:auto; text-align:center}
+    .float{display:none; float:left; width:100%; padding:0px; border:none; font-size:2em;}
+    #nav-bar{height:72px}
+    #nav_br{display:block}
+}
+@media screen and (min-device-width: 741px){
+.float{list-style-type: none;  display:inline !important;
+  padding: 14px 16px; border-right:1px solid black; 
+    }
+#bars{display:none;}
+}
+#nav-bar{background-color:#336699;
+  text-align:center;  position: fixed; width:100%; left:0; box-shadow: 0 1px 3px; top:0px; height:72px}
+ul a{text-decoration: none; color:white; }
+ul li{text-align:left}
+.float:hover{background-color:#b5c7d9}
+#logo{width:85%;  margin-top:15px}
+#logo_div{margin:auto; text-align:center; background-color:white; width:72%;box-shadow: 0 1px 3px}
+#main{font-size:1.5em; width:80%; background-color:#7093b7; color:#dee6ee/*#d6e0ea*/; margin:auto; text-align:center; box-shadow: 0 1px 3px; border-radius:3px; padding:10px; /*font-style:italic;*/ margin-bottom:20px; font-family: Georgia, "Times New Roman", sans-serif;}
+#footer{display: inline; width:100%; margin:auto; text-align:center; }
+#foot_p{font-size:35%}
