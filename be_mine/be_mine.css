@@ -1,0 +1,44 @@
+body {
+    background-color: #df4646;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#flowers {
+    width: 100%;
+}
+
+#button_div {
+    padding: 2%;
+}
+
+button {
+    font-size: 25px;
+    padding: 7%;
+    width: 100%;
+    margin: 10px;
+    border-radius: 30px;
+    font-family: cursive;
+    background-color: #688f96;
+    color: white;
+}
+
+#result {
+    margin: auto;
+    text-align: center;
+}
+
+#result_img {
+    width: 80%;
+    display: none;
+}
+
+#preload {
+    display: block;
+    display: none;
+}

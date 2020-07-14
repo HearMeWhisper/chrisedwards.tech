@@ -1,0 +1,1323 @@
+/**
+	* rules for app-navigation
+	*/
+
+#app-navigation {
+	> ul {
+		> li {
+			&.collection .app-navigation-entry-icon::before {
+				content: '';
+				position: absolute;
+				width: 16px;
+				height: 16px;
+				background: var(--icon-tasks-sprt-bw-000) no-repeat;
+				background-position: inherit;
+			}
+
+			&.list {
+				&.active .app-navigation-entry__icon-bullet > div {
+					height: 16px;
+					width: 16px;
+					margin: -1px;
+				}
+
+				&:not(.active) {
+					.app-navigation-entry__utils .action-item,
+					.calendar__share {
+						display: none;
+					}
+				}
+
+				.app-navigation-entry__utils .icon-loading {
+					height: 32px;
+					width: 32px;
+				}
+			}
+
+			&.edit {
+				.app-navigation-entry__utils,
+				.app-navigation-entry-link {
+					display: none;
+				}
+
+				.app-navigation-entry-edit {
+					display: inline-block;
+				}
+			}
+
+			&.list, &.collection {
+				.task-item {
+					display: none;
+				}
+			}
+
+			&.deleted {
+				.app-navigation-entry__title {
+					text-decoration: line-through;
+				}
+
+				.app-navigation-entry__icon-bullet {
+					opacity: 0.3;
+				}
+			}
+
+			&.dnd-hover {
+				// background-color: rgba( $color-primary, .1 ); didn't work for some reason
+				background-color: transparentize( $color-primary, .9 );
+			}
+
+			button {
+				&.icon-share {
+					opacity: 0.3 !important;
+				}
+		
+				&.icon-shared,
+				&.icon-public {
+					opacity: 0.7 !important;
+				}
+		
+				&.icon-share:active,
+				&.icon-share:focus,
+				&.icon-share:hover,
+				&.icon-shared:active,
+				&.icon-shared:focus,
+				&.icon-shared:hover,
+				&.icon-public:active,
+				&.icon-public:focus,
+				&.icon-public:hover {
+					opacity: 1 !important;
+				}
+			}
+
+			.app-navigation-entry-edit {
+				padding-left: 5px !important;
+				display: none;
+				position: relative;
+
+				&.error input.edit {
+					color: $red;
+					border-color: $red !important;
+					box-shadow: 0 0 6px rgba($red, .3);
+				}
+
+				form {
+					display: flex;
+
+					input {
+						margin-right: 0;
+
+						&[type='text'] {
+							flex-grow: 1;
+						}
+
+						&.action {
+							background-color: $gray_easy;
+							width: 36px;
+							border-left: 0 none;
+							background-position: center;
+							cursor: pointer;
+				
+							&:hover {
+								border-left: 1px solid;
+								margin-left: -1px;
+								width: 37px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/**
+ * rules for colorpicker
+ */
+
+.colorpicker {
+	display: block;
+	height: 30px;
+	height: auto;
+	padding-bottom: 3px;
+	padding-top: 3px;
+
+	.colorpicker-list {
+		display: inline-flex;
+		flex-wrap: wrap;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+
+		.color-selector-label {
+			display: block;
+			height: 24px;
+			width: calc(100% / 9) !important;
+			background-image: url('../img/color_picker.svg');
+			background-repeat: no-repeat;
+			background-position: center center;
+
+			.color-selector {
+				visibility: hidden;
+			}
+		}
+
+		li {
+			height: 24px;
+			width: calc(100% / 9) !important;
+
+			&.selected {
+				border: 1px solid $gray_dark;
+			}
+		}
+	}
+}
+
+/**
+	* rules for settings area
+	*/
+
+#app-settings-content {
+	li {
+		display: flex;
+		align-items: center;
+		height: 44px;
+
+		&.headline {
+			font-weight: bold;
+		}
+
+		&.collection {
+			.icon {
+				display: flex;
+				align-items: center;
+				flex: 0 0 44px;
+				justify-content: center;
+				width: 44px;
+				height: 44px;
+				background-size: 16px 16px;
+				background-image: unset;
+				margin-left: -10px;
+
+				&::before {
+					content: '';
+					width: 16px;
+					height: 16px;
+					background: var(--icon-tasks-sprt-bw-000) no-repeat;
+					background-position: inherit;
+				}
+			}
+
+			.label-container {
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				display: flex;
+				align-items: center;
+			}
+		}
+
+		select {
+			min-width: 105px;
+			text-overflow: ellipsis;
+			margin-left: auto;
+		}
+
+		label {
+			white-space: nowrap;
+			padding-right: 10px;
+		}
+	}
+}
+
+/**
+	* rules for app-content
+	*/
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+#content {
+	color: $gray_dark;
+}
+
+#app-content {
+	overflow-x: hidden;
+
+	.header {
+		margin: 12px 0;
+		display: flex;
+
+		#add-task {
+			position: relative;
+			border: 1px solid $gray_light;
+			width: calc(100% - 44px);
+
+			input {
+				font-size: 13px;
+				width: 100%;
+				color: $gray_dark;
+				border: medium none !important;
+				border-radius: 0 !important;
+				box-shadow: none !important;
+				padding: 0 60px 0 32px;
+				margin: 0;
+				cursor: text;
+				outline: none;
+				min-height: 44px;
+			}
+		}
+
+		.sortorder {
+			margin-left: auto;
+
+			.icon-list {
+				@include icon-color('icon-list', 'tasks', $color-black, 3);
+
+				&__up {
+					@include icon-color('icon-list-up', 'tasks', $color-black, 3);
+				}
+				&__down {
+					@include icon-color('icon-list-down', 'tasks', $color-black, 3);
+				}
+			}
+			.icon-start {
+				@include icon-color('icon-start', 'tasks', $color-black, 3);
+
+				&__up {
+					@include icon-color('icon-start-up', 'tasks', $color-black, 3);
+				}
+				&__down {
+					@include icon-color('icon-start-down', 'tasks', $color-black, 3);
+				}
+			}
+			.icon-due {
+				@include icon-color('icon-due', 'tasks', $color-black, 3);
+
+				&__up {
+					@include icon-color('icon-due-up', 'tasks', $color-black, 3);
+				}
+				&__down {
+					@include icon-color('icon-due-down', 'tasks', $color-black, 3);
+				}
+			}
+			.icon-add {
+				@include icon-color('icon-add', 'tasks', $color-black, 3);
+
+				&__up {
+					@include icon-color('icon-add-up', 'tasks', $color-black, 3);
+				}
+				&__down {
+					@include icon-color('icon-add-down', 'tasks', $color-black, 3);
+				}
+			}
+			.icon-manual {
+				@include icon-color('icon-manual', 'tasks', $color-black, 3);
+
+				&__up {
+					@include icon-color('icon-manual-up', 'tasks', $color-black, 3);
+				}
+				&__down {
+					@include icon-color('icon-manual-down', 'tasks', $color-black, 3);
+				}
+			}
+			.icon-rename {
+				@include icon-color('icon-rename', 'tasks', $color-black, 3);
+
+				&__up {
+					@include icon-color('icon-rename-up', 'tasks', $color-black, 3);
+				}
+				&__down {
+					@include icon-color('icon-rename-down', 'tasks', $color-black, 3);
+				}
+			}
+			.icon-checkmark {
+				@include icon-color('icon-checkmark', 'tasks', $color-black, 3);
+
+				&__up {
+					@include icon-color('icon-checkmark-up', 'tasks', $color-black, 3);
+				}
+				&__down {
+					@include icon-color('icon-checkmark-down', 'tasks', $color-black, 3);
+				}
+			}
+			.icon-task-star {
+				@include icon-color('icon-task-star', 'tasks', $color-black, 3);
+
+				&__up {
+					@include icon-color('icon-task-star-up', 'tasks', $color-black, 3);
+				}
+				&__down {
+					@include icon-color('icon-task-star-down', 'tasks', $color-black, 3);
+				}
+			}
+			.icon-alphabetically {
+				@include icon-color('icon-alphabetically', 'tasks', $color-black, 3);
+				
+				&__up {
+					@include icon-color('icon-alphabetically-up', 'tasks', $color-black, 3);
+				}
+				&__down {
+					@include icon-color('icon-alphabetically-down', 'tasks', $color-black, 3);
+				}
+			}
+
+			li {
+				&.selected .action-button {
+					opacity: 1;
+				}
+
+				.action-button__icon {
+					background-size: unset;
+					background-position: center;
+				}
+			}
+		}
+	}
+
+	> div {
+		padding: 6px 17px 75px;
+		box-sizing: border-box;
+		height: 100%;
+		overflow: hidden;
+
+		.task-list {
+			width: 100%;
+
+			.loadmore {
+				font-size: 11px;
+				margin-top: 10px;
+				text-align: center;
+				height: 21px;
+
+				span {
+					color: $gray;
+					background-color: $gray_easy;
+					border-radius: 10px;
+					padding: 3px 6px;
+
+					&:hover {
+						cursor: pointer;
+						color: $gray_dark;
+					}
+				}
+			}
+
+			.grouped-tasks {
+				position: relative;
+				padding-top: 2px;
+
+				.task-item {
+					cursor: default;
+					list-style: none outside none;
+					margin-top: -1px;
+
+					&.done .task-body {
+						opacity: .6;
+
+						.title {
+							text-decoration: line-through;
+						}
+					}
+
+					&.deleted .task-info {
+						opacity: .6;
+					}
+
+					&.add-subtask {
+						border: 1px solid $gray_light;
+
+						input {
+							border: medium none !important;
+							border-radius: 0 !important;
+							box-shadow: none !important;
+							box-sizing: border-box;
+							color: $gray_dark;
+							cursor: text;
+							font-size: 100%;
+							margin: 0;
+							padding: 0 60px 0 44px;
+							width: 100%;
+							min-height: 44px;
+						}
+					}
+
+					&.sortable-ghost .task-body {
+						// background-color: rgba( $color-primary, .1 ); didn't work for some reason
+						background-color: transparentize( $color-primary, .9 );
+					}
+
+					.subtasks-container {
+						margin-left: 44px;
+					}
+
+					.task-body {
+						display: flex;
+						flex-direction: row;
+						flex-wrap: nowrap;
+						align-items: center;
+						height: 44px;
+						position: relative;
+						border: 1px solid $gray_light;
+
+						&:hover,
+						&.active {
+							background-color: $gray_easy;
+							box-shadow: inset 4px 0 var(--color-primary);
+						}
+
+						.task-checkbox {
+							padding: 11px;
+							height: 44px;
+							width: 44px;
+							border-right: 1px dotted $gray;
+							opacity: 0.5;
+						}
+
+						.task-info {
+							display: flex;
+							flex-grow: 1;
+							cursor: pointer;
+							color: $gray_dark;
+							line-height: 16px;
+							margin: 0;
+							overflow: hidden;
+							position: relative;
+							white-space: nowrap;
+
+							.title {
+								cursor: text;
+								display: inline-flex;
+								padding: 14px;
+								overflow: hidden;
+
+								span {
+									overflow: hidden;
+									text-overflow: ellipsis;
+
+									a {
+										cursor: pointer;
+										text-decoration: underline;
+									}
+								}
+							}
+
+							.categories-list {
+								padding: 11px;
+								max-width: 50%;
+
+								.category {
+									overflow: hidden;
+									display: inline-flex;
+									min-width: 45px;
+									background-color: $gray_easy;
+									border: 1px solid $gray_light;
+									border-radius: 2px;
+									margin: 0 4px;
+
+									.category-label {
+										color: $gray;
+										font-weight: bold;
+										padding: 2px 4px;
+										text-overflow: ellipsis;
+										overflow: hidden;
+										white-space: nowrap;
+										width: 100%;
+										text-align: center;
+									}
+								}
+							}
+
+							.percentbar {
+								height: 3px;
+								position: absolute;
+								bottom: 3px;
+								left: 10px;
+								right: 10px;
+								background-color: $gray_light;
+								border-radius: 2px;
+
+								.percentdone {
+									height: 3px;
+									border-radius: 2px 0 0 2px;
+									background-color: $color-primary;
+								}
+							}
+						}
+
+						.task-body-icons {
+							display: flex;
+							margin-left: auto;
+
+							&>div:not(.action-item) {
+								height: 44px;
+								padding: 14px 7px;
+								display: flex;
+								flex-direction: row;
+								align-items: center;
+								flex-wrap: nowrap;
+							}
+
+							
+							.icon-toggle {
+								@include icon-color('icon-toggle', 'tasks', $color-black, 3);
+							}
+
+							.icon-subtasks-hidden {
+								@include icon-color('icon-subtasks-hidden', 'tasks', $color-black, 3);
+							}
+
+							.icon-subtasks-visible {
+								@include icon-color('icon-subtasks-visible', 'tasks', $color-black, 3);
+							}
+
+							.icon {
+								vertical-align: unset;
+
+								&.sprt-add {
+									&:hover {
+										opacity: 1;
+									}
+								}
+							}
+
+							.duedate {
+								color: $blue_due;
+								font-size: 11px;
+								line-height: 14px;
+
+								&.overdue {
+									color: $red_overdue;
+								}
+
+								span {
+									overflow: hidden;
+									text-align: right;
+									text-overflow: ellipsis;
+									white-space: nowrap;
+									width: 60px;
+								}
+							}
+
+							.calendar {
+								color: $gray;
+								font-size: 11px;
+								line-height: 14px;
+								white-space: nowrap;
+
+								.calendar-indicator {
+									position: relative;
+									display: inline-block;
+									margin-right: 3px;
+									width: 8px;
+									height: 8px;
+									border: none;
+									border-radius: 50%;
+									cursor: pointer
+								}
+								.calendar-name {
+									max-width: 200px;
+									overflow: hidden;
+									text-overflow: ellipsis;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	h2 {
+		font-weight: bold;
+		font-size: 13px;
+		margin-bottom: 10px;
+		margin-top: 20px !important;
+		word-wrap: break-word;
+		opacity: .5;
+
+		&:hover {
+			opacity: .7;
+		}
+
+		&.heading-hiddentasks {
+			display: inline-block;
+			padding-right: 16px;
+			background-position: right center;
+			cursor: pointer;
+		}
+	}
+}
+
+/**
+	* rules for app-sidebar
+	*/
+
+#app-sidebar {
+	.flex-container {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.content-wrapper {
+		padding: 0;
+		box-sizing: border-box;
+		height: 100%;
+		overflow: hidden;
+
+		.notice {
+			color: $gray;
+			font-size: 16px;
+			position: absolute;
+			text-align: center;
+			top: 50%;
+			width: 100%;
+		}
+
+		.footer {
+			border-top: 1px solid $gray_light;
+			flex: 0 0 auto;
+			height: 44px;
+			display: flex;
+			justify-content: space-between;
+
+			>span {
+				padding: 14px;
+
+				&.info {
+					cursor: default;
+				}
+
+				.icon {
+					display: block;
+				}
+			}
+		}
+
+		.title {
+			flex: 0 0 auto;
+			display: flex;
+			align-items: center;
+			background-color: $gray_easy;
+			border-bottom: 1px solid $gray_light;
+			font-size: 16px;
+			font-weight: bold;
+			min-height: 50px;
+			word-wrap: break-word;
+
+			&.editing {
+				.title-text {
+					display: none !important;
+				}
+
+				.expandable-container {
+					display: inline-block !important;
+				}
+			}
+
+			.detail-checkbox {
+				padding: 11px 10px;
+				opacity: 0.5;
+			}
+
+			.title-wrapper {
+				flex-grow: 1;
+
+				.title-text,
+				.expandable-container {
+					max-height: 110px;
+					overflow-y: hidden;
+					margin: 13px 0;
+					min-height: 24px;
+					width: 100%;
+					padding: 0 6px;
+				}
+
+				.title-text {
+					cursor: text;
+					display: inline-block;
+					line-height: 22px;
+					// this border is to adjust the size of the div to the size
+					// of the input field for editing the title
+					// (setting a padding always led to a small flickering)
+					border: 1px solid transparent;
+
+					&.strike-through {
+						text-decoration: line-through;
+					}
+				}
+
+				.expandable-container {
+					border: 1px solid $gray;
+					display: none;
+					line-height: 24px;
+
+					.expandingArea {
+						position: relative;
+					}
+				}
+
+				textarea,
+				pre {
+					box-shadow: none;
+					font-size: 16px;
+					font-weight: bold;
+					line-height: 22px;
+					min-height: 22px;
+					background: none repeat scroll 0 0 transparent;
+					border: medium none;
+					padding: 0;
+					white-space: pre-wrap;
+					word-wrap: break-word;
+				}
+	
+				textarea {
+					margin: 0;
+					border-radius: 0;
+					height: 100%;
+					left: 0;
+					overflow: hidden;
+					position: absolute;
+					resize: none;
+					top: 0;
+					width: 100%;
+				}
+	
+				pre {
+					border: 0 none !important;
+					display: block;
+					margin: 0;
+					outline: 0 none;
+					padding: 0 !important;
+					visibility: hidden;
+				}
+			}
+
+			.status-display {
+				margin: 17px 6px;
+			}
+
+			button {
+				padding: 10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				.icon {
+					transform: scale(1.5);
+				}
+			}
+		}
+
+		.body {
+			flex: 1 1 auto;
+			overflow-y: auto;
+			position: relative;
+
+			.section {
+				border-bottom: 1px dotted var(--color-text-lighter);
+				padding: 0;
+				position: relative;
+				margin-bottom: 0;
+				width: 100%;
+				color: var(--color-text-lighter);
+				display: flex;
+
+				> div {
+					display: flex;
+					line-height: 44px;
+
+					&.section-content {
+						flex-grow: 1;
+
+						&.note {
+							border-width: 1px;
+							border-style: solid;
+							border-color: $gray_light;
+							font-size: 13px;
+							line-height: 26px;
+							margin: 0 20px;
+							padding: 5px 15px;
+							cursor: text;
+		
+							.expandingArea {
+								position: relative;
+								margin-left: -1px;
+		
+								textarea,
+								pre {
+									box-shadow: none;
+									background: none repeat scroll 0 0 transparent;
+									border: medium none;
+									line-height: 26px;
+									padding: 0;
+									white-space: pre-wrap;
+									word-wrap: break-word;
+								}
+		
+								textarea {
+									margin: 0 0 0 1px;
+									border-radius: 0;
+									height: 100%;
+									left: 0;
+									overflow: hidden;
+									position: absolute;
+									resize: none;
+									top: 0;
+									width: 100%;
+									color: $gray_dark;
+									font-weight: 500;
+									outline: medium none;
+								}
+		
+								pre {
+									border: 0 none !important;
+									display: block;
+									margin: 0;
+									outline: 0 none;
+									padding: 0 !important;
+									visibility: hidden;
+								}
+							}
+		
+							.note-body,
+							.note-edit {
+								min-height: 140px;
+								word-wrap: break-word;
+								cursor: text;
+								width: 100%;
+		
+								.content-fakeable {
+									&.editing {
+										.display-view {
+											display: none !important;
+										}
+		
+										.edit-view {
+											display: block !important;
+										}
+									}
+		
+									.display-view {
+										cursor: text;
+									}
+		
+									.edit-view {
+										display: none !important;
+									}
+								}
+							}
+						}
+
+						.section-icon {
+							padding: 14px;
+							height: 44px;
+							width: 44px;
+
+							.icon {
+								display: block;
+
+								&.sprt-color {
+									opacity: 1;
+									cursor: unset;
+								}
+							}
+
+							.calendar-indicator {
+								display: block;
+								width: 16px;
+								height: 16px;
+								border: none;
+								border-radius: 50%;
+							}
+						}
+
+						.section-title {
+							font-weight: bold;
+							display: inline-block;
+							width: calc(100% - 44px);
+							padding-right: 20px;
+							cursor: pointer;
+						}
+
+						.section-edit {
+							display: none;
+							flex-grow: 1;
+
+							.mx-datepicker {
+								&.date {
+									width: 59%;
+								}
+								&.time {
+									width: 39%
+								}
+							}
+						}
+
+						.detail-multiselect-container {
+							width: calc(100% - 44px);
+							display: flex;
+							align-items: center;
+							padding-right: 20px;
+
+							&.blue .multiselect__single {
+								color: $blue_due;
+							}
+
+							.multiselect.multiselect-vue {
+								width: 100%;
+								margin: 1px -1px;
+								vertical-align: middle;
+
+								&.multiselect--disabled {
+									background-color: var(--color-main-background) !important;
+									cursor: default;
+									.multiselect__single, input:not([type='range']):disabled {
+										background-color: var(--color-main-background) !important;
+										cursor: default;
+									}
+								}
+
+								&.multiselect--active .multiselect__tags {
+									border: 1px solid var(--color-border-dark);
+								}
+
+								.multiselect__tags {
+									border: 1px solid transparent;
+
+									.multiselect__tags-wrap {
+										padding-left: 0px;
+									}
+
+									.multiselect__input {
+										padding: 0px !important;
+										font-weight: bold;
+									}
+
+									.multiselect__single {
+										padding-left: 0px !important;
+										font-weight: bold;
+									}
+								}
+
+								.multiselect__tag {
+									color: $blue_due;
+									background: $gray_easy;
+									font-weight: bold;
+								}
+
+								.multiselect__element {
+									line-height: 1.3em;
+								}
+							}
+						}
+					}
+
+					&.section-utils button {
+						display: none;
+					}
+				}
+
+				&.date:hover button.delete {
+					display: block !important;
+				}
+
+				&.editing {
+					.section-utils button {
+						display: block !important;
+					}
+
+					.section-title {
+						display: none !important;
+					}
+
+					.section-edit {
+						display: inline-block !important;
+					}
+				}
+
+				&:last-of-type {
+					border-bottom: unset;
+				}
+
+				&.low,
+				&.date {
+					color: $blue_due;
+				}
+
+				&.high {
+					color: $red_overdue;
+				}
+
+				&.medium {
+					color: $yellow;
+				}
+
+				&.detail-note {
+					padding: 20px 0;
+					height: auto;
+				}
+
+				&.detail-all-day {
+					label {
+						padding-left: 14px;
+						width: 100%;
+					}
+
+					div,
+					span {
+						cursor: pointer;
+					}
+
+					input[type='checkbox'].checkbox + label {
+						&::before {
+							margin-left: 0;
+						}
+						>span {
+							font-weight: bold;
+							margin-left: 10px;
+						}
+					}
+				}
+
+				input[type='range'] {
+					border: medium none;
+					box-shadow: none;
+					width: calc(100% - 50px);
+					vertical-align: middle;
+				}
+
+				input[type='number'] {
+					background: none repeat scroll 0 0 $gray_easy;
+					margin: 0;
+					min-height: 0;
+				}
+
+				input {
+					border-radius: 0;
+					margin-top: 0;
+					color: $gray_dark;
+					font-weight: 500;
+					outline: medium none;
+					padding: 4px;
+
+					&.duration-input {
+						margin: 2px 0 0 .3em;
+						width: 44px;
+					}
+
+					&.percent-input,
+					&.priority-input {
+						width: 44px;
+						margin-top: 0;
+					}
+				}
+
+				input::-webkit-outer-spin-button,
+				input::-webkit-inner-spin-button {
+					-webkit-appearance: none;
+				}
+
+				select {
+					background-color: rgba(0, 0, 0, 0);
+					border-radius: 0;
+					border: 1px solid $gray_light;
+					padding: 0;
+					width: 98px;
+					margin: 0;
+					font-weight: normal;
+					height: 19px;
+				}
+			}
+		}
+
+		.disabled .body .section {
+			> div {
+				.calendar-indicator {
+					cursor: default;
+				}
+			}
+
+			&.detail-all-day {
+				div,
+				span {
+					cursor: default;
+				}
+			}
+
+			&.date:hover .icon.sprt-trash {
+				display: none;
+			}
+		}
+	}
+}
+
+/**
+	* rules for icons
+	*/
+.collection .icon {
+	opacity: 1;
+}
+
+button.inline {
+	box-sizing: border-box;
+	width: 44px;
+	height: 44px;
+	margin: 0;
+	cursor: pointer;
+	border: none;
+	padding: 14px;
+	background-color: transparent !important;
+	border-radius: 0;
+
+	&:hover .icon {
+		opacity: 0.7;
+	}
+
+	span.icon {
+		display: block;
+		cursor: pointer;
+	}
+}
+
+.disabled .icon.detail-star:hover {
+	cursor: not-allowed;
+}
+
+input[type='checkbox'].checkbox {
+	&:checked + label::before {
+		background-image: var(--icon-checkmark-000) !important;
+		background-color: unset;
+		border-color: unset;
+	}
+	&:disabled + label::before {
+		background-color: var(--color-background-darker) !important;
+	}
+	+ label::before {
+		height: 14px;
+		width: 14px;
+	}
+}
+
+.icon {
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	opacity: .5;
+	transition: opacity 100ms ease 0s;
+	cursor: default;
+
+	&.reactive {
+		cursor: pointer;
+
+		&:hover {
+			opacity: .7;
+		}
+	}
+
+	&.disabled {
+		cursor: not-allowed;
+	}
+
+	&.active {
+		opacity: .7;
+	}
+
+	&.sprt-checkmark,
+	&.sprt-tag-active,
+	&[class*=' sprt-task-star-'] {
+		opacity: 1 !important;
+	}
+
+	&.right {
+		float: right;
+	}
+}
+
+.tooltip-arrow {
+	width: unset !important;
+}
+
+.icon span{
+	font-family: var(--font-face);
+}
+
+.status-display {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+
+	&.success {
+		@extend .sprt-color;
+		@extend .sprt-checkmark-color;
+	}
+
+	&.refresh {
+		background-image: var(--icon-history-000);
+		animation: pulse 2s infinite;
+		border-radius: 50%;
+		opacity: .5;
+		cursor: pointer;
+
+		&:hover{
+			opacity: .7;
+		}
+	}
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(50, 50, 50, .4);
+	}
+	70% {
+		box-shadow: 0 0 0 10px rgba(50, 50, 50, 0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgba(50, 50, 50, 0);
+	}
+}
+
+.delete-completed {
+	margin: 50px;
+	width: auto;
+	min-width: 30vw;
+	&__button {
+		display: inline-block;
+		padding: 10px;
+		padding-left: 34px;
+		background-position: 10px center;
+		text-align: left;
+		margin: 0;
+		width: unset !important;
+		height: unset !important;
+		background-size: unset !important;
+	}
+	&__header {
+		padding-top: 20px;
+		max-width: 80%;
+		margin: 12px auto;
+	}
+	&__progress {
+		width: 80%;
+		margin: auto;
+	}
+	&__tracker {
+		display: flex;
+		justify-content: space-between;
+		width: 80%;
+		margin: auto;
+		padding-top: 10px;
+	}
+}
+
+@media only screen and (max-width: $breakpoint-mobile) {
+	#app-content > div {
+		padding: 6px 0 75px;
+	}
+}

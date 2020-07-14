@@ -1,0 +1,8 @@
+{
+    "make": "Subaru",
+    "model": "Outback",
+    "color": "orange",
+    "year": 2010,
+    "fourDoor": true,
+    "fourWheelDrive": true
+}

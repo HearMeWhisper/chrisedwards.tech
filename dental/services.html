@@ -1,0 +1,213 @@
+<DOCTYPE html>
+<html>
+<head>
+  <title>Dental Center - Home</title>
+  <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style>
+        .parallax-container {
+             height: 350px;
+           }
+           .center {margin:auto;}
+
+        </style>
+      </head>
+
+      <body>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+        <script type="text/javascript">
+
+      $( document ).ready(function() {
+          $(".dropdown-button").dropdown({hover : false});
+          $(".button-collapse").sideNav();
+          $(".carousel.carousel-slider").carousel({full_width: true});
+          $('.parallax').parallax();
+          $('.collapsible').collapsible({ accordion : true });
+
+            /*
+            console.log(document.location.hash);
+            if (document.location.hash == "#lumineers") {document.getElementById('lumineers').className = "collapsible-header active";
+            $(".collapsible").collapsible({accordion: true});
+             console.log(document.getElementById('lumineers').className)};*/
+
+             switch (document.location.hash) {
+               case "#lumineers": {document.getElementById('lumineers').className = "collapsible-header active";
+                                  $(".collapsible").collapsible({accordion: true});
+                                    break;}
+                 case "#sleep": {document.getElementById('sleep').className = "collapsible-header active";
+                                    $(".collapsible").collapsible({accordion: true});
+                                    break;}
+               default: break;
+
+             }
+
+
+  /*(document.location );
+  function active(){
+    document.getElementById('sleep').className = "collapsible-header active";
+    $(".collapsible").collapsible({accordion: true});
+  }
+  function expandAll(){
+  $("#sleep").addClass("active");
+  $(".collapsible").collapsible({accordion: true});
+  console.log('expand')
+
+}
+  document.getElementById('button1').addEventListener('click', active);
+
+
+*/
+ });
+        </script>
+
+        <!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="services.html#lumineers">Lumineers</a></li>
+  <li><a href="#!">CERREC</a></li>
+  <li><a href="#!">Sleep Apnea</a></li>
+  <li><a href="#!">Sedation Dentistry</a></li>
+  <li><a href="#!">Teeth Whitening</a></li>
+  <li><a href="#!">Oral Cancer Screening</a></li>
+  <li><a href="#!">Lumibrite Whitening</a></li>
+  <li><a href="#!">ZOOM!</a></li>
+</ul>
+
+<ul id="dropdown_mobile" class="dropdown-content">
+  <li><a href="services.html#lumineers">Lumineers</a></li>
+  <li><a href="#!">CERREC</a></li>
+  <li><a href="#!">Sleep Apnea</a></li>
+  <li><a href="#!">Sedation Dentistry</a></li>
+  <li><a href="#!">Teeth Whitening</a></li>
+  <li><a href="#!">Oral Cancer Screening</a></li>
+  <li><a href="#!">Lumibrite Whitening</a></li>
+  <li><a href="#!">ZOOM!</a></li>
+</ul>
+<div class="navbar-fixed">
+<nav>
+  <div class="nav-wrapper blue darken-4">
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <a href="#!" class="brand-logo">&nbsp;&nbsp;Dental Center</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="doctor.html">The Doctor</a></li>
+      <li><a href="visit.html">Your First Visit</a></li>
+      <li><a class="dropdown-button" href="" data-activates="dropdown1">Services<i class="material-icons right">arrow_drop_down</i></a></li>
+  </ul>
+
+    <ul class="side-nav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="doctor.html">The Doctor</a></li>
+        <li><a href="visit.html">Your First Visit</a></li>
+       <li><a class="dropdown-button" href="" data-activates="dropdown_mobile">Services<i class="material-icons right">arrow_drop_down</i></a></li>
+    </ul>
+
+  </div>
+</nav>
+</div>
+<div class="container">
+  <img class="materialboxed center z-depth-2" width="80%" height="60%" src="paste.jpeg">
+</div>
+
+
+<!--<button id="button1">Click me</button>-->
+
+<ul class="collapsible  popout" data-collapsible="accordion">
+   <li>
+     <div class="collapsible-header" id="lumineers"><i class="material-icons">toc</i>Lumineers</div>
+     <div class="collapsible-body grey lighten-3"><p>Are your teeth chipped or stained?
+        Would you like to improve your smile permanently, without any painful processes?
+         We are pleased to offer Lumineers as an alternative to traditional porcelain veneers.
+        Veneers provide a way to conceal stains, chips, discoloration, and misaligned teeth by
+        covering your actual teeth with a permanent layer of tooth-colored material.</p>
+
+        <p>Because Lumineers are as thin as a contact lens, their application requires little to no tooth reduction,
+           and no anesthetic is necessary. Lumineers are bonded to your teeth and set in place with a curing light.
+           Because the process is less invasive than with traditional veneers, Lumineers patients find that they immediately
+           enjoy their new smiles without any post-procedure discomfort or sensitivity.</p>
+
+           <p>Cerinate®, the company that makes Lumineers, offers a five-year warranty on its veneers, and their clinical trials show that Lumineers can last up to 20 years.</p>
+      </div>
+   </li>
+   <li>
+     <div class="collapsible-header" id="sleep"><i class="material-icons" >toc</i>Sleep Apnea</div>
+     <div class="collapsible-body grey lighten-3"><p>Are you drowsy during the day with no explanation?
+       Do you snore loudly or wake up breathless in the middle of the night? If you're experiencing any of these symptoms
+       , you may be one of more than 12 million Americans who are affected by sleep apnea</p>
+        <h3>What is Sleep Apnea?</h3>
+     <p>Sleep apnea is a condition in which your breathing stops periodically during sleep,
+        as many as 20-30 times per hour. Each time you stop breathing in your sleep,
+         the resulting lack of oxygen alerts your brain, which temporarily wakes you up to restart proper breathing.
+          Since the time spent awake is so brief, most people with sleep apnea don't remember it,
+           and many feel like they are getting a good night's sleep, when in fact, they are not.
+            The constant wake-sleep, wake-sleep cycle prevents those with sleep apnea from achieving deep sleep,
+        resulting in a constant drowsy feeling during the day.</p>
+
+   <p>The following symptoms can indicate the presence of sleep apnea.
+      If you notice one or more of these, contact our practice.</p>
+      <ul>
+        <li>Insomnia or difficulty sleeping</li>
+        <li>Loud snoring at night</li>
+        <li>Waking up at night short of breath</li>
+        <li>Snorting or choking sounds during the night (indicating a restart of breathing)</li>
+        <li>Headaches upon waking in the morning</li>
+        <li>Falling asleep unintentionally during the day</li>
+        <li>Extreme drowsiness throughout the day</li>
+      </ul>
+      <h3>Are there different types of sleep apnea?</h3>
+      <p>There are three categories of sleep apnea. The most common is called obstructive sleep apnea (OSA),
+        and occurs due to a physical blockage, usually the collapsing of the soft tissue in the back of the throat.
+         Less common is central sleep apnea (CSA), in which breathing stops because the muscles involved don't receive
+         the proper signal from the brain.
+         And some people suffer from "mixed" or "complex" sleep apnea, which is a combination of obstructive and central.
+      </p>
+      <h3>What are risk factors for sleep apnea?</h3>
+      <p>Obstructive sleep apnea is more common in males than females, and more common in older adults (40+)
+        than younger adults and children. However, anyone — regardless of gender or age — can suffer from sleep apnea.
+         Other risk factors include obesity, smoking, drinking, use of sedatives or tranquilizers, and family history.
+          Central sleep apnea strikes most often in people with heart disorders,
+         neuromuscular disorders, strokes, or brain tumors. It is also more common in males.
+       </p>
+       <h3>Is sleep apnea dangerous?</h3>
+       <p>Sleep apnea is considered a serious medical problem and if left untreated can lead to high blood pressure,
+          increasing the risk of heart failure and stroke. The ongoing state of fatigue caused by sleep apnea can lead
+          to problems at work or school, as well as danger when driving or operating heavy machinery. Sleep apnea can
+          also cause complications with medication or surgery; sedation by anesthesia can be risky, as can lying flat
+           in bed after an operation. If you know or suspect you suffer from sleep apnea,
+          let your family doctor know before taking prescribed medication or having surgery.
+        </p>
+        <h3>How is sleep apnea treated?</h3>
+        <p>Treatments for sleep apnea depend on the severity of each individual case, and the type of apnea.
+          Basic treatment can be behavioral — for instance, patients are instructed to lose weight, stop smoking,
+           or sleep on their sides instead of on their backs. Beyond that, oral devices can be used to position the mouth in such a way that prevents
+           throat blockage. In more severe cases, surgery may be the best option.
+         </p>
+         <h3>What should I do if I suspect that someone in my family suffers from sleep apnea?</h3>
+         <p>Contact our practice, and we can refer you to a sleep apnea specialist. The specialist may recommend a
+            "sleep study" to diagnose the precise extent of the problem, and can prescribe appropriate treatment.
+             Depending on the patient's situation, treatment may involve an oral device that we can custom-create for you.
+         </p>
+ </div>
+   </li>
+   <li>
+     <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+     <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+   </li>
+ </ul>
+
+
+
+
+      <div >
+        <p style="text-align:center">Copyright &copy; 2016 Dental Center. Site built by <a href="mailto:hearmewhisper@gmail.com" style="text-decoration:none; color:black">Chris Edwards</a> </p>
+      </div>
+
+
+</body>
+</html>

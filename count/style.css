@@ -1,0 +1,40 @@
+body {
+    background-color: orange;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+button {
+    border: 2px;
+    background-color: aquamarine;
+    font-size: 3em;
+    width: 300px;
+    margin: auto;
+    border-color: black;
+    border-style: dashed;
+}
+
+#numDiv {
+    border: 5px;
+    text-align: center;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    width: 150px;
+    margin: auto;
+    margin-top: 7%;
+    font-size: 4em;
+    vertical-align: middle;
+}
+
+#buttons {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+}

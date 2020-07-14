@@ -1,0 +1,22 @@
+body {background-color:#cce5cc; background-image:url("house.jpg");
+    background-size:cover; background-repeat:no-repeat ; height:100%; -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  }
+#nav-bar{background-color:#336699;
+  text-align:center;  position: fixed; width:100%; left:0; box-shadow: 0 1px 3px; top:0px}
+.float{list-style-type: none;  display:inline;
+  padding: 14px 16px; border-right:1px solid black;
+    }
+@media (max-device-width: 550px){
+#nav-bar{font-size:127%}
+.float{padding: 16px 10px;}
+}
+ul a{text-decoration: none; color:white; }
+ul li{text-align:left};
+.float:hover{background-color:#b5c7d9}
+#logo{width:85%;  margin-top:15px}
+#logo_div{margin:auto; text-align:center; background-color:white; width:82%;box-shadow: 0 1px 3px}
+#main{font-size:1.5em; width:80%; background-color:#7093b7; color:#dee6ee/*#d6e0ea*/; margin:auto; text-align:center; box-shadow: 0 1px 3px; border-radius:3px; padding:10px; /*font-style:italic;*/ margin-bottom:20px; font-family: Georgia, "Times New Roman", sans-serif;}
+#footer{display: inline; width:100%; margin:auto; text-align:center; }
+#foot_p{font-size:35%}

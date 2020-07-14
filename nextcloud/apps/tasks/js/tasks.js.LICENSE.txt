@@ -1,0 +1,1945 @@
+/*
+         * @copyright 2018 Christoph Wurst <christoph@winzerhof-wurst.at>
+         *
+         * @author 2018 Christoph Wurst <christoph@winzerhof-wurst.at>
+         *
+         * @license GNU AGPL version 3 or any later version
+         *
+         * This program is free software: you can redistribute it and/or modify
+         * it under the terms of the GNU Affero General Public License as
+         * published by the Free Software Foundation, either version 3 of the
+         * License, or (at your option) any later version.
+         *
+         * This program is distributed in the hope that it will be useful,
+         * but WITHOUT ANY WARRANTY; without even the implied warranty of
+         * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+         * GNU Affero General Public License for more details.
+         *
+         * You should have received a copy of the GNU Affero General Public License
+         * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+         */
+
+/*
+         * @copyright 2019 Christoph Wurst <christoph@winzerhof-wurst.at>
+         *
+         * @author 2019 Christoph Wurst <christoph@winzerhof-wurst.at>
+         *
+         * @license GNU AGPL version 3 or any later version
+         *
+         * This program is free software: you can redistribute it and/or modify
+         * it under the terms of the GNU Affero General Public License as
+         * published by the Free Software Foundation, either version 3 of the
+         * License, or (at your option) any later version.
+         *
+         * This program is distributed in the hope that it will be useful,
+         * but WITHOUT ANY WARRANTY; without even the implied warranty of
+         * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+         * GNU Affero General Public License for more details.
+         *
+         * You should have received a copy of the GNU Affero General Public License
+         * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+         */
+
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * Vue.js v2.6.11
+ * (c) 2014-2019 Evan You
+ * Released under the MIT License.
+ */
+
+/*!
+ * clipboard.js v2.0.4
+ * https://zenorocha.github.io/clipboard.js
+ * 
+ * Licensed MIT © Zeno Rocha
+ */
+
+/*!
+ * escape-html
+ * Copyright(c) 2012-2013 TJ Holowaychuk
+ * Copyright(c) 2015 Andreas Lubbe
+ * Copyright(c) 2015 Tiancheng "Timothy" Gu
+ * MIT Licensed
+ */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!./index.scss */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./ActionButton.vue?vue&type=style&index=0&id=2e929b4f&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./ActionCheckbox.vue?vue&type=style&index=0&id=74cf1d6f&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./ActionLink.vue?vue&type=style&index=0&id=7b85b80f&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Actions.vue?vue&type=style&index=0&id=4f45864b&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppContent.vue?vue&type=style&index=0&id=71758b0f&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigation.vue?vue&type=style&index=0&id=d3908c0a&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationCounter.vue?vue&type=style&index=0&id=231d7daf&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationIconBullet.vue?vue&type=style&index=0&id=1589a81e&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationIconCollapsible.vue?vue&type=style&index=0&id=3c4acfb3&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationItem.vue?vue&type=style&index=0&id=210dfea1&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationSettings.vue?vue&type=style&index=0&id=9c9c397e&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationToggle.vue?vue&type=style&index=0&id=17ebeae3&scoped=true&lang=scss& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Avatar.vue?vue&type=style&index=0&id=100e3b6f&scoped=true&lang=scss& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AvatarSelectOption.vue?vue&type=style&index=0&id=72601db4&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./EllipsisedOption.vue?vue&type=style&index=0&id=026c3def&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Modal.vue?vue&type=style&index=0&id=47db75aa&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./PopoverMenu.vue?vue&type=style&index=0&id=0a0eb719&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./PopoverMenuItem.vue?vue&type=style&index=1&id=512ea768&lang=scss&scoped=true& */
+
+/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/vue-loader/lib??vue-loader-options!./PopoverMenuItem.vue?vue&type=style&index=0&id=512ea768&scoped=true&lang=css& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./ActionButton.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./ActionCheckbox.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./ActionLink.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./Actions.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./AppContent.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigation.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationCounter.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationIconBullet.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationIconCollapsible.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationItem.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationSettings.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationToggle.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./Avatar.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./AvatarSelectOption.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePicker.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./EllipsisedOption.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./Modal.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./Multiselect.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./PopoverMenu.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/babel-loader/lib!../../../node_modules/vue-loader/lib??vue-loader-options!./PopoverMenuItem.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ActionButton.vue?vue&type=template&id=2e929b4f&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ActionCheckbox.vue?vue&type=template&id=74cf1d6f&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ActionLink.vue?vue&type=template&id=7b85b80f&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Actions.vue?vue&type=template&id=4f45864b&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AppContent.vue?vue&type=template&id=71758b0f&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigation.vue?vue&type=template&id=d3908c0a&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationCounter.vue?vue&type=template&id=231d7daf&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationIconBullet.vue?vue&type=template&id=1589a81e&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationIconCollapsible.vue?vue&type=template&id=3c4acfb3&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationItem.vue?vue&type=template&id=210dfea1&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationSettings.vue?vue&type=template&id=9c9c397e&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationToggle.vue?vue&type=template&id=17ebeae3&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Avatar.vue?vue&type=template&id=100e3b6f&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AvatarSelectOption.vue?vue&type=template&id=72601db4&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePicker.vue?vue&type=template&id=6a62836f& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./EllipsisedOption.vue?vue&type=template&id=026c3def&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Modal.vue?vue&type=template&id=47db75aa&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Multiselect.vue?vue&type=template&id=1cd2ff8a& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./PopoverMenu.vue?vue&type=template&id=0a0eb719&scoped=true& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./PopoverMenuItem.vue?vue&type=template&id=512ea768&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./ActionButton.vue?vue&type=style&index=0&id=2e929b4f&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./ActionCheckbox.vue?vue&type=style&index=0&id=74cf1d6f&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./ActionLink.vue?vue&type=style&index=0&id=7b85b80f&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Actions.vue?vue&type=style&index=0&id=4f45864b&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppContent.vue?vue&type=style&index=0&id=71758b0f&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigation.vue?vue&type=style&index=0&id=d3908c0a&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationCounter.vue?vue&type=style&index=0&id=231d7daf&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationIconBullet.vue?vue&type=style&index=0&id=1589a81e&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationIconCollapsible.vue?vue&type=style&index=0&id=3c4acfb3&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationItem.vue?vue&type=style&index=0&id=210dfea1&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationSettings.vue?vue&type=style&index=0&id=9c9c397e&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AppNavigationToggle.vue?vue&type=style&index=0&id=17ebeae3&scoped=true&lang=scss& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Avatar.vue?vue&type=style&index=0&id=100e3b6f&scoped=true&lang=scss& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AvatarSelectOption.vue?vue&type=style&index=0&id=72601db4&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./EllipsisedOption.vue?vue&type=style&index=0&id=026c3def&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Modal.vue?vue&type=style&index=0&id=47db75aa&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./PopoverMenu.vue?vue&type=style&index=0&id=0a0eb719&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/sass-loader/dist/cjs.js??ref--1-3!../../../node_modules/vue-loader/lib??vue-loader-options!./PopoverMenuItem.vue?vue&type=style&index=1&id=512ea768&lang=scss&scoped=true& */
+
+/*! -!../../../node_modules/vue-style-loader!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/resolve-url-loader!../../../node_modules/vue-loader/lib??vue-loader-options!./PopoverMenuItem.vue?vue&type=style&index=0&id=512ea768&scoped=true&lang=css& */
+
+/*! ../../../node_modules/css-loader/dist/runtime/api.js */
+
+/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */
+
+/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */
+
+/*! ../../../node_modules/vue-style-loader/lib/addStylesClient.js */
+
+/*! ../../fonts/iconfont-vue-7702e5f.eot */
+
+/*! ../../fonts/iconfont-vue-7702e5f.svg */
+
+/*! ../../fonts/iconfont-vue-7702e5f.ttf */
+
+/*! ../../fonts/iconfont-vue-7702e5f.woff */
+
+/*! ../../l10n */
+
+/*! ../../mixins/l10n */
+
+/*! ../ActionButton/ActionButton */
+
+/*! ../Actions/Actions */
+
+/*! ../AppNavigationToggle */
+
+/*! ../l10n */
+
+/*! ./ActionButton */
+
+/*! ./ActionButton.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./ActionButton.vue?vue&type=script&lang=js& */
+
+/*! ./ActionButton.vue?vue&type=style&index=0&id=2e929b4f&lang=scss&scoped=true& */
+
+/*! ./ActionButton.vue?vue&type=template&id=2e929b4f&scoped=true& */
+
+/*! ./ActionCheckbox */
+
+/*! ./ActionCheckbox.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./ActionCheckbox.vue?vue&type=script&lang=js& */
+
+/*! ./ActionCheckbox.vue?vue&type=style&index=0&id=74cf1d6f&lang=scss&scoped=true& */
+
+/*! ./ActionCheckbox.vue?vue&type=template&id=74cf1d6f&scoped=true& */
+
+/*! ./ActionLink */
+
+/*! ./ActionLink.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./ActionLink.vue?vue&type=script&lang=js& */
+
+/*! ./ActionLink.vue?vue&type=style&index=0&id=7b85b80f&lang=scss&scoped=true& */
+
+/*! ./ActionLink.vue?vue&type=template&id=7b85b80f&scoped=true& */
+
+/*! ./Actions */
+
+/*! ./Actions.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./Actions.vue?vue&type=script&lang=js& */
+
+/*! ./Actions.vue?vue&type=style&index=0&id=4f45864b&lang=scss&scoped=true& */
+
+/*! ./Actions.vue?vue&type=template&id=4f45864b&scoped=true& */
+
+/*! ./AppContent */
+
+/*! ./AppContent.vue?vue&type=script&lang=js& */
+
+/*! ./AppContent.vue?vue&type=style&index=0&id=71758b0f&lang=scss&scoped=true& */
+
+/*! ./AppContent.vue?vue&type=template&id=71758b0f&scoped=true& */
+
+/*! ./AppNavigation */
+
+/*! ./AppNavigation.vue?vue&type=script&lang=js& */
+
+/*! ./AppNavigation.vue?vue&type=style&index=0&id=d3908c0a&lang=scss&scoped=true& */
+
+/*! ./AppNavigation.vue?vue&type=template&id=d3908c0a&scoped=true& */
+
+/*! ./AppNavigationCounter */
+
+/*! ./AppNavigationCounter.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./AppNavigationCounter.vue?vue&type=script&lang=js& */
+
+/*! ./AppNavigationCounter.vue?vue&type=style&index=0&id=231d7daf&lang=scss&scoped=true& */
+
+/*! ./AppNavigationCounter.vue?vue&type=template&id=231d7daf&scoped=true& */
+
+/*! ./AppNavigationIconBullet */
+
+/*! ./AppNavigationIconBullet.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./AppNavigationIconBullet.vue?vue&type=script&lang=js& */
+
+/*! ./AppNavigationIconBullet.vue?vue&type=style&index=0&id=1589a81e&lang=scss&scoped=true& */
+
+/*! ./AppNavigationIconBullet.vue?vue&type=template&id=1589a81e&scoped=true& */
+
+/*! ./AppNavigationIconCollapsible */
+
+/*! ./AppNavigationIconCollapsible.vue?vue&type=script&lang=js& */
+
+/*! ./AppNavigationIconCollapsible.vue?vue&type=style&index=0&id=3c4acfb3&lang=scss&scoped=true& */
+
+/*! ./AppNavigationIconCollapsible.vue?vue&type=template&id=3c4acfb3&scoped=true& */
+
+/*! ./AppNavigationItem */
+
+/*! ./AppNavigationItem.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./AppNavigationItem.vue?vue&type=script&lang=js& */
+
+/*! ./AppNavigationItem.vue?vue&type=style&index=0&id=210dfea1&lang=scss&scoped=true& */
+
+/*! ./AppNavigationItem.vue?vue&type=template&id=210dfea1&scoped=true& */
+
+/*! ./AppNavigationSettings */
+
+/*! ./AppNavigationSettings.vue?vue&type=script&lang=js& */
+
+/*! ./AppNavigationSettings.vue?vue&type=style&index=0&id=9c9c397e&lang=scss&scoped=true& */
+
+/*! ./AppNavigationSettings.vue?vue&type=template&id=9c9c397e&scoped=true& */
+
+/*! ./AppNavigationToggle */
+
+/*! ./AppNavigationToggle.vue?vue&type=script&lang=js& */
+
+/*! ./AppNavigationToggle.vue?vue&type=style&index=0&id=17ebeae3&scoped=true&lang=scss& */
+
+/*! ./AppNavigationToggle.vue?vue&type=template&id=17ebeae3&scoped=true& */
+
+/*! ./Avatar */
+
+/*! ./Avatar.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./Avatar.vue?vue&type=script&lang=js& */
+
+/*! ./Avatar.vue?vue&type=style&index=0&id=100e3b6f&scoped=true&lang=scss& */
+
+/*! ./Avatar.vue?vue&type=template&id=100e3b6f&scoped=true& */
+
+/*! ./AvatarSelectOption */
+
+/*! ./AvatarSelectOption.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./AvatarSelectOption.vue?vue&type=script&lang=js& */
+
+/*! ./AvatarSelectOption.vue?vue&type=style&index=0&id=72601db4&lang=scss&scoped=true& */
+
+/*! ./AvatarSelectOption.vue?vue&type=template&id=72601db4&scoped=true& */
+
+/*! ./DatetimePicker */
+
+/*! ./DatetimePicker.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./DatetimePicker.vue?vue&type=script&lang=js& */
+
+/*! ./DatetimePicker.vue?vue&type=template&id=6a62836f& */
+
+/*! ./EllipsisedOption */
+
+/*! ./EllipsisedOption.vue?vue&type=script&lang=js& */
+
+/*! ./EllipsisedOption.vue?vue&type=style&index=0&id=026c3def&lang=scss&scoped=true& */
+
+/*! ./EllipsisedOption.vue?vue&type=template&id=026c3def&scoped=true& */
+
+/*! ./Modal */
+
+/*! ./Modal.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./Modal.vue?vue&type=script&lang=js& */
+
+/*! ./Modal.vue?vue&type=style&index=0&id=47db75aa&lang=scss&scoped=true& */
+
+/*! ./Modal.vue?vue&type=template&id=47db75aa&scoped=true& */
+
+/*! ./Multiselect */
+
+/*! ./Multiselect.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./Multiselect.vue?vue&type=script&lang=js& */
+
+/*! ./Multiselect.vue?vue&type=template&id=1cd2ff8a& */
+
+/*! ./PopoverMenu */
+
+/*! ./PopoverMenu.vue?vue&type=custom&index=0&blockType=docs */
+
+/*! ./PopoverMenu.vue?vue&type=script&lang=js& */
+
+/*! ./PopoverMenu.vue?vue&type=style&index=0&id=0a0eb719&lang=scss&scoped=true& */
+
+/*! ./PopoverMenu.vue?vue&type=template&id=0a0eb719&scoped=true& */
+
+/*! ./PopoverMenuItem */
+
+/*! ./PopoverMenuItem.vue?vue&type=script&lang=js& */
+
+/*! ./PopoverMenuItem.vue?vue&type=style&index=0&id=512ea768&scoped=true&lang=css& */
+
+/*! ./PopoverMenuItem.vue?vue&type=style&index=1&id=512ea768&lang=scss&scoped=true& */
+
+/*! ./PopoverMenuItem.vue?vue&type=template&id=512ea768&scoped=true& */
+
+/*! ./actionGlobal */
+
+/*! ./index.scss */
+
+/*! ./listToStyles */
+
+/*! ./uidToColor */
+
+/*! @nextcloud/axios */
+
+/*! @nextcloud/l10n/dist/gettext */
+
+/*! Components/ActionButton */
+
+/*! Components/Actions */
+
+/*! Components/Avatar */
+
+/*! Components/PopoverMenu */
+
+/*! Directives/Tooltip */
+
+/*! Hammer.JS - v2.0.7 - 2016-04-22
+ * http://hammerjs.github.io/
+ *
+ * Copyright (c) 2016 Jorik Tangelder;
+ * Licensed under the MIT license */
+
+/*! Mixins/actionGlobal */
+
+/*! Mixins/actionText */
+
+/*! Mixins/highlightText */
+
+/*! Mixins/isMobile */
+
+/*! Utils/GenColors */
+
+/*! Utils/GenRandomId */
+
+/*! Utils/GetParent */
+
+/*! Utils/IsMobileState */
+
+/*! Utils/IsOutOfViewport */
+
+/*! Utils/ScopeComponent */
+
+/*! Utils/Timer */
+
+/*! Utils/ValidateSlot */
+
+/*! core-js/modules/es.array.concat */
+
+/*! core-js/modules/es.array.filter */
+
+/*! core-js/modules/es.array.for-each */
+
+/*! core-js/modules/es.array.index-of */
+
+/*! core-js/modules/es.array.iterator */
+
+/*! core-js/modules/es.array.join */
+
+/*! core-js/modules/es.array.map */
+
+/*! core-js/modules/es.array.slice */
+
+/*! core-js/modules/es.array.splice */
+
+/*! core-js/modules/es.function.name */
+
+/*! core-js/modules/es.number.constructor */
+
+/*! core-js/modules/es.object.assign */
+
+/*! core-js/modules/es.object.to-string */
+
+/*! core-js/modules/es.promise */
+
+/*! core-js/modules/es.regexp.constructor */
+
+/*! core-js/modules/es.regexp.exec */
+
+/*! core-js/modules/es.regexp.to-string */
+
+/*! core-js/modules/es.string.iterator */
+
+/*! core-js/modules/es.string.match */
+
+/*! core-js/modules/es.string.replace */
+
+/*! core-js/modules/es.string.search */
+
+/*! core-js/modules/es.string.starts-with */
+
+/*! core-js/modules/es.string.trim */
+
+/*! core-js/modules/es.symbol */
+
+/*! core-js/modules/es.symbol.description */
+
+/*! core-js/modules/es.symbol.iterator */
+
+/*! core-js/modules/web.dom-collections.for-each */
+
+/*! core-js/modules/web.dom-collections.iterator */
+
+/*! core-js/modules/web.url */
+
+/*! escape-html */
+
+/*! exports provided: IsMobileState */
+
+/*! exports provided: default */
+
+/*! exports provided: default, ActionButton */
+
+/*! exports provided: default, ActionCheckbox */
+
+/*! exports provided: default, ActionLink */
+
+/*! exports provided: default, Actions */
+
+/*! exports provided: default, AppContent */
+
+/*! exports provided: default, AppNavigation */
+
+/*! exports provided: default, AppNavigationCounter */
+
+/*! exports provided: default, AppNavigationIconBullet */
+
+/*! exports provided: default, AppNavigationItem */
+
+/*! exports provided: default, AppNavigationSettings */
+
+/*! exports provided: default, AppNavigationSpacer */
+
+/*! exports provided: default, Avatar */
+
+/*! exports provided: default, DatetimePicker */
+
+/*! exports provided: default, Modal */
+
+/*! exports provided: default, Multiselect */
+
+/*! exports provided: default, PopoverMenu */
+
+/*! exports provided: n, t */
+
+/*! exports provided: render, staticRenderFns */
+
+/*! hammerjs */
+
+/*! https://mths.be/punycode v1.4.1 by @mathias */
+
+/*! md5 */
+
+/*! no static exports found */
+
+/*! regenerator-runtime/runtime */
+
+/*! v-click-outside */
+
+/*! v-tooltip */
+
+/*! vue */
+
+/*! vue-multiselect */
+
+/*! vue2-datepicker */
+
+/*!*********************!*\
+        !*** ./src/l10n.js ***!
+        \*********************/
+
+/*!**********************!*\
+        !*** external "md5" ***!
+        \**********************/
+
+/*!**********************!*\
+        !*** external "vue" ***!
+        \**********************/
+
+/*!***************************!*\
+        !*** external "hammerjs" ***!
+        \***************************/
+
+/*!****************************!*\
+        !*** ./src/mixins/l10n.js ***!
+        \****************************/
+
+/*!****************************!*\
+        !*** ./src/utils/Timer.js ***!
+        \****************************/
+
+/*!****************************!*\
+        !*** external "v-tooltip" ***!
+        \****************************/
+
+/*!******************************!*\
+        !*** external "escape-html" ***!
+        \******************************/
+
+/*!********************************!*\
+        !*** ./src/utils/GenColors.js ***!
+        \********************************/
+
+/*!********************************!*\
+        !*** ./src/utils/GetParent.js ***!
+        \********************************/
+
+/*!**********************************!*\
+        !*** ./src/mixins/actionText.js ***!
+        \**********************************/
+
+/*!**********************************!*\
+        !*** ./src/utils/GenRandomId.js ***!
+        \**********************************/
+
+/*!**********************************!*\
+        !*** external "v-click-outside" ***!
+        \**********************************/
+
+/*!**********************************!*\
+        !*** external "vue-multiselect" ***!
+        \**********************************/
+
+/*!**********************************!*\
+        !*** external "vue2-datepicker" ***!
+        \**********************************/
+
+/*!***********************************!*\
+        !*** ./src/utils/ValidateSlot.js ***!
+        \***********************************/
+
+/*!***********************************!*\
+        !*** external "@nextcloud/axios" ***!
+        \***********************************/
+
+/*!************************************!*\
+        !*** ./src/mixins/actionGlobal.js ***!
+        \************************************/
+
+/*!************************************!*\
+        !*** ./src/utils/IsMobileState.js ***!
+        \************************************/
+
+/*!*************************************!*\
+        !*** ./src/mixins/highlightText.js ***!
+        \*************************************/
+
+/*!*************************************!*\
+        !*** ./src/utils/ScopeComponent.js ***!
+        \*************************************/
+
+/*!**************************************!*\
+        !*** ./src/mixins/isMobile/index.js ***!
+        \**************************************/
+
+/*!**************************************!*\
+        !*** ./src/utils/IsOutOfViewport.js ***!
+        \**************************************/
+
+/*!***************************************!*\
+        !*** ./src/components/Modal/index.js ***!
+        \***************************************/
+
+/*!****************************************!*\
+        !*** ./src/components/Avatar/index.js ***!
+        \****************************************/
+
+/*!****************************************!*\
+        !*** ./src/components/Modal/Modal.vue ***!
+        \****************************************/
+
+/*!*****************************************!*\
+        !*** ./src/components/Actions/index.js ***!
+        \*****************************************/
+
+/*!*****************************************!*\
+        !*** ./src/directives/Tooltip/index.js ***!
+        \*****************************************/
+
+/*!******************************************!*\
+        !*** ./src/components/Avatar/Avatar.vue ***!
+        \******************************************/
+
+/*!******************************************!*\
+        !*** external "core-js/modules/web.url" ***!
+        \******************************************/
+
+/*!*******************************************!*\
+        !*** ./src/directives/Tooltip/index.scss ***!
+        \*******************************************/
+
+/*!********************************************!*\
+        !*** ./src/components/ActionLink/index.js ***!
+        \********************************************/
+
+/*!********************************************!*\
+        !*** ./src/components/Actions/Actions.vue ***!
+        \********************************************/
+
+/*!********************************************!*\
+        !*** ./src/components/AppContent/index.js ***!
+        \********************************************/
+
+/*!********************************************!*\
+        !*** ./src/fonts/iconfont-vue-7702e5f.eot ***!
+        \********************************************/
+
+/*!********************************************!*\
+        !*** ./src/fonts/iconfont-vue-7702e5f.svg ***!
+        \********************************************/
+
+/*!********************************************!*\
+        !*** ./src/fonts/iconfont-vue-7702e5f.ttf ***!
+        \********************************************/
+
+/*!********************************************!*\
+        !*** external "core-js/modules/es.symbol" ***!
+        \********************************************/
+
+/*!*********************************************!*\
+        !*** ./src/components/Avatar/uidToColor.js ***!
+        \*********************************************/
+
+/*!*********************************************!*\
+        !*** ./src/components/Multiselect/index.js ***!
+        \*********************************************/
+
+/*!*********************************************!*\
+        !*** ./src/components/PopoverMenu/index.js ***!
+        \*********************************************/
+
+/*!*********************************************!*\
+        !*** ./src/fonts/iconfont-vue-7702e5f.woff ***!
+        \*********************************************/
+
+/*!*********************************************!*\
+        !*** external "core-js/modules/es.promise" ***!
+        \*********************************************/
+
+/*!**********************************************!*\
+        !*** ./src/components/ActionButton/index.js ***!
+        \**********************************************/
+
+/*!**********************************************!*\
+        !*** external "regenerator-runtime/runtime" ***!
+        \**********************************************/
+
+/*!***********************************************!*\
+        !*** ./src/components/AppNavigation/index.js ***!
+        \***********************************************/
+
+/*!***********************************************!*\
+        !*** ./src/components/Multiselect/index.scss ***!
+        \***********************************************/
+
+/*!***********************************************!*\
+        !*** external "@nextcloud/l10n/dist/gettext" ***!
+        \***********************************************/
+
+/*!***********************************************!*\
+        !*** external "core-js/modules/es.array.map" ***!
+        \***********************************************/
+
+/*!************************************************!*\
+        !*** ./src/components/ActionCheckbox/index.js ***!
+        \************************************************/
+
+/*!************************************************!*\
+        !*** ./src/components/DatetimePicker/index.js ***!
+        \************************************************/
+
+/*!************************************************!*\
+        !*** external "core-js/modules/es.array.join" ***!
+        \************************************************/
+
+/*!*************************************************!*\
+        !*** external "core-js/modules/es.array.slice" ***!
+        \*************************************************/
+
+/*!*************************************************!*\
+        !*** external "core-js/modules/es.regexp.exec" ***!
+        \*************************************************/
+
+/*!*************************************************!*\
+        !*** external "core-js/modules/es.string.trim" ***!
+        \*************************************************/
+
+/*!**************************************************!*\
+        !*** ./src/components/ActionLink/ActionLink.vue ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** ./src/components/AppContent/AppContent.vue ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** ./src/components/DatetimePicker/index.scss ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** external "core-js/modules/es.array.concat" ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** external "core-js/modules/es.array.filter" ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** external "core-js/modules/es.array.splice" ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** external "core-js/modules/es.string.match" ***!
+        \**************************************************/
+
+/*!***************************************************!*\
+        !*** ./src/components/AppNavigationItem/index.js ***!
+        \***************************************************/
+
+/*!***************************************************!*\
+        !*** external "core-js/modules/es.function.name" ***!
+        \***************************************************/
+
+/*!***************************************************!*\
+        !*** external "core-js/modules/es.object.assign" ***!
+        \***************************************************/
+
+/*!***************************************************!*\
+        !*** external "core-js/modules/es.string.search" ***!
+        \***************************************************/
+
+/*!****************************************************!*\
+        !*** ./src/components/Multiselect/Multiselect.vue ***!
+        \****************************************************/
+
+/*!****************************************************!*\
+        !*** ./src/components/PopoverMenu/PopoverMenu.vue ***!
+        \****************************************************/
+
+/*!****************************************************!*\
+        !*** external "core-js/modules/es.array.for-each" ***!
+        \****************************************************/
+
+/*!****************************************************!*\
+        !*** external "core-js/modules/es.array.index-of" ***!
+        \****************************************************/
+
+/*!****************************************************!*\
+        !*** external "core-js/modules/es.array.iterator" ***!
+        \****************************************************/
+
+/*!****************************************************!*\
+        !*** external "core-js/modules/es.string.replace" ***!
+        \****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./src/components/AppNavigationToggle/index.js ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** external "core-js/modules/es.string.iterator" ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** external "core-js/modules/es.symbol.iterator" ***!
+        \*****************************************************/
+
+/*!******************************************************!*\
+        !*** ./src/components/ActionButton/ActionButton.vue ***!
+        \******************************************************/
+
+/*!******************************************************!*\
+        !*** ./src/components/AppNavigationCounter/index.js ***!
+        \******************************************************/
+
+/*!******************************************************!*\
+        !*** external "core-js/modules/es.object.to-string" ***!
+        \******************************************************/
+
+/*!******************************************************!*\
+        !*** external "core-js/modules/es.regexp.to-string" ***!
+        \******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./src/components/AppNavigationSettings/index.js ***!
+        \*******************************************************/
+
+/*!********************************************************!*\
+        !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./src/components/AppNavigation/AppNavigation.vue ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./src/components/PopoverMenu/PopoverMenuItem.vue ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** external "core-js/modules/es.number.constructor" ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** external "core-js/modules/es.regexp.constructor" ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** external "core-js/modules/es.string.starts-with" ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** external "core-js/modules/es.symbol.description" ***!
+        \********************************************************/
+
+/*!*********************************************************!*\
+        !*** ./src/components/AppNavigationIconBullet/index.js ***!
+        \*********************************************************/
+
+/*!*********************************************************!*\
+        !*** ./src/components/Multiselect/EllipsisedOption.vue ***!
+        \*********************************************************/
+
+/*!**********************************************************!*\
+        !*** ./src/components/ActionCheckbox/ActionCheckbox.vue ***!
+        \**********************************************************/
+
+/*!**********************************************************!*\
+        !*** ./src/components/DatetimePicker/DatetimePicker.vue ***!
+        \**********************************************************/
+
+/*!***********************************************************!*\
+        !*** ./node_modules/vue-style-loader/lib/listToStyles.js ***!
+        \***********************************************************/
+
+/*!***********************************************************!*\
+        !*** ./src/components/Multiselect/AvatarSelectOption.vue ***!
+        \***********************************************************/
+
+/*!**************************************************************!*\
+        !*** ./node_modules/vue-style-loader/lib/addStylesClient.js ***!
+        \**************************************************************/
+
+/*!***************************************************************!*\
+        !*** external "core-js/modules/web.dom-collections.for-each" ***!
+        \***************************************************************/
+
+/*!***************************************************************!*\
+        !*** external "core-js/modules/web.dom-collections.iterator" ***!
+        \***************************************************************/
+
+/*!****************************************************************!*\
+        !*** ./src/components/AppNavigationItem/AppNavigationItem.vue ***!
+        \****************************************************************/
+
+/*!*****************************************************************!*\
+        !*** ./src/components/Modal/Modal.vue?vue&type=script&lang=js& ***!
+        \*****************************************************************/
+
+/*!*******************************************************************!*\
+        !*** ./src/components/Avatar/Avatar.vue?vue&type=script&lang=js& ***!
+        \*******************************************************************/
+
+/*!********************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
+        \********************************************************************/
+
+/*!********************************************************************!*\
+        !*** ./src/components/AppNavigationToggle/AppNavigationToggle.vue ***!
+        \********************************************************************/
+
+/*!*********************************************************************!*\
+        !*** ./src/components/Actions/Actions.vue?vue&type=script&lang=js& ***!
+        \*********************************************************************/
+
+/*!**********************************************************************!*\
+        !*** ./src/components/AppNavigationCounter/AppNavigationCounter.vue ***!
+        \**********************************************************************/
+
+/*!************************************************************************!*\
+        !*** ./src/components/AppNavigationSettings/AppNavigationSettings.vue ***!
+        \************************************************************************/
+
+/*!***************************************************************************!*\
+        !*** ./src/components/ActionLink/ActionLink.vue?vue&type=script&lang=js& ***!
+        \***************************************************************************/
+
+/*!***************************************************************************!*\
+        !*** ./src/components/AppContent/AppContent.vue?vue&type=script&lang=js& ***!
+        \***************************************************************************/
+
+/*!***************************************************************************!*\
+        !*** ./src/components/AppNavigationItem/AppNavigationIconCollapsible.vue ***!
+        \***************************************************************************/
+
+/*!****************************************************************************!*\
+        !*** ./src/components/AppNavigationIconBullet/AppNavigationIconBullet.vue ***!
+        \****************************************************************************/
+
+/*!*****************************************************************************!*\
+        !*** ./src/components/Multiselect/Multiselect.vue?vue&type=script&lang=js& ***!
+        \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+        !*** ./src/components/PopoverMenu/PopoverMenu.vue?vue&type=script&lang=js& ***!
+        \*****************************************************************************/
+
+/*!*******************************************************************************!*\
+        !*** ./src/components/ActionButton/ActionButton.vue?vue&type=script&lang=js& ***!
+        \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+        !*** ./src/components/Modal/Modal.vue?vue&type=custom&index=0&blockType=docs ***!
+        \*******************************************************************************/
+
+/*!*********************************************************************************!*\
+        !*** ./src/components/AppNavigation/AppNavigation.vue?vue&type=script&lang=js& ***!
+        \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+        !*** ./src/components/Avatar/Avatar.vue?vue&type=custom&index=0&blockType=docs ***!
+        \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+        !*** ./src/components/PopoverMenu/PopoverMenuItem.vue?vue&type=script&lang=js& ***!
+        \*********************************************************************************/
+
+/*!**********************************************************************************!*\
+        !*** ./src/components/Multiselect/EllipsisedOption.vue?vue&type=script&lang=js& ***!
+        \**********************************************************************************/
+
+/*!***********************************************************************************!*\
+        !*** ./src/components/ActionCheckbox/ActionCheckbox.vue?vue&type=script&lang=js& ***!
+        \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+        !*** ./src/components/Actions/Actions.vue?vue&type=custom&index=0&blockType=docs ***!
+        \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+        !*** ./src/components/DatetimePicker/DatetimePicker.vue?vue&type=script&lang=js& ***!
+        \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+        !*** ./src/components/Modal/Modal.vue?vue&type=template&id=47db75aa&scoped=true& ***!
+        \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+        !*** ./src/components/Multiselect/Multiselect.vue?vue&type=template&id=1cd2ff8a& ***!
+        \***********************************************************************************/
+
+/*!************************************************************************************!*\
+        !*** ./src/components/Multiselect/AvatarSelectOption.vue?vue&type=script&lang=js& ***!
+        \************************************************************************************/
+
+/*!*************************************************************************************!*\
+        !*** ./src/components/Avatar/Avatar.vue?vue&type=template&id=100e3b6f&scoped=true& ***!
+        \*************************************************************************************/
+
+/*!***************************************************************************************!*\
+        !*** ./src/components/Actions/Actions.vue?vue&type=template&id=4f45864b&scoped=true& ***!
+        \***************************************************************************************/
+
+/*!*****************************************************************************************!*\
+        !*** ./src/components/ActionLink/ActionLink.vue?vue&type=custom&index=0&blockType=docs ***!
+        \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+        !*** ./src/components/AppNavigationItem/AppNavigationItem.vue?vue&type=script&lang=js& ***!
+        \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+        !*** ./src/components/DatetimePicker/DatetimePicker.vue?vue&type=template&id=6a62836f& ***!
+        \*****************************************************************************************/
+
+/*!*******************************************************************************************!*\
+        !*** ./src/components/Multiselect/Multiselect.vue?vue&type=custom&index=0&blockType=docs ***!
+        \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+        !*** ./src/components/PopoverMenu/PopoverMenu.vue?vue&type=custom&index=0&blockType=docs ***!
+        \*******************************************************************************************/
+
+/*!*********************************************************************************************!*\
+        !*** ./src/components/ActionButton/ActionButton.vue?vue&type=custom&index=0&blockType=docs ***!
+        \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+        !*** ./src/components/ActionLink/ActionLink.vue?vue&type=template&id=7b85b80f&scoped=true& ***!
+        \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+        !*** ./src/components/AppContent/AppContent.vue?vue&type=template&id=71758b0f&scoped=true& ***!
+        \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+        !*** ./src/components/AppNavigationToggle/AppNavigationToggle.vue?vue&type=script&lang=js& ***!
+        \*********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+        !*** ./src/components/AppNavigationCounter/AppNavigationCounter.vue?vue&type=script&lang=js& ***!
+        \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+        !*** ./src/components/PopoverMenu/PopoverMenu.vue?vue&type=template&id=0a0eb719&scoped=true& ***!
+        \***********************************************************************************************/
+
+/*!*************************************************************************************************!*\
+        !*** ./src/components/ActionButton/ActionButton.vue?vue&type=template&id=2e929b4f&scoped=true& ***!
+        \*************************************************************************************************/
+
+/*!*************************************************************************************************!*\
+        !*** ./src/components/ActionCheckbox/ActionCheckbox.vue?vue&type=custom&index=0&blockType=docs ***!
+        \*************************************************************************************************/
+
+/*!*************************************************************************************************!*\
+        !*** ./src/components/AppNavigationSettings/AppNavigationSettings.vue?vue&type=script&lang=js& ***!
+        \*************************************************************************************************/
+
+/*!*************************************************************************************************!*\
+        !*** ./src/components/DatetimePicker/DatetimePicker.vue?vue&type=custom&index=0&blockType=docs ***!
+        \*************************************************************************************************/
+
+/*!**************************************************************************************************!*\
+        !*** ./src/components/Modal/Modal.vue?vue&type=style&index=0&id=47db75aa&lang=scss&scoped=true& ***!
+        \**************************************************************************************************/
+
+/*!**************************************************************************************************!*\
+        !*** ./src/components/Multiselect/AvatarSelectOption.vue?vue&type=custom&index=0&blockType=docs ***!
+        \**************************************************************************************************/
+
+/*!***************************************************************************************************!*\
+        !*** ./src/components/AppNavigation/AppNavigation.vue?vue&type=template&id=d3908c0a&scoped=true& ***!
+        \***************************************************************************************************/
+
+/*!***************************************************************************************************!*\
+        !*** ./src/components/PopoverMenu/PopoverMenuItem.vue?vue&type=template&id=512ea768&scoped=true& ***!
+        \***************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+        !*** ./src/components/AppNavigationItem/AppNavigationIconCollapsible.vue?vue&type=script&lang=js& ***!
+        \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+        !*** ./src/components/Avatar/Avatar.vue?vue&type=style&index=0&id=100e3b6f&scoped=true&lang=scss& ***!
+        \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+        !*** ./src/components/Multiselect/EllipsisedOption.vue?vue&type=template&id=026c3def&scoped=true& ***!
+        \****************************************************************************************************/
+
+/*!*****************************************************************************************************!*\
+        !*** ./src/components/ActionCheckbox/ActionCheckbox.vue?vue&type=template&id=74cf1d6f&scoped=true& ***!
+        \*****************************************************************************************************/
+
+/*!*****************************************************************************************************!*\
+        !*** ./src/components/AppNavigationIconBullet/AppNavigationIconBullet.vue?vue&type=script&lang=js& ***!
+        \*****************************************************************************************************/
+
+/*!******************************************************************************************************!*\
+        !*** ./src/components/Actions/Actions.vue?vue&type=style&index=0&id=4f45864b&lang=scss&scoped=true& ***!
+        \******************************************************************************************************/
+
+/*!******************************************************************************************************!*\
+        !*** ./src/components/Multiselect/AvatarSelectOption.vue?vue&type=template&id=72601db4&scoped=true& ***!
+        \******************************************************************************************************/
+
+/*!*******************************************************************************************************!*\
+        !*** ./src/components/AppNavigationItem/AppNavigationItem.vue?vue&type=custom&index=0&blockType=docs ***!
+        \*******************************************************************************************************/
+
+/*!***********************************************************************************************************!*\
+        !*** ./src/components/AppNavigationItem/AppNavigationItem.vue?vue&type=template&id=210dfea1&scoped=true& ***!
+        \***********************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+        !*** ./src/components/ActionLink/ActionLink.vue?vue&type=style&index=0&id=7b85b80f&lang=scss&scoped=true& ***!
+        \************************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+        !*** ./src/components/AppContent/AppContent.vue?vue&type=style&index=0&id=71758b0f&lang=scss&scoped=true& ***!
+        \************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationCounter/AppNavigationCounter.vue?vue&type=custom&index=0&blockType=docs ***!
+        \*************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+        !*** ./src/components/PopoverMenu/PopoverMenu.vue?vue&type=style&index=0&id=0a0eb719&lang=scss&scoped=true& ***!
+        \**************************************************************************************************************/
+
+/*!***************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationToggle/AppNavigationToggle.vue?vue&type=template&id=17ebeae3&scoped=true& ***!
+        \***************************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+        !*** ./src/components/ActionButton/ActionButton.vue?vue&type=style&index=0&id=2e929b4f&lang=scss&scoped=true& ***!
+        \****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationCounter/AppNavigationCounter.vue?vue&type=template&id=231d7daf&scoped=true& ***!
+        \*****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+        !*** ./src/components/PopoverMenu/PopoverMenuItem.vue?vue&type=style&index=0&id=512ea768&scoped=true&lang=css& ***!
+        \*****************************************************************************************************************/
+
+/*!******************************************************************************************************************!*\
+        !*** ./src/components/AppNavigation/AppNavigation.vue?vue&type=style&index=0&id=d3908c0a&lang=scss&scoped=true& ***!
+        \******************************************************************************************************************/
+
+/*!******************************************************************************************************************!*\
+        !*** ./src/components/PopoverMenu/PopoverMenuItem.vue?vue&type=style&index=1&id=512ea768&lang=scss&scoped=true& ***!
+        \******************************************************************************************************************/
+
+/*!*******************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationIconBullet/AppNavigationIconBullet.vue?vue&type=custom&index=0&blockType=docs ***!
+        \*******************************************************************************************************************/
+
+/*!*******************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationSettings/AppNavigationSettings.vue?vue&type=template&id=9c9c397e&scoped=true& ***!
+        \*******************************************************************************************************************/
+
+/*!*******************************************************************************************************************!*\
+        !*** ./src/components/Multiselect/EllipsisedOption.vue?vue&type=style&index=0&id=026c3def&lang=scss&scoped=true& ***!
+        \*******************************************************************************************************************/
+
+/*!********************************************************************************************************************!*\
+        !*** ./src/components/ActionCheckbox/ActionCheckbox.vue?vue&type=style&index=0&id=74cf1d6f&lang=scss&scoped=true& ***!
+        \********************************************************************************************************************/
+
+/*!*********************************************************************************************************************!*\
+        !*** ./src/components/Multiselect/AvatarSelectOption.vue?vue&type=style&index=0&id=72601db4&lang=scss&scoped=true& ***!
+        \*********************************************************************************************************************/
+
+/*!**********************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationItem/AppNavigationIconCollapsible.vue?vue&type=template&id=3c4acfb3&scoped=true& ***!
+        \**********************************************************************************************************************/
+
+/*!***********************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationIconBullet/AppNavigationIconBullet.vue?vue&type=template&id=1589a81e&scoped=true& ***!
+        \***********************************************************************************************************************/
+
+/*!**************************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationItem/AppNavigationItem.vue?vue&type=style&index=0&id=210dfea1&lang=scss&scoped=true& ***!
+        \**************************************************************************************************************************/
+
+/*!******************************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationToggle/AppNavigationToggle.vue?vue&type=style&index=0&id=17ebeae3&scoped=true&lang=scss& ***!
+        \******************************************************************************************************************************/
+
+/*!********************************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationCounter/AppNavigationCounter.vue?vue&type=style&index=0&id=231d7daf&lang=scss&scoped=true& ***!
+        \********************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationSettings/AppNavigationSettings.vue?vue&type=style&index=0&id=9c9c397e&lang=scss&scoped=true& ***!
+        \**********************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationItem/AppNavigationIconCollapsible.vue?vue&type=style&index=0&id=3c4acfb3&lang=scss&scoped=true& ***!
+        \*************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************!*\
+        !*** ./src/components/AppNavigationIconBullet/AppNavigationIconBullet.vue?vue&type=style&index=0&id=1589a81e&lang=scss&scoped=true& ***!
+        \**************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Modal/Modal.vue?vue&type=script&lang=js& ***!
+        \***************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Avatar/Avatar.vue?vue&type=script&lang=js& ***!
+        \*****************************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Actions/Actions.vue?vue&type=script&lang=js& ***!
+        \*******************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionLink/ActionLink.vue?vue&type=script&lang=js& ***!
+        \*************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppContent/AppContent.vue?vue&type=script&lang=js& ***!
+        \*************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Multiselect/Multiselect.vue?vue&type=script&lang=js& ***!
+        \***************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/PopoverMenu/PopoverMenu.vue?vue&type=script&lang=js& ***!
+        \***************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionButton/ActionButton.vue?vue&type=script&lang=js& ***!
+        \*****************************************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigation/AppNavigation.vue?vue&type=script&lang=js& ***!
+        \*******************************************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/PopoverMenu/PopoverMenuItem.vue?vue&type=script&lang=js& ***!
+        \*******************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Multiselect/EllipsisedOption.vue?vue&type=script&lang=js& ***!
+        \********************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./src/directives/Tooltip/index.scss ***!
+        \********************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionCheckbox/ActionCheckbox.vue?vue&type=script&lang=js& ***!
+        \*********************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/DatetimePicker/DatetimePicker.vue?vue&type=script&lang=js& ***!
+        \*********************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Multiselect/AvatarSelectOption.vue?vue&type=script&lang=js& ***!
+        \**********************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./src/components/Multiselect/index.scss ***!
+        \************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationItem/AppNavigationItem.vue?vue&type=script&lang=js& ***!
+        \***************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./src/components/DatetimePicker/index.scss ***!
+        \***************************************************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationToggle/AppNavigationToggle.vue?vue&type=script&lang=js& ***!
+        \*******************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationCounter/AppNavigationCounter.vue?vue&type=script&lang=js& ***!
+        \*********************************************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationSettings/AppNavigationSettings.vue?vue&type=script&lang=js& ***!
+        \***********************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationItem/AppNavigationIconCollapsible.vue?vue&type=script&lang=js& ***!
+        \**************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationIconBullet/AppNavigationIconBullet.vue?vue&type=script&lang=js& ***!
+        \***************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Modal/Modal.vue?vue&type=template&id=47db75aa&scoped=true& ***!
+        \*****************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Multiselect/Multiselect.vue?vue&type=template&id=1cd2ff8a& ***!
+        \*****************************************************************************************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Avatar/Avatar.vue?vue&type=template&id=100e3b6f&scoped=true& ***!
+        \*******************************************************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Actions/Actions.vue?vue&type=template&id=4f45864b&scoped=true& ***!
+        \*********************************************************************************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/DatetimePicker/DatetimePicker.vue?vue&type=template&id=6a62836f& ***!
+        \***********************************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionLink/ActionLink.vue?vue&type=template&id=7b85b80f&scoped=true& ***!
+        \***************************************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppContent/AppContent.vue?vue&type=template&id=71758b0f&scoped=true& ***!
+        \***************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/PopoverMenu/PopoverMenu.vue?vue&type=template&id=0a0eb719&scoped=true& ***!
+        \*****************************************************************************************************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionButton/ActionButton.vue?vue&type=template&id=2e929b4f&scoped=true& ***!
+        \*******************************************************************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigation/AppNavigation.vue?vue&type=template&id=d3908c0a&scoped=true& ***!
+        \*********************************************************************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/PopoverMenu/PopoverMenuItem.vue?vue&type=template&id=512ea768&scoped=true& ***!
+        \*********************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Multiselect/EllipsisedOption.vue?vue&type=template&id=026c3def&scoped=true& ***!
+        \**********************************************************************************************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionCheckbox/ActionCheckbox.vue?vue&type=template&id=74cf1d6f&scoped=true& ***!
+        \***********************************************************************************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Multiselect/AvatarSelectOption.vue?vue&type=template&id=72601db4&scoped=true& ***!
+        \************************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationItem/AppNavigationItem.vue?vue&type=template&id=210dfea1&scoped=true& ***!
+        \*****************************************************************************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationToggle/AppNavigationToggle.vue?vue&type=template&id=17ebeae3&scoped=true& ***!
+        \*********************************************************************************************************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationCounter/AppNavigationCounter.vue?vue&type=template&id=231d7daf&scoped=true& ***!
+        \***********************************************************************************************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationSettings/AppNavigationSettings.vue?vue&type=template&id=9c9c397e&scoped=true& ***!
+        \*************************************************************************************************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationItem/AppNavigationIconCollapsible.vue?vue&type=template&id=3c4acfb3&scoped=true& ***!
+        \****************************************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationIconBullet/AppNavigationIconBullet.vue?vue&type=template&id=1589a81e&scoped=true& ***!
+        \*****************************************************************************************************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/vue-loader/lib??vue-loader-options!./src/components/PopoverMenu/PopoverMenuItem.vue?vue&type=style&index=0&id=512ea768&scoped=true&lang=css& ***!
+        \****************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/vue-loader/lib??vue-loader-options!./src/components/PopoverMenu/PopoverMenuItem.vue?vue&type=style&index=0&id=512ea768&scoped=true&lang=css& ***!
+        \************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Modal/Modal.vue?vue&type=style&index=0&id=47db75aa&lang=scss&scoped=true& ***!
+        \**************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Avatar/Avatar.vue?vue&type=style&index=0&id=100e3b6f&scoped=true&lang=scss& ***!
+        \****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Actions/Actions.vue?vue&type=style&index=0&id=4f45864b&lang=scss&scoped=true& ***!
+        \******************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionLink/ActionLink.vue?vue&type=style&index=0&id=7b85b80f&lang=scss&scoped=true& ***!
+        \************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppContent/AppContent.vue?vue&type=style&index=0&id=71758b0f&lang=scss&scoped=true& ***!
+        \************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/PopoverMenu/PopoverMenu.vue?vue&type=style&index=0&id=0a0eb719&lang=scss&scoped=true& ***!
+        \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionButton/ActionButton.vue?vue&type=style&index=0&id=2e929b4f&lang=scss&scoped=true& ***!
+        \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigation/AppNavigation.vue?vue&type=style&index=0&id=d3908c0a&lang=scss&scoped=true& ***!
+        \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/PopoverMenu/PopoverMenuItem.vue?vue&type=style&index=1&id=512ea768&lang=scss&scoped=true& ***!
+        \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Multiselect/EllipsisedOption.vue?vue&type=style&index=0&id=026c3def&lang=scss&scoped=true& ***!
+        \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionCheckbox/ActionCheckbox.vue?vue&type=style&index=0&id=74cf1d6f&lang=scss&scoped=true& ***!
+        \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Multiselect/AvatarSelectOption.vue?vue&type=style&index=0&id=72601db4&lang=scss&scoped=true& ***!
+        \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationItem/AppNavigationItem.vue?vue&type=style&index=0&id=210dfea1&lang=scss&scoped=true& ***!
+        \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationToggle/AppNavigationToggle.vue?vue&type=style&index=0&id=17ebeae3&scoped=true&lang=scss& ***!
+        \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationCounter/AppNavigationCounter.vue?vue&type=style&index=0&id=231d7daf&lang=scss&scoped=true& ***!
+        \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationSettings/AppNavigationSettings.vue?vue&type=style&index=0&id=9c9c397e&lang=scss&scoped=true& ***!
+        \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Modal/Modal.vue?vue&type=style&index=0&id=47db75aa&lang=scss&scoped=true& ***!
+        \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Avatar/Avatar.vue?vue&type=style&index=0&id=100e3b6f&scoped=true&lang=scss& ***!
+        \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationItem/AppNavigationIconCollapsible.vue?vue&type=style&index=0&id=3c4acfb3&lang=scss&scoped=true& ***!
+        \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationIconBullet/AppNavigationIconBullet.vue?vue&type=style&index=0&id=1589a81e&lang=scss&scoped=true& ***!
+        \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Actions/Actions.vue?vue&type=style&index=0&id=4f45864b&lang=scss&scoped=true& ***!
+        \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionLink/ActionLink.vue?vue&type=style&index=0&id=7b85b80f&lang=scss&scoped=true& ***!
+        \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppContent/AppContent.vue?vue&type=style&index=0&id=71758b0f&lang=scss&scoped=true& ***!
+        \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/PopoverMenu/PopoverMenu.vue?vue&type=style&index=0&id=0a0eb719&lang=scss&scoped=true& ***!
+        \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionButton/ActionButton.vue?vue&type=style&index=0&id=2e929b4f&lang=scss&scoped=true& ***!
+        \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigation/AppNavigation.vue?vue&type=style&index=0&id=d3908c0a&lang=scss&scoped=true& ***!
+        \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/PopoverMenu/PopoverMenuItem.vue?vue&type=style&index=1&id=512ea768&lang=scss&scoped=true& ***!
+        \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Multiselect/EllipsisedOption.vue?vue&type=style&index=0&id=026c3def&lang=scss&scoped=true& ***!
+        \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionCheckbox/ActionCheckbox.vue?vue&type=style&index=0&id=74cf1d6f&lang=scss&scoped=true& ***!
+        \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Multiselect/AvatarSelectOption.vue?vue&type=style&index=0&id=72601db4&lang=scss&scoped=true& ***!
+        \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationItem/AppNavigationItem.vue?vue&type=style&index=0&id=210dfea1&lang=scss&scoped=true& ***!
+        \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationToggle/AppNavigationToggle.vue?vue&type=style&index=0&id=17ebeae3&scoped=true&lang=scss& ***!
+        \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationCounter/AppNavigationCounter.vue?vue&type=style&index=0&id=231d7daf&lang=scss&scoped=true& ***!
+        \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationSettings/AppNavigationSettings.vue?vue&type=style&index=0&id=9c9c397e&lang=scss&scoped=true& ***!
+        \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationItem/AppNavigationIconCollapsible.vue?vue&type=style&index=0&id=3c4acfb3&lang=scss&scoped=true& ***!
+        \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+        !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--1-3!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppNavigationIconBullet/AppNavigationIconBullet.vue?vue&type=style&index=0&id=1589a81e&lang=scss&scoped=true& ***!
+        \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/**
+         * @copyright 2019 Christoph Wurst <christoph@winzerhof-wurst.at>
+         *
+         * @author 2019 Christoph Wurst <christoph@winzerhof-wurst.at>
+         *
+         * @license GNU AGPL version 3 or any later version
+         *
+         * This program is free software: you can redistribute it and/or modify
+         * it under the terms of the GNU Affero General Public License as
+         * published by the Free Software Foundation, either version 3 of the
+         * License, or (at your option) any later version.
+         *
+         * This program is distributed in the hope that it will be useful,
+         * but WITHOUT ANY WARRANTY; without even the implied warranty of
+         * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+         * GNU Affero General Public License for more details.
+         *
+         * You should have received a copy of the GNU Affero General Public License
+         * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+         */
+
+/**
+         * @copyright Copyright (c) 2018 John Molakvoæ <skjnldsv@protonmail.com>
+         *
+         * @author John Molakvoæ <skjnldsv@protonmail.com>
+         *
+         * @license GNU AGPL version 3 or any later version
+         *
+         * This program is free software: you can redistribute it and/or modify
+         * it under the terms of the GNU Affero General Public License as
+         * published by the Free Software Foundation, either version 3 of the
+         * License, or (at your option) any later version.
+         *
+         * This program is distributed in the hope that it will be useful,
+         * but WITHOUT ANY WARRANTY; without even the implied warranty of
+         * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+         * GNU Affero General Public License for more details.
+         *
+         * You should have received a copy of the GNU Affero General Public License
+         * along with this program. If not, see <http://www.gnu.org/licenses/>.
+         *
+         */
+
+/**
+         * @copyright Copyright (c) 2018 John Molakvoæ <skjnldsv@protonmail.com>
+         *
+         * @author John Molakvoæ <skjnldsv@protonmail.com>
+         *
+         * @license GNU AGPL version 3 or any later version
+         *
+         * This program is free software: you can redistribute it and/or modify
+         * it under the terms of the GNU Affero General Public License as
+         * published by the Free Software Foundation, either version 3 of the
+         * License, or (at your option) any later version.
+         *
+         * This program is distributed in the hope that it will be useful,
+         * but WITHOUT ANY WARRANTY; without even the implied warranty of
+         * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+         * GNU Affero General Public License for more details.
+         *
+         * You should have received a copy of the GNU Affero General Public License
+         * along with this program. If not, see <http://www.gnu.org/licenses/>.
+         *
+         */
+
+/**
+         * @copyright Copyright (c) 2018 Julius Härtl <jus@bitgrid.net>
+         *
+         * @author Julius Härtl <jus@bitgrid.net>
+         *
+         * @license GNU AGPL version 3 or any later version
+         *
+         * This program is free software: you can redistribute it and/or modify
+         * it under the terms of the GNU Affero General Public License as
+         * published by the Free Software Foundation, either version 3 of the
+         * License, or (at your option) any later version.
+         *
+         * This program is distributed in the hope that it will be useful,
+         * but WITHOUT ANY WARRANTY; without even the implied warranty of
+         * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+         * GNU Affero General Public License for more details.
+         *
+         * You should have received a copy of the GNU Affero General Public License
+         * along with this program. If not, see <http://www.gnu.org/licenses/>.
+         *
+         */
+
+/**
+         * @copyright Copyright (c) 2019 John Molakvoæ <skjnldsv@protonmail.com>
+         *
+         * @author John Molakvoæ <skjnldsv@protonmail.com>
+         *
+         * @license GNU AGPL version 3 or any later version
+         *
+         * This program is free software: you can redistribute it and/or modify
+         * it under the terms of the GNU Affero General Public License as
+         * published by the Free Software Foundation, either version 3 of the
+         * License, or (at your option) any later version.
+         *
+         * This program is distributed in the hope that it will be useful,
+         * but WITHOUT ANY WARRANTY without even the implied warranty of
+         * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+         * GNU Affero General Public License for more details.
+         *
+         * You should have received a copy of the GNU Affero General Public License
+         * along with this program. If not, see <http://www.gnu.org/licenses/>.
+         *
+         */
+
+/**
+         * @copyright Copyright (c) 2019 John Molakvoæ <skjnldsv@protonmail.com>
+         *
+         * @author John Molakvoæ <skjnldsv@protonmail.com>
+         *
+         * @license GNU AGPL version 3 or any later version
+         *
+         * This program is free software: you can redistribute it and/or modify
+         * it under the terms of the GNU Affero General Public License as
+         * published by the Free Software Foundation, either version 3 of the
+         * License, or (at your option) any later version.
+         *
+         * This program is distributed in the hope that it will be useful,
+         * but WITHOUT ANY WARRANTY; without even the implied warranty of
+         * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+         * GNU Affero General Public License for more details.
+         *
+         * You should have received a copy of the GNU Affero General Public License
+         * along with this program. If not, see <http://www.gnu.org/licenses/>.
+         *
+         */
+
+/**
+         * @copyright Copyright (c) 2019 John Molakvoæ <skjnldsv@protonmail.com>
+         *
+         * @author John Molakvoæ <skjnldsv@protonmail.com>
+         *
+         * @license GNU AGPL version 3 or any later version
+         *
+         * This program is free software: you can redistribute it and/or modify
+         * it under the terms of the GNU Affero General Public License as
+         * published by the Free Software Foundation, either version 3 of the
+         * License, or (at your option) any later version.
+         *
+         * This program is distributed in the hope that it will be useful,
+         * but WITHOUT ANY WARRANTY; without even the implied warranty of
+         * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+         * GNU Affero General Public License for more details.
+         *
+         * You should have received a copy of the GNU Affero General Public License
+         * along with this program. If not, see <http://www.gnu.org/licenses/>.
+         *
+         */
+
+/**
+         * @copyright Copyright (c) 2019 Julius Härtl <jus@bitgrid.net>
+         *
+         * @author Julius Härtl <jus@bitgrid.net>
+         * @author John Molakvoæ <skjnldsv@protonmail.com>
+         *
+         * @license GNU AGPL version 3 or any later version
+         *
+         * This program is free software: you can redistribute it and/or modify
+         * it under the terms of the GNU Affero General Public License as
+         * published by the Free Software Foundation, either version 3 of the
+         * License, or (at your option) any later version.
+         *
+         * This program is distributed in the hope that it will be useful,
+         * but WITHOUT ANY WARRANTY; without even the implied warranty of
+         * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+         * GNU Affero General Public License for more details.
+         *
+         * You should have received a copy of the GNU Affero General Public License
+         * along with this program. If not, see <http://www.gnu.org/licenses/>.
+         *
+         */
+
+/**
+         * @copyright Copyright (c) 2019 Marco Ambrosini <marcoambrosini@pm.me>
+         *
+         * @author Marco Ambrosini <marcoambrosini@pm.me>
+         *
+         * @license GNU AGPL version 3 or any later version
+         *
+         * This program is free software: you can redistribute it and/or modify
+         * it under the terms of the GNU Affero General Public License as
+         * published by the Free Software Foundation, either version 3 of the
+         * License, or (at your option) any later version.
+         *
+         * This program is distributed in the hope that it will be useful,
+         * but WITHOUT ANY WARRANTY; without even the implied warranty of
+         * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+         * GNU Affero General Public License for more details.
+         *
+         * You should have received a copy of the GNU Affero General Public License
+         * along with this program. If not, see <http://www.gnu.org/licenses/>.
+         *
+         */
+
+/**
+ * @copyright Copyright (c) 2018 John Molakvoæ <skjnldsv@protonmail.com>
+ *
+ * @author John Molakvoæ <skjnldsv@protonmail.com>
+ *
+ * @license GNU AGPL version 3 or any later version
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+/**
+ * @copyright Copyright (c) 2019 Georg Ehrke
+ *
+ * @author Georg Ehrke <oc.list@georgehrke.com>
+ *
+ * @license GNU AGPL version 3 or any later version
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+/**
+ * Nextcloud - Tasks
+ *
+ * @author Georg Ehrke
+ * @copyright Copyright (c) 2019 Georg Ehrke <oc.list@georgehrke.com>
+ *
+ * @author Raimund Schlüßler
+ * @copyright 2020 Raimund Schlüßler <raimund.schluessler@mailbox.org>
+ *
+ * @license GNU AGPL version 3 or any later version
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+/**
+ * vuex v3.1.2
+ * (c) 2019 Evan You
+ * @license MIT
+ */
+
+/**!
+ * @fileOverview Kickass library to create and place poppers near their reference elements.
+ * @version 1.16.1
+ * @license
+ * Copyright (c) 2016 Federico Zivolo and contributors
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+/**!
+ * Sortable 1.10.1
+ * @author	RubaXa   <trash@rubaxa.org>
+ * @author	owenm    <owen23355@gmail.com>
+ * @license MIT
+ */

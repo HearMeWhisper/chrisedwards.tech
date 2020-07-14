@@ -1,0 +1,20 @@
+body {background-color:#202020; background-image:url("house.jpg");
+    background-size:cover; background-repeat:no-repeat}
+#nav-bar{background-color:#798ea7;/*#ccccff;*/
+  text-align:center;  position: fixed; width:100%; /*margin:auto;*/left:0; box-shadow: 0 1px 3px;  /*left:2.3%; */ top:0px; z-index: 5;}
+.float{list-style-type: none;  display:inline;
+  padding: 14px 16px; border-right:1px solid black;
+    }
+@media (max-device-width: 550px){
+#nav-bar{font-size:127%}
+.float{padding: 16px 10px;}
+}
+.active{text-decoration: underline !important}
+ul a{text-decoration: none; color:white; }
+ul li, ol{text-align:left};
+.bold{font-weight: bold}
+.float:hover{background-color:#9aaabd}
+#logo{width:100%;  margin-top:15px}
+#logo_div{margin:auto; text-align:center; background-color:white/*#729EA4*/; opacity:.8; width:80%;box-shadow: 0 1px 3px; z-index:1;}
+#main{font-size:1.5em; width:80%; background-color:#587291; color:white; margin:auto; text-align:center; box-shadow: 0 1px 3px; border-radius:3px; padding:10px; /*font-style:italic;*/ margin-bottom:20px;}
+#footer{display: inline; width:100%; margin:auto; text-align:center; color:white }

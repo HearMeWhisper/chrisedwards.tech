@@ -1,0 +1,7 @@
+ham{position:absolute; top:50px; left:7px;width:100px; height:155px;background-color:#999999 ;border-radius:8px;float:left;}
+#menu{color:blue; background-color:white;width:40px;height:40px; border-radius:8px;box-shadow: 5px 5px 2.5px #5F5F5F}
+#bars{height:40px; width:40px;} 
+.ham-menu {width:170px;height:170px;visibility:hidden; border:black solid 2px;box-shadow: 10px 10px 5px #5F5F5F;background-color:#999999;float:left;z-index:101;}
+.ham-menu2{width:170px;height:170px;visibility:visible; border:black solid 2px;box-shadow: 10px 10px 5px #5F5F5F;background-color:#999999;z-index:100;float:left;}
+#ham a{color:white}
+#ham:focus{outline-color:white; border-radius:8px}

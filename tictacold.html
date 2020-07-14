@@ -1,0 +1,382 @@
+<html>
+<body bgcolor = "#0099FF">
+
+
+
+<script type = text/javascript>
+
+
+alert("Tic Tac Toe Rules:   1. Press Cancel at any time to quit 2. Take turns until board is filled   3. Crush Opponent!");
+
+//var multi = Number(prompt("Single Player(1) or Multiplayer(2)?"));
+
+
+
+var board= new Array();
+var i, j, a, error,xmove, omove, xwin, owin, draw;
+var xwin=0, owin=0, draw=0, bcount;
+a = "yes";
+
+function drawboard(ary)
+{
+document.body.innerHTML = '';
+document.write("<pre>     |     |                         X Wins: "+xwin+"</pre>");
+document.write("<pre>  " +ary[1]+"  |  "+ary[2]+"  |  "+ary[3]+"  </pre>");
+document.write("<pre>____1|____2|____3</pre>");
+document.write("<pre>     |     |                         O Wins: "+owin+"</pre>");
+document.write("<pre>  " +ary[4]+"  |  "+ary[5]+"  |  "+ary[6]+"  </pre>");
+document.write("<pre>____4|____5|____6</pre>");
+document.write("<pre>     |     |                           Ties: "+draw+"</pre>");
+document.write("<pre>  " +ary[7]+"  |  "+ary[8]+"  |  "+ary[9]+"  </pre>");
+document.write("<pre>    7|    8|    9</pre>");
+}
+
+while (a == "yes"){
+a = "not"; var error1 = 1
+
+while (error1 == 1){
+error1 = 0;
+var multi = Number(prompt("Single Player(1) or Multiplayer(2)?"));
+if (multi == "") {break; break;}
+if (multi != 1 || multi != 2) error1 = 1;
+if (multi == 2) {game();}
+
+if (multi == 1) {
+multi = prompt("Easy(1) or Medium(2) or Hard(3)?"); 
+if (multi == 1 ) {game1(); break;}
+if (multi == 3) {game3(); break;} 
+if (multi == 2){ game2(); break;}}
+}
+}
+function game(){
+
+for (i=1; i<10; i++) board[i]=" "; 
+
+
+drawboard(board); 
+error = 1;
+for (j=0; j<board.length; j++){
+while (error == 1){
+error = 0;
+xmove = Number(prompt("Enter X move:", " "));
+if (xmove == "") {error = 3;a = "no";break; break;}
+if (xmove < 1 || xmove > 9) error = 1;
+if (board[xmove] != " ") error = 1;
+
+}
+if (xmove == "") {break;break;}
+board[xmove] = "X";
+drawboard(board);
+checkX();
+checkO();
+draw1();
+if (a == "yes") {break;}
+if (a == "no") {break;}
+error = 2;
+while (error == 2){
+error = 1;
+omove = Number(prompt("Enter O move:", " "));
+if (omove == "") {error = 3;a = "no";break;break;}
+if (omove < 1 || omove > 9) error = 2;
+if (board[omove] != " ") error = 2;
+
+}
+if (omove == "") {break;break;}
+board[omove] = "O";
+drawboard(board);
+checkX();
+checkO();
+draw1();
+if (a == "yes") {break;}
+if (a == "no") {break;}
+}
+}
+
+function game1(){
+
+for (i=1; i<10; i++) board[i]=" "; 
+
+
+drawboard(board); 
+error = 1;
+for (j=0; j<board.length; j++){
+while (error == 1){
+error = 0;
+xmove = Number(prompt("Enter X move:", " "));
+if (xmove == "") {error = 3;a = "no";break; break;}
+if (xmove < 1 || xmove > 9) error = 1;
+if (board[xmove] != " ") error = 1;
+
+}
+if (xmove == "") {break;break;}
+board[xmove] = "X";
+drawboard(board);
+checkX();
+checkO();
+draw1();
+if (a == "yes") {break;}
+if (a == "no") {break;}
+error = 2;
+while (error == 2){
+error = 1;
+omove = omovenum(1,9);
+if (omove < 1 || omove > 9) error = 2;
+if (board[omove] != " ") error = 2;
+
+}
+board[omove] = "O";
+drawboard(board);
+checkX();
+checkO();
+draw1();
+if (a == "yes") {break;}
+if (a == "no") {break;}
+}
+}
+
+function game2() {
+ 
+for (i=1; i<10; i++) board[i]=" "; 
+
+
+drawboard(board); 
+error = 1;
+for (j=0; j<board.length; j++){
+while (error == 1){
+error = 0;
+xmove = Number(prompt("Enter X move:", " "));
+if (xmove == "") {error = 3;a = "no";break; break;}
+if (xmove < 1 || xmove > 9) error = 1;
+if (board[xmove] != " ") error = 1;
+
+}
+if (xmove == "") {break;break;}
+board[xmove] = "X";
+drawboard(board);
+checkX();
+checkO();
+draw1();
+if (a == "yes") {break;}
+if (a == "no") {break;}
+error = 2;
+while (error == 2){
+error = 1;
+
+if (board[1] == "X" && board[2] == "X" && board[3] == " ")  {omove = 3; break;}//missing right end (horizontal)
+if (board[4] == "X" && board[5] == "X" && board[6] == " ")  {omove = 6; break;}
+if (board[7] == "X" && board[8] == "X" && board[9] == " ")  {omove = 9; break;}
+
+if (board[1] == "X" && board[3] == "X" && board[2] == " ")  {omove = 2; break;}//missing middle (horizontal)
+if (board[3] == "X" && board[5] == "X" && board[7] == " ")  {omove = 7; break;}
+if (board[7] == "X" && board[9] == "X" && board[8] == " ")  {omove = 8; break;}
+
+if (board[2] == "X" && board[3] == "X" && board[1] == " ")  {omove = 1; break;}//missing left end (horizontal)
+if (board[5] == "X" && board[6] == "X" && board[4] == " ")  {omove = 4; break;}
+if (board[8] == "X" && board[9] == "X" && board[7] == " ")  {omove = 7; break;}
+
+if (board[1] == "X" && board[4] == "X" && board[7] == " ")  {omove = 7; break;}//missing bottom one (vertical)
+if (board[2] == "X" && board[5] == "X" && board[8] == " ")  {omove = 8; break;}
+if (board[3] == "X" && board[6] == "X" && board[9] == " ")  {omove = 9; break;}
+
+if (board[1] == "X" && board[7] == "X" && board[4] == " ")  {omove = 4; break;}//missing middle one (vertical)
+if (board[2] == "X" && board[8] == "X" && board[5] == " ")  {omove = 5; break;}
+if (board[3] == "X" && board[9] == "X" && board[6] == " ")  {omove = 6; break;}
+
+if (board[4] == "X" && board[7] == "X" && board[1] == " ")  {omove = 1; break;}//missing top one (vertical)
+if (board[5] == "X" && board[6] == "X" && board[2] == " ")  {omove = 2; break;}
+if (board[6] == "X" && board[9] == "X" && board[3] == " ")  {omove = 3; break;}
+
+if (board[1] == "X" && board[5] == "X" && board[9] == " ")  {omove = 9; break;}//missing bottom (diagnal)\
+if (board[1] == "X" && board[9] == "X" && board[5] == " ")  {omove = 5; break;}//missing middle (diagnal)\
+if (board[5] == "X" && board[9] == "X" && board[1] == " ")  {omove = 1; break;}//missing top (diagnal) \
+
+if (board[3] == "X" && board[5] == "X" && board[7] == " ")  {omove = 7; break;}//missing bottom (diagnal) /
+if (board[3] == "X" && board[7] == "X" && board[5] == " ")  {omove = 5; break;}//missing middle (diagnal) /
+if (board[5] == "X" && board[7] == "X" && board[1] == " ")  {omove = 1; break;}//missing top (diagnal) /
+
+else {omove = omovenum(1,9);}
+if (omove < 1 || omove > 9) error = 2;
+if (board[omove] != " ") {error = 2;}
+
+}
+board[omove] = "O";
+drawboard(board);
+//alert('drawboard omove');
+checkX();
+//alert('check x');
+checkO();
+//alert('check o');
+draw1();
+//alert('draw');
+if (a == "yes") {break;}
+if (a == "no") {break;}
+}
+}
+
+function game3() {
+ 
+for (i=1; i<10; i++) board[i]=" "; 
+
+
+drawboard(board); 
+error = 1;
+for (j=0; j<board.length; j++){
+while (error == 1){
+error = 0;
+xmove = Number(prompt("Enter X move:", " "));
+if (xmove == "") {error = 3;a = "no";break; break;}
+if (xmove < 1 || xmove > 9) error = 1;
+if (board[xmove] != " ") error = 1;
+
+}
+if (xmove == "") {break;break;}
+board[xmove] = "X";
+drawboard(board);
+checkX();
+checkO();
+draw1();
+if (a == "yes") {break;}
+if (a == "no") {break;}
+error = 2;
+while (error == 2){
+error = 1;
+
+
+
+if (board[1] == "O" && board[2] == "O" && board[3] == " ")  {omove = 3; break;}//missing right end (horizontal)
+if (board[4] == "O" && board[5] == "O" && board[6] == " ")  {omove = 6; break;}
+if (board[7] == "O" && board[8] == "O" && board[9] == " ")  {omove = 9; break;}
+
+if (board[1] == "O" && board[3] == "O" && board[2] == " ")  {omove = 2; break;}//missing middle (horizontal)
+if (board[3] == "O" && board[5] == "O" && board[7] == " ")  {omove = 7; break;}
+if (board[7] == "O" && board[9] == "O" && board[8] == " ")  {omove = 8; break;}
+
+if (board[2] == "O" && board[3] == "O" && board[1] == " ")  {omove = 1; break;}//missing left end (horizontal)
+if (board[5] == "O" && board[6] == "O" && board[4] == " ")  {omove = 4; break;}
+if (board[8] == "O" && board[9] == "O" && board[7] == " ")  {omove = 7; break;}
+
+if (board[1] == "O" && board[4] == "O" && board[7] == " ")  {omove = 7; break;}//missing bottom one (vertical)
+if (board[2] == "O" && board[5] == "O" && board[8] == " ")  {omove = 8; break;}
+if (board[3] == "O" && board[6] == "O" && board[9] == " ")  {omove = 9; break;}
+
+if (board[1] == "O" && board[7] == "O" && board[4] == " ")  {omove = 4; break;}//missing middle one (vertical)
+if (board[2] == "O" && board[8] == "O" && board[5] == " ")  {omove = 5; break;}
+if (board[3] == "O" && board[9] == "O" && board[6] == " ")  {omove = 6; break;}
+
+if (board[4] == "O" && board[7] == "O" && board[1] == " ")  {omove = 1; break;}//missing top one (vertical)
+if (board[5] == "O" && board[6] == "O" && board[2] == " ")  {omove = 2; break;}
+if (board[6] == "O" && board[9] == "O" && board[3] == " ")  {omove = 3; break;}
+
+if (board[1] == "O" && board[5] == "O" && board[9] == " ")  {omove = 9; break;}//missing bottom (diagnal)\
+if (board[1] == "O" && board[9] == "O" && board[5] == " ")  {omove = 5; break;}//missing middle (diagnal)\
+if (board[5] == "O" && board[9] == "O" && board[1] == " ")  {omove = 1; break;}//missing top (diagnal) \
+
+if (board[3] == "O" && board[5] == "O" && board[7] == " ")  {omove = 7; break;}//missing bottom (diagnal) /
+if (board[3] == "O" && board[7] == "O" && board[5] == " ")  {omove = 5; break;}//missing middle (diagnal) /
+if (board[5] == "O" && board[7] == "O" && board[1] == " ")  {omove = 1; break;}//missing top (diagnal) /
+
+
+
+
+
+
+if (board[1] == "X" && board[2] == "X" && board[3] == " ")  {omove = 3; break;}//missing right end (horizontal)
+if (board[4] == "X" && board[5] == "X" && board[6] == " ")  {omove = 6; break;}
+if (board[7] == "X" && board[8] == "X" && board[9] == " ")  {omove = 9; break;}
+
+if (board[1] == "X" && board[3] == "X" && board[2] == " ")  {omove = 2; break;}//missing middle (horizontal)
+if (board[3] == "X" && board[5] == "X" && board[7] == " ")  {omove = 7; break;}
+if (board[7] == "X" && board[9] == "X" && board[8] == " ")  {omove = 8; break;}
+
+if (board[2] == "X" && board[3] == "X" && board[1] == " ")  {omove = 1; break;}//missing left end (horizontal)
+if (board[5] == "X" && board[6] == "X" && board[4] == " ")  {omove = 4; break;}
+if (board[8] == "X" && board[9] == "X" && board[7] == " ")  {omove = 7; break;}
+
+if (board[1] == "X" && board[4] == "X" && board[7] == " ")  {omove = 7; break;}//missing bottom one (vertical)
+if (board[2] == "X" && board[5] == "X" && board[8] == " ")  {omove = 8; break;}
+if (board[3] == "X" && board[6] == "X" && board[9] == " ")  {omove = 9; break;}
+
+if (board[1] == "X" && board[7] == "X" && board[4] == " ")  {omove = 4; break;}//missing middle one (vertical)
+if (board[2] == "X" && board[8] == "X" && board[5] == " ")  {omove = 5; break;}
+if (board[3] == "X" && board[9] == "X" && board[6] == " ")  {omove = 6; break;}
+
+if (board[4] == "X" && board[7] == "X" && board[1] == " ")  {omove = 1; break;}//missing top one (vertical)
+if (board[5] == "X" && board[6] == "X" && board[2] == " ")  {omove = 2; break;}
+if (board[6] == "X" && board[9] == "X" && board[3] == " ")  {omove = 3; break;}
+
+if (board[1] == "X" && board[5] == "X" && board[9] == " ")  {omove = 9; break;}//missing bottom (diagnal)\
+if (board[1] == "X" && board[9] == "X" && board[5] == " ")  {omove = 5; break;}//missing middle (diagnal)\
+if (board[5] == "X" && board[9] == "X" && board[1] == " ")  {omove = 1; break;}//missing top (diagnal) \
+
+if (board[3] == "X" && board[5] == "X" && board[7] == " ")  {omove = 7; break;}//missing bottom (diagnal) /
+if (board[3] == "X" && board[7] == "X" && board[5] == " ")  {omove = 5; break;}//missing middle (diagnal) /
+if (board[5] == "X" && board[7] == "X" && board[1] == " ")  {omove = 1; break;}//missing top (diagnal) /
+
+else {omove = omovenum(1,9);}
+if (omove < 1 || omove > 9) error = 2;
+if (board[omove] != " ") {error = 2;}
+
+}
+board[omove] = "O";
+drawboard(board);
+//alert('drawboard omove');
+checkX();
+//alert('check x');
+checkO();
+//alert('check o');
+draw1();
+//alert('draw');
+if (a == "yes") {break;}
+if (a == "no") {break;}
+}
+}
+
+
+
+
+function omovenum(min,max)
+{
+    return Math.floor(Math.random()*(max-min+1)+min);
+};
+
+function aprompt(){
+var error2 = 0
+while (error2 == 0){
+a=prompt("Play Again?", "yes").toLowerCase();
+if (a == "yes"|| a == "no") {error2 = 1}
+
+}
+}
+
+
+function checkX(){
+if (board[1] == "X" && board[2] == "X" && board[3] == "X"){ alert("X wins!"); xwin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+if (board[4] == "X" && board[5] == "X" && board[6] == "X"){ alert("X wins!"); xwin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+if (board[7] == "X" && board[8] == "X" && board[9] == "X"){ alert("X wins!"); xwin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+if (board[1] == "X" && board[5] == "X" && board[9] == "X"){ alert("X wins!"); xwin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+if (board[3] == "X" && board[5] == "X" && board[7] == "X"){ alert("X wins!"); xwin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();} 
+if (board[1] == "X" && board[4] == "X" && board[7] == "X"){ alert("X wins!"); xwin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+if (board[2] == "X" && board[5] == "X" && board[8] == "X"){ alert("X wins!"); xwin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();} 
+if (board[3] == "X" && board[6] == "X" && board[9] == "X"){ alert("X wins!"); xwin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+}
+
+function checkO(){
+if (board[1] == "O" && board[2] == "O" && board[3] == "O"){ alert("O wins!");  owin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+if (board[4] == "O" && board[5] == "O" && board[6] == "O"){ alert("O wins!");  owin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+if (board[7] == "O" && board[8] == "O" && board[9] == "O"){ alert("O wins!");  owin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+if (board[1] == "O" && board[5] == "O" && board[9] == "O"){ alert("O wins!");  owin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+if (board[3] == "O" && board[5] == "O" && board[7] == "O"){ alert("O wins!");  owin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+if (board[1] == "O" && board[4] == "O" && board[7] == "O"){ alert("O wins!");  owin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+if (board[2] == "O" && board[5] == "O" && board[8] == "O"){ alert("O wins!");  owin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+if (board[3] == "O" && board[6] == "O" && board[9] == "O"){ alert("O wins!");  owin++;for (i=1; i<10; i++) board[i]=" ";drawboard(board);  aprompt();}
+}
+
+
+function draw1(){
+for (i=1, bcount=0;i<=9;i++)if (board[i]==" ")bcount++;
+if(bcount==0){alert("Draw"); draw++; for (i=1; i<10; i++) board[i]=" "; drawboard(board); aprompt();}
+}
+
+</script>
+</body>
+</html>
