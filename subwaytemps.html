@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="theme-color" content="purple">
+<link rel="stylesheet" type="text/css" href="menu.css" />
+<title>Subway Temps</title>
+<style>
+html{
+background:#595959;}
+
+
+
+table{
+border:.3em solid black;
+background:#ff7373;
+border-radius:3px;
+
+margin: auto;
+}
+
+tr td{
+font-size:2em;
+border:2px solid black;
+border-radius:8px;
+background:#ffffff;
+}
+h1{
+font-family:Courier;
+}
+tr th{
+border:3px solid black;
+background:#ffffff;
+border-radius:3px;
+margin:auto;
+font-size:3em;
+}
+#insult{text-align:center;}
+#pic{height:600px; width:850px;}
+#hours{text-align:center;}
+#vid{text-align:center; color:white}
+}
+
+
+
+</style>
+ <div  id="menu" onclick="slideout()"   ><img id='bars' src='3bar.png' /></div>
+<div id="ham" class="ham-menu"  >
+<img id='bars' src='x.png'  onclick="slideout()"/>
+<ul>
+<li><a href="index.html">Home</a></li>
+<br />
+<li><a href="tictac.html">Tic Tac Touch</a></li>
+<br />
+<li><a href="bingo.html">Bingo!</a></li>
+<br />
+<li><a href="subwaytemps.html">Subway Temperatures</a></li>
+<br />
+<li><a href="memory.html">Memory</a></li>
+<br />
+<li><a href="yatzee.html">Yatzee(beta)</a></li>
+<br />
+<li><a href="binary.html">Binary to Text Converter</a></li>
+</ul>
+</div>
+<script src="menu.js"></script>
+
+<script language="javascript">
+
+function tempNum(min,max) {
+var num1 = Number(Math.random().toFixed(2)*(max-min+1)+min).toFixed(1);
+ return num1
+}
+var person = ["chris t", "josh", "joe", "jay", "trisha", "lulu"]
+ var insultNum = Math.floor(Math.random()*5)+1
+ var insultNum2 = Math.floor(Math.random()*5)
+
+
+</script>
+
+
+
+
+
+
+
+
+</head>
+<body>	
+<script src="menu.js"></script> 
+
+			
+
+		<table>
+		
+		<thead>
+			<tr><th>Food</th>
+			<th>Temps &deg;F</th></tr>
+			</thead>
+            
+            <tbody>
+                <tr>
+                    <td>Meatballs</td>  
+					<td><script>
+document.write(tempNum(165,140));
+</script></td>
+                       
+                </tr>
+				
+				
+				<tr>
+                    <td>Steak</td>  
+					<td><script>
+document.write(tempNum(33,40));
+</script></td>
+                       
+                </tr>
+                
+                <tr>
+                    <td>Chicken Patty</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>
+                </tr>
+                
+                <tr>
+                    <td>Chicken Strips</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>
+                </tr>
+				<tr>
+                    <td>Cheese</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>     
+                </tr>
+                
+                <tr>
+                    <td>Ham</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>
+                </tr>
+                
+                <tr>
+                    <td>Roast Beef</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>
+                </tr>
+				<tr>
+                    <td>Turkey</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>     
+                </tr>
+                
+                <tr>
+                    <td>Cold Cut Combo</td>
+                    <td>       <script>
+document.write(tempNum(33,40));
+</script></td>
+                </tr>
+                
+                <tr>
+                    <td>Local: Crab</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>
+                </tr>
+				<tr>
+                    <td>Tuna</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>     
+                </tr>
+                
+                <tr>
+                    <td>Lettuce</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>
+                </tr>
+                
+                <tr>
+                    <td>Tomato</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>
+                </tr>
+				<tr>
+                    <td>Cucumber</td>  
+					<td><script>
+document.write(tempNum(33,40));
+</script></td>
+                       
+                </tr>
+                
+                <tr>
+                    <td>Green Pepper</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>
+                </tr>
+                
+                <tr>
+                    <td>Onions</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>
+                </tr>
+				<tr>
+                    <td>Sauce</td>
+                    <td><script>
+document.write(tempNum(33,40));
+</script></td>     
+                </tr>
+               
+                
+           
+            </tbody>
+        </table>
+		
+		
+		
+		
+		
+		<span style="color:pink;
+				position:auto;
+				top:65em;"><p>
+				
+<script>
+
+function hours(){
+    var pass = "qwsdweeveewdowen"
+    var pass1 = pass.charAt(3)
+    pass1 += pass.charAt(5)
+    pass1 += pass.charAt(7)
+    pass1 += pass.charAt(12)
+    pass1 += pass.charAt(15)
+    console.log(pass1)
+    var userpass = prompt("Enter password to see schedule");
+    userpass = userpass.toLowerCase()
+    if (userpass != pass1 || userpass != pass1 + " ") userpass = prompt("wrong password, try again")
+    if (userpass == pass1 || userpass == pass1 + " ")  document.getElementById("hours").innerHTML = '<img id="pic" src="schedule_pics/img.jpg" / >'
+}
+				
+
+document.write("<h2 id='insult' onclick='hours()'>")
+if (insultNum == 1)document.write(person[insultNum2] +" makes ear wax sculptures! </br>")
+if (insultNum == 2)document.write(person[insultNum2] +" looks like an ogre! </br>")
+if (insultNum == 3)document.write(person[insultNum2] +" loves licking smelly feet! </br>")
+if (insultNum == 4)document.write(person[insultNum2] +" has stinky breath! </br>")
+if (insultNum == 5)document.write(person[insultNum2] +" sucks eggs! </br>")
+if (insultNum == 6)document.write(person[insultNum2] +" is a hoebag! </br>")
+document.write("</h2>")
+document.write("<div id='hours'></div>")
+</script>
+</p>
+</span>
+
+<div id='vid'>
+<p>A video of Josh eating a fly. You're welcome.</p>
+<video width="320" height="540"  controls>
+  <source src="josh.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+</html>
+

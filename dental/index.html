@@ -1,0 +1,139 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Dental Center - Home</title>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            .parallax-container {
+                height: 350px;
+            }
+            
+            .center {
+                margin: auto;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".dropdown-button").dropdown({
+                    hover: false
+                });
+                $(".button-collapse").sideNav();
+                $(".carousel.carousel-slider").carousel({
+                    full_width: true
+                });
+                $('.parallax').parallax();
+
+
+                window.onload = function(event) {
+                    //  alert(document.location );
+                }
+            });
+        </script>
+
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="services.html#lumineers">Lumineers</a></li>
+            <li><a href="#!">CERREC</a></li>
+            <li><a href="services.html#sleep">Sleep Apnea</a></li>
+            <li><a href="#!">Sedation Dentistry</a></li>
+            <li><a href="#!">Teeth Whitening</a></li>
+            <li><a href="#!">Oral Cancer Screening</a></li>
+            <li><a href="#!">Lumibrite Whitening</a></li>
+            <li><a href="#!">ZOOM!</a></li>
+        </ul>
+
+        <ul id="dropdown_mobile" class="dropdown-content">
+            <li><a href="services.html#lumineers">Lumineers</a></li>
+            <li><a href="#!">CERREC</a></li>
+            <li><a href="services.html#sleep">Sleep Apnea</a></li>
+            <li><a href="#!">Sedation Dentistry</a></li>
+            <li><a href="#!">Teeth Whitening</a></li>
+            <li><a href="#!">Oral Cancer Screening</a></li>
+            <li><a href="#!">Lumibrite Whitening</a></li>
+            <li><a href="#!">ZOOM!</a></li>
+        </ul>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper blue darken-4">
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <a href="#!" class="brand-logo">&nbsp;&nbsp;Dental Center</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="doctor.html">The Doctor</a></li>
+                        <li><a href="visit.html">Your First Visit</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Services<i
+                  class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+
+                    <ul class="side-nav" id="mobile-demo">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="doctor.html">The Doctor</a></li>
+                        <li><a href="visit.html">Your First Visit</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown_mobile">Services<i
+                  class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <img class="materialboxed center z-depth-2" width="80%" height="60%" src="teeth.jpg">
+        </div>
+
+
+
+
+        <div class="row z-depth-2" ">
+        <div class=" col s12 m12 l12 ">
+      <div class="card ">
+        <div class="card-content blue darken-3 ">
+          <span class="card-title center ">
+            <h1>Welcome to Dental Center</h1>
+          </span>
+          <h3 class="center ">What makes our practice unique?</h3>
+          <ul class="collection ">
+            <li class="collection-item grey lighten-2 ">We deliver quality comprehensive dental care, providing patients
+              with early detection, diagnosis, and treatment of oral health issues.</li>
+            <li class="collection-item grey lighten-3 ">Our office new technology to diagnose tooth decay, gum disease,
+              oral cancers, and other oral health issues in order to provide <a href="treatments.html ">better
+                treatments</a> that
+              protect and preserve your teeth.</li>
+            <li class="collection-item grey lighten-2 ">Our practice has convenient <a href="contact.html ">office
+                hours</a>, making it easy for our patients to make appointments without rearranging their already busy
+              schedules.</li>
+            <li class="collection-item grey lighten-3 ">We are straightforward, thorough, and informative. Patients are
+              never left in the dark; we keep our patients informed of their progress every step of the way.</li>
+          </ul>
+          <p class="center ">Our goal is to deliver the best dental treatments, sooner. We want our patients to
+            experience the benefits of a healthier mouth and a healthier smile.</p>
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+
+
+
+    <div>
+      <p style="text-align:center ">Copyright &copy; 2016 Dental Center. Site built by <a
+          href="mailto:hearmewhisper@gmail.com " style="text-decoration:none; color:black ">Chris Edwards</a> </p>
+    </div>
+
+
+  </body>
+
+  </html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--All artwork done by Angela Tabor. Not to be used or reproduced without permission. -->
+<!--Card flip animation by Chris Theil-->
+<title>Test YOUR Memory</title>
+<meta name="theme-color" content="#00FFAA">
+<link rel="stylesheet" type="text/css" href="menu.css" />
+<link rel="icon" type="image/ico" href="mem.ico">
+<script src="menu.js"></script>
+<style>
+#mainboard{float:left;}
+#score{float:right;}
+.cells:hover{-moz-box-shadow: 0 0 10px #000;
+ -webkit-box-shadow: 0 0 10px #000;
+ box-shadow: 0 0 10px #000;}
+img{height:150px; width:150px; }
+td{background-color:blue; height:80px; width:80px  }
+body{background-color:#00FFAA}
+.cells{height:150px;
+	width:150px;
+}
+.pics{opacity:0;}
+.pics2{opacity:1;}
+.pics3{opacity:1;}
+
+
+
+#game{ margin: 0px auto;}
+</style>
+</head>
+
+<body>
+  <div  id="menu" onclick="slideout()"   ><img id='bars' src='3bar.png' /></div>
+
+<div id="ham" class="ham-menu"  >
+<img id='bars' src='x.png'  onclick="slideout()"/>
+<ul>
+<li><a href="index.html">Home</a></li>
+<br />
+<li><a href="tictac.html">Tic Tac Touch</a></li>
+<br />
+<li><a href="bingo.html">Bingo!</a></li>
+<br />
+<li><a href="subwaytemps.html">Subway Temperatures</a></li>
+<br />
+<li><a href="memory.html">Memory(beta)</a></li>
+</ul>
+</div>
+<br />
+<br />
+<br />
+<div id="score">Number of turns:</div>
+<div id="main_board"></div>
+<script type="text/javascript">
+var rows, columns, j, i, p
+var board = new Array();
+var num_squares = 0
+var checked1
+var checked2
+var count1 = 1
+var src1, src2
+id1 = 0
+id2 = 0
+var k, game_end
+var score =0
+
+for (i=0; i<=19; i++) { board[i] = new Array(2);}
+
+
+rows = 5
+columns = 5
+function drawboard(ary){
+
+for( i=0, j=10; i<=9; i++, j++){board[i][0] = '<img  class="pics" id="img'+i+'" src="mer/mem_img'+i+'.jpg"  onclick="cSwap(this)" />'; board[i][1] = false;
+board[j][0] = '<img  class="pics" id="img'+j+'" src="mer/mem_img'+i+'.jpg"  onclick="cSwap(this)" />'; board[j][1] = false;}
+console.log(board);
+board.shuffle();
+console.log(board.length);
+document.getElementById("main_board").innerHTML = ""
+str = ""
+str += '<div id="game_div"><table id="game"  style=" color:#1A1A1A" border="5px" ">'
+
+for(p = 1, q=0; p < rows; p++){
+  
+   str += '<tr>'
+   for (j = 0; j < columns; q++,j++){
+      str += '<td  class="cells" id="cell'+q+'">' +ary[q][0]+'</td>';
+      
+   }
+   str += '</tr>'
+   
+}
+
+str += '</table></div>'
+document.getElementById("main_board").innerHTML =str
+
+}
+
+Array.prototype.shuffle = function() {
+    var input = this;
+    for (var i = input.length-1; i >=0; i--) {
+        var randomIndex = Math.floor(Math.random()*(i+1));
+        var itemAtIndex = input[randomIndex];  
+        input[randomIndex] = input[i];
+        input[i] = itemAtIndex;   }
+    
+    return input;
+    
+}
+function cSwap(cell){ 
+if (cell.className != "pics3"){
+    if (cell.className == "pics" && num_squares <2 )
+       { cell.className = "pics2"; num_squares++ ; }
+    else if (cell.className == "pics2")
+        {cell.className = "pics"; num_squares--;if (num_squares ==2) num_squares = 0; };
+for(i=0; i<=board.length-1; i++) {
+
+    if (document.getElementById('img'+i).className == "pics2") {board[i][1] = true;  }
+    if (document.getElementById('img'+i).className == "pics") board[i][1] = false;
+    if (document.getElementById('img'+i).className == "pics3") board[i][1] = false;      
+    
+    }
+if (num_squares == 2){
+k = 0;
+for (i=0; i<board.length; i++){
+
+ if (board[i][1] == true) {
+ if (k == 0) {src1 = document.getElementById('img'+i).src; id1= i ; console.log("src1 "+k)}
+ if (k == 1) {src2 = document.getElementById('img'+i).src; id2 = i ;console.log("src2 "+k)}
+k++;console.log("k"+k)
+   }
+}
+
+document.getElementById('img'+id1).removeAttribute("onclick");
+document.getElementById('img'+id2).removeAttribute("onclick")
+console.log(document.getElementById('img'+id2))
+if (src1 == src2) {document.getElementById('img'+id1).className = 'pics3'; document.getElementById('img'+id2).className = 'pics3'; num_squares = 0; src1 = ""; src2 = ""; document.getElementById('img'+id1).setAttribute("onclick", "cSwap(this)");document.getElementById('img'+id2).setAttribute("onclick", "cSwap(this)")}
+if (src1 != src2) {setTimeout(function(){ if (document.getElementById('img'+id1).className == 'pics2' && document.getElementById('img'+id2).className == 'pics2' ){ document.getElementById('img'+id1).className = 'pics'; document.getElementById('img'+id2).className = 'pics'; num_squares = 0; src1 = ""; src2 = ""; document.getElementById('img'+id1).setAttribute("onclick", "cSwap(this)");document.getElementById('img'+id2).setAttribute("onclick", "cSwap(this)");}}, 750)
+}
+
+}
+ game_end = 0;
+for (i=0; i<board.length; i++){
+if (document.getElementById('img'+i).className == "pics3") game_end++;}
+if (game_end == 20) alert("You Win!");
+document.getElementById("score").innerHTML = "Number of turns: "+score
+//alert(game_end)
+}   
+}
+
+drawboard(board);
+
+</script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Chris' WebSite</title>
+<link rel="icon" type="image/x-icon" href="http://hearmewhisper.ddns.net/games.ico">
+<link rel="stylesheet" type="text/css" href="menu.css" />
+<style>
+
+h1{text-align:center}
+p{text-align:center}
+hr{color:white}
+body{background-color:gray;}
+#contact a{color:white;}
+#contact { text-align:center;}
+#blog{ text-align:center}
+#blogpic{height:75px; width:75px;}
+.thiel{text-align:center; }
+.thiel a{color:white}
+
+</style>
+</head>
+
+
+<body>
+
+  <div  id="menu" onclick="slideout()"   ><img id='bars' src='3bar.png' /></div>
+<div id="ham" class="ham-menu"  >
+<img id='bars' src='x.png'  onclick="slideout()"/>
+<ul>
+<li><a href="index.html">Home</a></li>
+<br />
+<li><a href="tictac.html">Tic Tac Touch</a></li>
+<br />
+<li><a href="bingo.html">Bingo!</a></li>
+<br />
+<li><a href="subwaytemps.html">Subway Temperatures</a></li>
+<br />
+<li><a href="memory.html">Memory</a></li>
+<br />
+<li><a href="yatzee.html">Yatzee(beta)</a></li>
+<br />
+<li><a href="binary.html">Binary to Text Converter</a></li>
+</ul>
+</div>
+<script src="menu.js"></script>
+<div id="wrapper">
+
+<br style="clear:both" />
+<h1>Welcome!  Please take your time to look around!</h1>
+
+<p>My name is Chris and I created this site to practice my skills writing code.  These sites are written from scratch using HTML5, CSS, and JavaScript.</p>
+
+<span id="contact"><h2>Contact Email: <a href='mailto:hearmewhisper@gmail.com?Subject=WebSite'>HearMeWhisper.gmail.com</a></h2></span>
+<hr />
+
+<h2 class="thiel">This next page is a blog by Christopher Thiel. It is maintained by him and him alone.</h2>
+<h4 class="thiel">You can contact him at <a href='mailto:christopherthiel95@gmail.com?Subject=WebSite/Blog'>ChristopherThiel95.gmail.com</a></h4>
+<div id="blog"><a href="chrisblog/thiel_index.html"> <img id="blogpic" src="blog.png" /></a></div>
+<hr />  
+
+<h2 class="thiel">Screenshots</h2>
+<div class="thiel">
+<div id='srctic' style='margin:25px; float:left'>
+<p >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Tic Tac Touch</p>
+<a href="tictac.html" ><img src="tictac.png" style="width:304px;height:228px"></a>
+</div>
+<div id='srcbingo' style='margin:25px; float:left'>
+<p >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Bingo</p>
+<a href="bingo.html"><img src="bingo.png" style="width:304px;height:228px"></a>
+</div>
+<div id='srctemp' style='margin:25px; float:left'>
+<p >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Subway Temps</p>
+<a href="subwaytemps.html"><img src="subway.png" style="width:304px;height:228px"></a>
+</div>
+<div id='srcmem' style='margin:25px; float:left'>
+<p >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Memory(beta)</p>
+<a href="memory.html" ><img src="memory.png" style="width:304px;height:228px"></a>
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
+

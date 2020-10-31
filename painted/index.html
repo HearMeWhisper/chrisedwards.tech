@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painted You - Facepainting and Balloon Twisting - Party Entertainment</title>
+    <link rel="shortcut icon" href="/assets/images/logo.png" />
+    <link rel="stylesheet" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper pink lighten-2">
+                    <img class="brand-logo" src="assets/images/logo.png" class="logo" alt="logo">
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="https://beachpartyballoons.com">Balloon Decor</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="https://beachpartyballoons.com">Balloon Decor</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="col s12 m12">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/indexpic.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Painted You, Creative Entertainment provides professional party services both in the baltimore/dc
+                        area
+                        and
+                        connecticut
+                        (New Haven, Fairfield, Hartford). our trusted team of local experienced artists like face
+                        painters and
+                        balloon twisters
+                        In CT and MD are available for virtually any occasion from fun company picnics to birthday
+                        parties.
+                        scroll
+                        down to see
+                        more services!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m12">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/facepainting.jpg" alt="">
+                    <span class="card-title">Face Painting</span>
+                </div>
+                <div class="card-content">
+                    <p>Our professional face painters in Connecicut and Maryland are friendly and professional. Our
+                        water based
+                        hypollergenic
+                        face painting is good for indoor or outdoor events. We offer fast face painting designs and
+                        fancy
+                        options, even makeup
+                        appointments.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m12">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/boysfacepaintingl.jpg" alt="">
+                    <span class="card-title">Balloon Twisting</span>
+                </div>
+                <div class="card-content">
+                    <p>Balloon twisting is one of our most popular services for all ages. We have balloon artists who
+                        can make
+                        almost anything
+                        from balloon dogs to fancy balloon hats, superheroes and even princesses. A balloon man is a
+                        great
+                        choice for any event!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {
+                edge: 'left',
+                draggable: true,
+                inDuration: 250,
+                outDuration: 200,
+                onOpenStart: null,
+                onOpenEnd: null,
+                onCloseStart: null,
+                onCloseEnd: null,
+                preventScrolling: true
+            });
+        });
+    </script>
+</body>
+
+</html>

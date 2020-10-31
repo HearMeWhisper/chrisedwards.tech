@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="dice.css" />
+    <link rel="stylesheet" type="text/css" href="../menu.css" />
+    <meta charset="UTF-8">
+    <title>Roll Dice</title>
+
+</head>
+
+
+<body>
+
+    <div id="nav_menu">
+    </div>
+    <script src="../menu.js"></script>
+    <br /><br /><br />
+    <div id="diceContainer">
+        <span id="die1"></span>
+        <span id="die2"></span>
+        <span id="die3"></span>
+        <span id="die4"></span>
+        <span id="die5"></span>
+        <span id="die6"></span>
+    </div>
+    <br />
+    <br />
+    <div id="shuffleButton">
+        <button type="button" onclick="die_gif()" name="button">Shufle Dice!</button>
+    </div>
+
+    <div id="numberOfDiceSelection">
+        <input onclick="changeNumberofDice()" type="radio" name="number" value="1">1
+        <input onclick="changeNumberofDice()" checked="checked" type="radio" name="number" value="2">2
+        <input onclick="changeNumberofDice()" type="radio" name="number" value="3">3
+        <input onclick="changeNumberofDice()" type="radio" name="number" value="4">4
+        <input onclick="changeNumberofDice()" type="radio" name="number" value="5">5
+        <input onclick="changeNumberofDice()" type="radio" name="number" value="6">6
+    </div>
+    <br>
+    <br>
+    <div id="numbers"></div>
+
+    <script type="text/javascript" src="dice.js">
+    </script>
+
+
+</body>
+
+</html>

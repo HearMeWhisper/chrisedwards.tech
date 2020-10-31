@@ -1,0 +1,1814 @@
+<?xml version="1.0"?>
+<root ptr="0x557b42b3e300" id="0" symbol="11SwRootFrame" lower="1">
+ <sfxViewShells>
+  <SwView>
+   <SfxViewShell ptr="0x557b42d576b0" id="0"/>
+   <SwCursorShell>
+    <SwViewShell/>
+    <m_pCurrentCursor>
+     <SwPaM>
+      <point>
+       <SwPosition nNode="58" nContent="0"/>
+      </point>
+     </SwPaM>
+    </m_pCurrentCursor>
+   </SwCursorShell>
+  </SwView>
+ </sfxViewShells>
+ <infos>
+  <bounds left="284" top="284" width="18836" height="15840" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+  <prtBounds left="0" top="0" width="18836" height="15840"/>
+ </infos>
+ <page ptr="0x557b42a76050" id="1" symbol="11SwPageFrame" upper="0" lower="2">
+  <page_status ValidFlyLayout="true" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="true" ValidContent="true"/>
+  <infos>
+   <bounds left="6880" top="284" width="12240" height="15840" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="0" top="0" width="12240" height="15840"/>
+  </infos>
+  <body ptr="0x557b42a6bfb0" id="2" symbol="11SwBodyFrame" upper="1" lower="3">
+   <infos>
+    <bounds left="6880" top="284" width="12240" height="15840" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="12240" height="15840"/>
+   </infos>
+   <txt ptr="0x557b42d45520" id="3" symbol="11SwTextFrame" next="4" upper="2" txtNodeIndex="58" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="284" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <anchored>
+     <SwAnchoredDrawObject ptr="0x557b429818b0">
+      <bounds left="6879" top="284" width="4086" height="15873"/>
+      <SdrObject ptr="0x557b429b4720" symbol="17SdrObjCustomShape" name="Rectangle 2" title="" description="" nOrdNum="3" aOutRect="6879, 284, 4085, 15872">
+       <DefaultProperties>
+        <BaseProperties/>
+        <SfxItemSet>
+         <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+         <SfxInt32Item whichId="1002" value="15"/>
+         <SfxPoolItem whichId="1012" typeName="12XLineCapItem" presentation="L"/>
+         <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+         <XFillColorItem whichId="1015" value="2c2c2c"/>
+         <SfxBoolItem whichId="1047" value="on"/>
+         <NameOrIndex whichId="1048" isIndex="false" name="" index="-1"/>
+         <SfxInt32Item whichId="1049" value="0"/>
+         <SfxInt32Item whichId="1050" value="32"/>
+         <SfxUInt16Item whichId="1051" value="62"/>
+         <SfxInt32Item whichId="1065" value="15699"/>
+         <SfxBoolItem whichId="1066" value="off"/>
+         <SfxInt32Item whichId="1068" value="142"/>
+         <SfxInt32Item whichId="1069" value="142"/>
+         <SfxInt32Item whichId="1070" value="71"/>
+         <SfxInt32Item whichId="1071" value="71"/>
+         <SdrTextVertAdjustItem whichId="1072" value="0"/>
+         <SfxInt32Item whichId="1074" value="3802"/>
+         <SfxBoolItem whichId="1088" value="on"/>
+         <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+         <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+         <SvxFontHeightItem whichId="4026" height="360" prop="100" propUnit="13"/>
+        </SfxItemSet>
+       </DefaultProperties>
+      </SdrObject>
+     </SwAnchoredDrawObject>
+    </anchored>
+­    <Special nLength="1" nType="PortionType::SoftHyphenComp" rText="-"/>
+    <LineBreak Line="-"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42cf0f80" id="4" symbol="11SwTextFrame" next="5" prev="3" upper="2" txtNodeIndex="59" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="565" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <anchored>
+     <SwAnchoredDrawObject ptr="0x557b42b2ca90">
+      <bounds left="10965" top="643" width="8153" height="2528"/>
+      <SdrObject ptr="0x557b42b238d0" symbol="17SdrObjCustomShape" name="Rectangle 11" title="" description="" nOrdNum="4" aOutRect="10965, 643, 8152, 2527">
+       <DefaultProperties>
+        <BaseProperties/>
+        <SfxItemSet>
+         <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+         <SfxInt32Item whichId="1002" value="15"/>
+         <SfxPoolItem whichId="1012" typeName="12XLineCapItem" presentation="L"/>
+         <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+         <XFillColorItem whichId="1015" value="f2f2f2"/>
+         <SfxBoolItem whichId="1047" value="on"/>
+         <NameOrIndex whichId="1048" isIndex="false" name="" index="-1"/>
+         <SfxInt32Item whichId="1049" value="0"/>
+         <SfxInt32Item whichId="1050" value="32"/>
+         <SfxUInt16Item whichId="1051" value="62"/>
+         <SfxInt32Item whichId="1065" value="2354"/>
+         <SfxBoolItem whichId="1066" value="off"/>
+         <SfxInt32Item whichId="1068" value="142"/>
+         <SfxInt32Item whichId="1069" value="142"/>
+         <SfxInt32Item whichId="1070" value="71"/>
+         <SfxInt32Item whichId="1071" value="71"/>
+         <SdrTextVertAdjustItem whichId="1072" value="0"/>
+         <SfxInt32Item whichId="1074" value="7869"/>
+         <SfxBoolItem whichId="1088" value="on"/>
+         <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+         <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+         <SvxFontHeightItem whichId="4026" height="360" prop="100" propUnit="13"/>
+        </SfxItemSet>
+       </DefaultProperties>
+      </SdrObject>
+     </SwAnchoredDrawObject>
+    </anchored>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42d03fa0" id="5" symbol="11SwTextFrame" next="6" prev="4" upper="2" txtNodeIndex="60" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="846" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x557b4281cf40" id="61" symbol="19SwFlyAtContentFrame" lower="62">
+      <infos>
+       <bounds left="10888" top="958" width="8231" height="3190" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="8231" height="3190"/>
+      </infos>
+      <txt ptr="0x557b42a85b40" id="62" symbol="11SwTextFrame" next="63" upper="61" txtNodeIndex="6" WritingMode="Horizontal">
+       <infos>
+        <bounds left="10888" top="958" width="8231" height="2748" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8231" height="2748"/>
+       </infos>
+WILLIAM HENRY       <Text nLength="8" nType="PortionType::Para" nHeight="1374" nWidth="5728" Portion="WILLIAM "/>
+       <LineBreak nWidth="5728" Line="WILLIAM "/>
+       <Text nLength="5" nType="PortionType::Text" nHeight="1374" nWidth="4181" Portion="HENRY"/>
+       <LineBreak nWidth="4181" Line="HENRY"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42a826d0" id="63" symbol="11SwTextFrame" prev="62" upper="61" txtNodeIndex="7" WritingMode="Horizontal">
+       <infos>
+        <bounds left="10888" top="3706" width="8231" height="442" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8231" height="442"/>
+       </infos>
+SELF-DIRECTED VIRTUOSO WITH DIVERSE SKILLS       <Text nLength="36" nType="PortionType::Para" nHeight="221" nWidth="7542" Portion="SELF-DIRECTED VIRTUOSO WITH DIVERSE "/>
+       <LineBreak nWidth="7542" Line="SELF-DIRECTED VIRTUOSO WITH DIVERSE "/>
+       <Text nLength="6" nType="PortionType::Text" nHeight="221" nWidth="1134" Portion="SKILLS"/>
+       <LineBreak nWidth="1134" Line="SKILLS"/>
+       <Finish/>
+      </txt>
+     </fly>
+     <SwAnchoredDrawObject ptr="0x557b429608f0">
+      <bounds left="11095" top="958" width="8231" height="3189"/>
+      <SdrObject ptr="0x557b42b208c0" symbol="17SdrObjCustomShape" name="Text Box 15" title="" description="" nOrdNum="6" aOutRect="11095, 958, 8230, 3188">
+       <DefaultProperties>
+        <BaseProperties/>
+        <SfxItemSet>
+         <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+         <SfxInt32Item whichId="1002" value="0"/>
+         <XFillStyleItem whichId="1014" value="0" presentation="None"/>
+         <SfxInt32Item whichId="1065" value="0"/>
+         <SfxBoolItem whichId="1066" value="on"/>
+         <SfxInt32Item whichId="1068" value="0"/>
+         <SfxInt32Item whichId="1069" value="0"/>
+         <SfxInt32Item whichId="1070" value="0"/>
+         <SfxInt32Item whichId="1071" value="0"/>
+         <SdrTextVertAdjustItem whichId="1072" value="0"/>
+         <SfxInt32Item whichId="1074" value="0"/>
+         <SfxBoolItem whichId="1088" value="on"/>
+         <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+         <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+         <SvxColorItem whichId="4024" value="Black"/>
+         <SvxFontHeightItem whichId="4026" height="360" prop="100" propUnit="13"/>
+        </SfxItemSet>
+       </DefaultProperties>
+      </SdrObject>
+     </SwAnchoredDrawObject>
+     <SwAnchoredDrawObject ptr="0x557b429c0580">
+      <bounds left="7600" top="644" width="3011" height="3047"/>
+      <SdrObject ptr="0x557b42b20ab0" symbol="17SdrObjCustomShape" name="Rectangle 14" title="" description="" nOrdNum="5" aOutRect="7600, 644, 3010, 3046">
+       <DefaultProperties>
+        <BaseProperties/>
+        <SfxItemSet>
+         <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+         <SfxInt32Item whichId="1002" value="15"/>
+         <SfxPoolItem whichId="1012" typeName="12XLineCapItem" presentation="L"/>
+         <XFillStyleItem whichId="1014" value="4" presentation="Bitmap"/>
+         <XFillBitmapItem whichId="1018">
+          <NameOrIndex whichId="1018" isIndex="false" name="msFillBitmap 1" index="-1"/>
+         </XFillBitmapItem>
+         <XFillBmpTileItem whichId="1021" value="false"/>
+         <XFillBmpStretchItem whichId="1030" value="true"/>
+         <SfxBoolItem whichId="1047" value="on"/>
+         <NameOrIndex whichId="1048" isIndex="false" name="" index="-1"/>
+         <SfxInt32Item whichId="1049" value="0"/>
+         <SfxInt32Item whichId="1050" value="36"/>
+         <SfxUInt16Item whichId="1051" value="65"/>
+         <SfxInt32Item whichId="1065" value="2869"/>
+         <SfxBoolItem whichId="1066" value="off"/>
+         <SfxInt32Item whichId="1068" value="142"/>
+         <SfxInt32Item whichId="1069" value="142"/>
+         <SfxInt32Item whichId="1070" value="71"/>
+         <SfxInt32Item whichId="1071" value="71"/>
+         <SdrTextVertAdjustItem whichId="1072" value="0"/>
+         <SfxInt32Item whichId="1074" value="2727"/>
+         <SfxBoolItem whichId="1088" value="on"/>
+         <SfxPoolItem whichId="1170" typeName="15SdrGrafCropItem" presentation="L"/>
+         <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+         <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+         <SvxFontHeightItem whichId="4026" height="360" prop="100" propUnit="13"/>
+        </SfxItemSet>
+       </DefaultProperties>
+      </SdrObject>
+     </SwAnchoredDrawObject>
+    </anchored>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a996d0" id="6" symbol="11SwTextFrame" next="7" prev="5" upper="2" txtNodeIndex="61" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="1127" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a192f0" id="7" symbol="11SwTextFrame" next="8" prev="6" upper="2" txtNodeIndex="62" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="1408" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a31d80" id="8" symbol="11SwTextFrame" next="9" prev="7" upper="2" txtNodeIndex="63" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="1689" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a4a370" id="9" symbol="11SwTextFrame" next="10" prev="8" upper="2" txtNodeIndex="64" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="1970" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a6cb60" id="10" symbol="11SwTextFrame" next="11" prev="9" upper="2" txtNodeIndex="65" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="2251" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a71fd0" id="11" symbol="11SwTextFrame" next="12" prev="10" upper="2" txtNodeIndex="66" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="2532" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a76d00" id="12" symbol="11SwTextFrame" next="13" prev="11" upper="2" txtNodeIndex="67" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="2813" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a84b30" id="13" symbol="11SwTextFrame" next="14" prev="12" upper="2" txtNodeIndex="68" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="3094" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+­    <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="12241"/>
+    <Special nLength="1" nType="PortionType::SoftHyphenComp" rText="-"/>
+    <Special nLength="0" nType="PortionType::Margin" rText=""/>
+    <LineBreak nWidth="12241" Line="-"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a39520" id="14" symbol="11SwTextFrame" next="15" prev="13" upper="2" txtNodeIndex="69" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="3375" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x557b42d31b20" id="64" symbol="19SwFlyAtContentFrame" lower="65">
+      <infos>
+       <bounds left="11337" top="3404" width="7030" height="11775" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="7030" height="11775"/>
+      </infos>
+      <txt ptr="0x557b42a2f3a0" id="65" symbol="11SwTextFrame" next="66" upper="64" txtNodeIndex="10" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="3404" width="7030" height="346" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="7030" height="326"/>
+       </infos>
+PROFESSIONAL PROFILE       <Text nLength="20" nType="PortionType::Text" nHeight="326" nWidth="4336" Portion="PROFESSIONAL PROFILE"/>
+       <LineBreak nWidth="4336" Line="PROFESSIONAL PROFILE"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42a16370" id="66" symbol="11SwTextFrame" next="67" prev="65" upper="64" txtNodeIndex="11" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="3750" width="7030" height="1741" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="288" width="7030" height="1453"/>
+       </infos>
+Highly motivated and energetic hands-on individual. Has been given autonomy to make decisions in multiple roles, as well as manage teams. Consistently demonstrates efficient time management and selected to train colleagues on company procedures. Has a strong track record of managerial and leadership qualities. Published materials on two different educational websites.       <Text nLength="67" nType="PortionType::Para" nHeight="233" nWidth="6941" Portion="Highly motivated and energetic hands-on individual. Has been given "/>
+       <LineBreak nWidth="6941" Line="Highly motivated and energetic hands-on individual. Has been given "/>
+       <Text nLength="64" nType="PortionType::Lay" nHeight="233" nWidth="6614" Portion="autonomy to make decisions in multiple roles, as well as manage "/>
+       <LineBreak nWidth="6614" Line="autonomy to make decisions in multiple roles, as well as manage "/>
+       <Text nLength="63" nType="PortionType::Lay" nHeight="233" nWidth="6730" Portion="teams. Consistently demonstrates efficient time management and "/>
+       <LineBreak nWidth="6730" Line="teams. Consistently demonstrates efficient time management and "/>
+       <Text nLength="65" nType="PortionType::Lay" nHeight="233" nWidth="6718" Portion="selected to train colleagues on company procedures. Has a strong "/>
+       <LineBreak nWidth="6718" Line="selected to train colleagues on company procedures. Has a strong "/>
+       <Text nLength="63" nType="PortionType::Lay" nHeight="233" nWidth="6290" Portion="track record of managerial and leadership qualities. Published "/>
+       <LineBreak nWidth="6290" Line="track record of managerial and leadership qualities. Published "/>
+       <Text nLength="48" nType="PortionType::Lay" nHeight="233" nWidth="4836" Portion="materials on two different educational websites."/>
+       <LineBreak nWidth="4836" Line="materials on two different educational websites."/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42a1fdf0" id="67" symbol="11SwTextFrame" next="68" prev="66" upper="64" txtNodeIndex="12" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="5491" width="7030" height="244" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="11" width="7030" height="233"/>
+       </infos>
+       <Text nLength="0" nType="PortionType::Para" nHeight="233"/>
+       <LineBreak/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b427b5920" id="68" symbol="11SwTextFrame" next="69" prev="67" upper="64" txtNodeIndex="13" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="5735" width="7030" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="7030" height="233"/>
+       </infos>
+       <Text nLength="0" nType="PortionType::Para" nHeight="233"/>
+       <LineBreak/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b4286b6e0" id="69" symbol="11SwTextFrame" next="70" prev="68" upper="64" txtNodeIndex="14" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="6002" width="7030" height="620" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="274" width="7030" height="326"/>
+       </infos>
+RELEVANT WORK EXPERIENCE       <Text nLength="24" nType="PortionType::Text" nHeight="326" nWidth="5403" Portion="RELEVANT WORK EXPERIENCE"/>
+       <LineBreak nWidth="5403" Line="RELEVANT WORK EXPERIENCE"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b428779a0" id="70" symbol="11SwTextFrame" next="71" prev="69" upper="64" txtNodeIndex="15" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="6622" width="7030" height="521" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="288" width="7030" height="233"/>
+       </infos>
+STORE TRAINER AND ASSISTANT HR MANAGER       <Text nLength="38" nType="PortionType::Para" nHeight="233" nWidth="4688" Portion="STORE TRAINER AND ASSISTANT HR MANAGER"/>
+       <LineBreak nWidth="4688" Line="STORE TRAINER AND ASSISTANT HR MANAGER"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b428279e0" id="71" symbol="11SwTextFrame" next="72" prev="70" upper="64" txtNodeIndex="16" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="7143" width="7030" height="507" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="274" width="7030" height="233"/>
+       </infos>
+Boscov’s | Milford, CT | Jul 2018- May 2020       <Text nLength="29" nType="PortionType::Text" nHeight="233" nWidth="2646" Portion="Boscov&#x2019;s | Milford, CT | Jul "/>
+       <Text nLength="4" nType="PortionType::Text" nHeight="233" nWidth="509" Portion="2018"/>
+       <Text nLength="10" nType="PortionType::Text" nHeight="233" nWidth="1121" Portion="- May 2020"/>
+       <LineBreak nWidth="4276" Line="Boscov&#x2019;s | Milford, CT | Jul 2018- May 2020"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42995580" id="72" symbol="11SwTextFrame" next="73" prev="71" upper="64" txtNodeIndex="17" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="7650" width="7030" height="2196" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="94" width="7030" height="2102"/>
+       </infos>
+Directed all new hires and provided ongoing training on register procedures and company-specific policies. Promoted after store opening in October 2018 to Staff Scheduler, Assistant Human Resource Manager, and Acting Furniture Manager. Created and generated staffing schedule based on projected business needs. Assisted in cash office to resolve overages and shortages. Worked in absence of receiving manager to ensure shipment was distributed properly, while implementing safety protocols.       <Text nLength="65" nType="PortionType::Para" nHeight="233" nWidth="6493" Portion="Directed all new hires and provided ongoing training on register "/>
+       <LineBreak nWidth="6493" Line="Directed all new hires and provided ongoing training on register "/>
+       <Text nLength="63" nType="PortionType::Lay" nHeight="233" nWidth="6472" Portion="procedures and company-specific policies. Promoted after store "/>
+       <LineBreak nWidth="6472" Line="procedures and company-specific policies. Promoted after store "/>
+       <Text nLength="60" nType="PortionType::Lay" nHeight="233" nWidth="6236" Portion="opening in October 2018 to Staff Scheduler, Assistant Human "/>
+       <LineBreak nWidth="6236" Line="opening in October 2018 to Staff Scheduler, Assistant Human "/>
+       <Text nLength="60" nType="PortionType::Lay" nHeight="233" nWidth="6419" Portion="Resource Manager, and Acting Furniture Manager. Created and "/>
+       <LineBreak nWidth="6419" Line="Resource Manager, and Acting Furniture Manager. Created and "/>
+       <Text nLength="63" nType="PortionType::Lay" nHeight="233" nWidth="6530" Portion="generated staffing schedule based on projected business needs. "/>
+       <LineBreak nWidth="6530" Line="generated staffing schedule based on projected business needs. "/>
+       <Text nLength="69" nType="PortionType::Lay" nHeight="233" nWidth="6959" Portion="Assisted in cash office to resolve overages and shortages. Worked in "/>
+       <LineBreak nWidth="6959" Line="Assisted in cash office to resolve overages and shortages. Worked in "/>
+       <Text nLength="64" nType="PortionType::Lay" nHeight="233" nWidth="6720" Portion="absence of receiving manager to ensure shipment was distributed "/>
+       <LineBreak nWidth="6720" Line="absence of receiving manager to ensure shipment was distributed "/>
+       <Text nLength="46" nType="PortionType::Lay" nHeight="233" nWidth="4672" Portion="properly, while implementing safety protocols."/>
+       <LineBreak nWidth="4672" Line="properly, while implementing safety protocols."/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b4294a820" id="73" symbol="11SwTextFrame" next="74" prev="72" upper="64" txtNodeIndex="18" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="9846" width="7030" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="7030" height="233"/>
+       </infos>
+       <Text nLength="0" nType="PortionType::Para" nHeight="233"/>
+       <LineBreak/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b428183b0" id="74" symbol="11SwTextFrame" next="75" prev="73" upper="64" txtNodeIndex="19" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="10113" width="7030" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="7030" height="233"/>
+       </infos>
+MEN’S AND BOY’S RECEIVING LEAD       <Text nLength="30" nType="PortionType::Para" nHeight="233" nWidth="3546" Portion="MEN&#x2019;S AND BOY&#x2019;S RECEIVING LEAD"/>
+       <LineBreak nWidth="3546" Line="MEN&#x2019;S AND BOY&#x2019;S RECEIVING LEAD"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42819ef0" id="75" symbol="11SwTextFrame" next="76" prev="74" upper="64" txtNodeIndex="20" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="10380" width="7030" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="7030" height="233"/>
+       </infos>
+Old Navy | Milford, CT | Aug 2008- Oct 2018       <Text nLength="43" nType="PortionType::Para" nHeight="233" nWidth="4388" Portion="Old Navy | Milford, CT | Aug 2008- Oct 2018"/>
+       <LineBreak nWidth="4388" Line="Old Navy | Milford, CT | Aug 2008- Oct 2018"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b4281a110" id="76" symbol="11SwTextFrame" next="77" prev="75" upper="64" txtNodeIndex="21" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="10647" width="7030" height="1725" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="94" width="7030" height="1631"/>
+       </infos>
+Assisted customers in finding merchandise and explaining store policies. Trusted to work independently during the overnight shift to handle diverse technology-related and merchandising tasks. Oversaw the receiving process and team during the early morning shift to ensure product was available for customers to ensure company success. Was recruited to assist with remodeling six locations based on leadership skills and retail knowledge.        <Text nLength="63" nType="PortionType::Para" nHeight="233" nWidth="6479" Portion="Assisted customers in finding merchandise and explaining store "/>
+       <LineBreak nWidth="6479" Line="Assisted customers in finding merchandise and explaining store "/>
+       <Text nLength="70" nType="PortionType::Lay" nHeight="233" nWidth="6909" Portion="policies. Trusted to work independently during the overnight shift to "/>
+       <LineBreak nWidth="6909" Line="policies. Trusted to work independently during the overnight shift to "/>
+       <Text nLength="66" nType="PortionType::Text" nHeight="233" nWidth="7009" Portion="handle diverse technology-related and merchandising tasks. Oversaw"/>
+       <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+       <LineBreak nWidth="7009" Line="handle diverse technology-related and merchandising tasks. Oversaw "/>
+       <Text nLength="65" nType="PortionType::Lay" nHeight="233" nWidth="6563" Portion="the receiving process and team during the early morning shift to "/>
+       <LineBreak nWidth="6563" Line="the receiving process and team during the early morning shift to "/>
+       <Text nLength="61" nType="PortionType::Lay" nHeight="233" nWidth="6453" Portion="ensure product was available for customers to ensure company "/>
+       <LineBreak nWidth="6453" Line="ensure product was available for customers to ensure company "/>
+       <Text nLength="69" nType="PortionType::Lay" nHeight="233" nWidth="6924" Portion="success. Was recruited to assist with remodeling six locations based "/>
+       <LineBreak nWidth="6924" Line="success. Was recruited to assist with remodeling six locations based "/>
+       <Text nLength="43" nType="PortionType::Lay" nHeight="233" nWidth="4209" Portion="on leadership skills and retail knowledge. "/>
+       <LineBreak nWidth="4209" Line="on leadership skills and retail knowledge. "/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42819ac0" id="77" symbol="11SwTextFrame" next="78" prev="76" upper="64" txtNodeIndex="22" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="12372" width="7030" height="233" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="7030" height="233"/>
+       </infos>
+       <Text nLength="0" nType="PortionType::Para" nHeight="233"/>
+       <LineBreak/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42817d60" id="78" symbol="11SwTextFrame" next="79" prev="77" upper="64" txtNodeIndex="23" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="12605" width="7030" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="7030" height="233"/>
+       </infos>
+       <Text nLength="0" nType="PortionType::Para" nHeight="233"/>
+       <LineBreak/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42819480" id="79" symbol="11SwTextFrame" next="80" prev="78" upper="64" txtNodeIndex="24" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="12872" width="7030" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="7030" height="233"/>
+       </infos>
+ASSISTANT DATA COORDINATOR       <Text nLength="26" nType="PortionType::Para" nHeight="233" nWidth="3231" Portion="ASSISTANT DATA COORDINATOR"/>
+       <LineBreak nWidth="3231" Line="ASSISTANT DATA COORDINATOR"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b4281a550" id="80" symbol="11SwTextFrame" next="81" prev="79" upper="64" txtNodeIndex="25" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="13139" width="7030" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="7030" height="233"/>
+       </infos>
+Linda McMahon for Senate | North Haven, CT | Jul 2012- Nov 2012       <Text nLength="63" nType="PortionType::Para" nHeight="233" nWidth="6616" Portion="Linda McMahon for Senate | North Haven, CT | Jul 2012- Nov 2012"/>
+       <LineBreak nWidth="6616" Line="Linda McMahon for Senate | North Haven, CT | Jul 2012- Nov 2012"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42817720" id="81" symbol="11SwTextFrame" next="82" prev="80" upper="64" txtNodeIndex="26" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="13406" width="7030" height="1492" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="94" width="7030" height="1398"/>
+       </infos>
+Worked closely with Data coordinator in specially created position based on skillset. Set up call centers and databases at thirteen locations around the state. Worked autonomously and managed a team of 35 interns who canvassed specific territories based on Map Point generated routes.  Created Excel sheets for tracking responses from voters and for lawn sign distribution.       <Text nLength="67" nType="PortionType::Para" nHeight="233" nWidth="6694" Portion="Worked closely with Data coordinator in specially created position "/>
+       <LineBreak nWidth="6694" Line="Worked closely with Data coordinator in specially created position "/>
+       <Text nLength="65" nType="PortionType::Lay" nHeight="233" nWidth="6384" Portion="based on skillset. Set up call centers and databases at thirteen "/>
+       <LineBreak nWidth="6384" Line="based on skillset. Set up call centers and databases at thirteen "/>
+       <Text nLength="62" nType="PortionType::Lay" nHeight="233" nWidth="6707" Portion="locations around the state. Worked autonomously and managed a "/>
+       <LineBreak nWidth="6707" Line="locations around the state. Worked autonomously and managed a "/>
+       <Text nLength="67" nType="PortionType::Lay" nHeight="233" nWidth="6850" Portion="team of 35 interns who canvassed specific territories based on Map "/>
+       <LineBreak nWidth="6850" Line="team of 35 interns who canvassed specific territories based on Map "/>
+       <Text nLength="69" nType="PortionType::Lay" nHeight="233" nWidth="6971" Portion="Point generated routes.  Created Excel sheets for tracking responses "/>
+       <LineBreak nWidth="6971" Line="Point generated routes.  Created Excel sheets for tracking responses "/>
+       <Text nLength="43" nType="PortionType::Lay" nHeight="233" nWidth="4216" Portion="from voters and for lawn sign distribution."/>
+       <LineBreak nWidth="4216" Line="from voters and for lawn sign distribution."/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b428185d0" id="82" symbol="11SwTextFrame" prev="81" upper="64" txtNodeIndex="27" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11337" top="14898" width="7030" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="7030" height="281"/>
+       </infos>
+       <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+       <LineBreak/>
+       <Finish/>
+      </txt>
+     </fly>
+     <SwAnchoredDrawObject ptr="0x557b429b5a40">
+      <bounds left="11336" top="3403" width="7030" height="11774"/>
+      <SdrObject ptr="0x557b42b3d570" symbol="17SdrObjCustomShape" name="Metin Kutusu 314" title="" description="" nOrdNum="1" aOutRect="11336, 3403, 7029, 11773">
+       <DefaultProperties>
+        <BaseProperties/>
+        <SfxItemSet>
+         <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+         <SfxInt32Item whichId="1002" value="10"/>
+         <XFillStyleItem whichId="1014" value="0" presentation="None"/>
+         <SfxInt32Item whichId="1065" value="0"/>
+         <SfxBoolItem whichId="1066" value="on"/>
+         <SfxInt32Item whichId="1068" value="0"/>
+         <SfxInt32Item whichId="1069" value="0"/>
+         <SfxInt32Item whichId="1070" value="0"/>
+         <SfxInt32Item whichId="1071" value="0"/>
+         <SdrTextVertAdjustItem whichId="1072" value="0"/>
+         <SfxInt32Item whichId="1074" value="0"/>
+         <SfxBoolItem whichId="1088" value="on"/>
+         <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+         <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+         <SvxColorItem whichId="4024" value="Black"/>
+         <SvxFontHeightItem whichId="4026" height="360" prop="100" propUnit="13"/>
+        </SfxItemSet>
+       </DefaultProperties>
+      </SdrObject>
+     </SwAnchoredDrawObject>
+    </anchored>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b4294ac30" id="15" symbol="11SwTextFrame" next="16" prev="14" upper="2" txtNodeIndex="70" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="3656" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42896990" id="16" symbol="11SwTextFrame" next="17" prev="15" upper="2" txtNodeIndex="71" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="3937" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42b40120" id="17" symbol="11SwTextFrame" next="18" prev="16" upper="2" txtNodeIndex="72" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="4218" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <anchored>
+     <SwAnchoredDrawObject ptr="0x557b42d597a0">
+      <bounds left="7479" top="4244" width="3286" height="3421"/>
+      <SdrObjGroup ptr="0x557b42b31ed0">
+       <SdrObject ptr="0x557b42b31ed0" symbol="11SdrObjGroup" name="Group 36" title="" description="" nOrdNum="2" aOutRect="7479, 4244, 3285, 3420"/>
+       <SdrObjList ptr="0x557b42b31fb8" symbol="11SdrObjGroup">
+        <SdrObject ptr="0x557b42984d10" symbol="17SdrObjCustomShape" name="Text Box 530" title="" description="" nOrdNum="0" aOutRect="7936, 4982, 1524, 260">
+         <DefaultProperties>
+          <BaseProperties/>
+          <SfxItemSet>
+           <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+           <SfxInt32Item whichId="1002" value="0"/>
+           <XFillStyleItem whichId="1014" value="0" presentation="None"/>
+           <SfxInt32Item whichId="1065" value="261"/>
+           <SfxBoolItem whichId="1066" value="off"/>
+           <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+           <SfxInt32Item whichId="1068" value="0"/>
+           <SfxInt32Item whichId="1069" value="0"/>
+           <SfxInt32Item whichId="1070" value="0"/>
+           <SfxInt32Item whichId="1071" value="0"/>
+           <SdrTextVertAdjustItem whichId="1072" value="0"/>
+           <SfxInt32Item whichId="1074" value="1525"/>
+           <SfxBoolItem whichId="1088" value="on"/>
+           <SfxUInt16Item whichId="1159" value="0"/>
+           <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+           <SfxBoolItem whichId="4013" value="TRUE"/>
+           <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+           <SvxULSpaceItem whichId="4018" nUpper="0" nLower="0" bContext="false" nPropUpper="100" nPropLower="100"/>
+           <SfxPoolItem whichId="4019" typeName="18SvxLineSpacingItem" presentation="S"/>
+           <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="A"/>
+          </SfxItemSet>
+         </DefaultProperties>
+         <OutlinerParaObject ptr="0x557b42d0ebf0">
+          <EditTextObject>
+           <ContentInfo style="">
+            <text>203-727-3577</text>
+            <SfxItemSet>
+             <SfxBoolItem whichId="4013" value="TRUE"/>
+             <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+             <SvxULSpaceItem whichId="4018" nUpper="0" nLower="0" bContext="false" nPropUpper="100" nPropLower="100"/>
+             <SfxPoolItem whichId="4019" typeName="18SvxLineSpacingItem" presentation="S"/>
+             <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="A"/>
+            </SfxItemSet>
+            <attribs start="0" end="12">
+             <SvxFontItem whichId="4041" familyName="MS Mincho" styleName="" family="0" pitch="0" textEncoding="76"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SfxPoolItem whichId="4054" typeName="14SvxCaseMapItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SvxPostureItem whichId="4048" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SvxPostureItem whichId="4047" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SvxWeightItem whichId="4046" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SvxWeightItem whichId="4045" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SvxFontHeightItem whichId="4044" height="220" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SvxFontHeightItem whichId="4043" height="220" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SvxFontItem whichId="4042" familyName="Vrinda" styleName="" family="0" pitch="0" textEncoding="76"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SvxColorItem whichId="4024" value="RGB(242, 242, 242)"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SfxPoolItem whichId="4036" typeName="14SvxKerningItem" presentation="K"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SfxPoolItem whichId="4034" typeName="17SvxEscapementItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SvxPostureItem whichId="4031" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SfxPoolItem whichId="4030" typeName="17SvxCrossedOutItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SfxPoolItem whichId="4029" typeName="16SvxUnderlineItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SvxWeightItem whichId="4028" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SvxFontHeightItem whichId="4026" height="220" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="12">
+             <SvxFontItem whichId="4025" familyName="Calibri" styleName="" family="0" pitch="0" textEncoding="0"/>
+            </attribs>
+           </ContentInfo>
+          </EditTextObject>
+          <Paragraph nDepth="-1" mnNumberingStartValue="-1" mbParaIsNumberingRestart="0"/>
+         </OutlinerParaObject>
+        </SdrObject>
+        <SdrObject ptr="0x557b42b63930" symbol="17SdrObjCustomShape" name="Graphic 55" title="" description="" nOrdNum="1" aOutRect="7479, 4942, 352, 350">
+         <DefaultProperties>
+          <BaseProperties/>
+          <SfxItemSet>
+           <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+           <SfxInt32Item whichId="1002" value="1"/>
+           <SfxPoolItem whichId="1011" typeName="14XLineJointItem" presentation="L"/>
+           <SfxPoolItem whichId="1012" typeName="12XLineCapItem" presentation="L"/>
+           <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+           <XFillColorItem whichId="1015" value="f2f2f2"/>
+           <SfxInt32Item whichId="1065" value="208"/>
+           <SfxBoolItem whichId="1066" value="off"/>
+           <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+           <SfxInt32Item whichId="1068" value="142"/>
+           <SfxInt32Item whichId="1069" value="142"/>
+           <SfxInt32Item whichId="1070" value="71"/>
+           <SfxInt32Item whichId="1071" value="71"/>
+           <SdrTextVertAdjustItem whichId="1072" value="1"/>
+           <SfxInt32Item whichId="1074" value="68"/>
+           <SfxBoolItem whichId="1088" value="on"/>
+           <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+           <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+          </SfxItemSet>
+         </DefaultProperties>
+        </SdrObject>
+        <SdrObject ptr="0x557b42d5aa30" symbol="17SdrObjCustomShape" name="Text Box 530" title="" description="" nOrdNum="2" aOutRect="7935, 5591, 2829, 362">
+         <DefaultProperties>
+          <BaseProperties/>
+          <SfxItemSet>
+           <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+           <SfxInt32Item whichId="1002" value="0"/>
+           <XFillStyleItem whichId="1014" value="0" presentation="None"/>
+           <SfxInt32Item whichId="1065" value="363"/>
+           <SfxBoolItem whichId="1066" value="off"/>
+           <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+           <SfxInt32Item whichId="1068" value="0"/>
+           <SfxInt32Item whichId="1069" value="0"/>
+           <SfxInt32Item whichId="1070" value="0"/>
+           <SfxInt32Item whichId="1071" value="0"/>
+           <SdrTextVertAdjustItem whichId="1072" value="0"/>
+           <SfxInt32Item whichId="1074" value="2830"/>
+           <SfxBoolItem whichId="1088" value="on"/>
+           <SfxUInt16Item whichId="1159" value="0"/>
+           <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+           <SfxBoolItem whichId="4013" value="TRUE"/>
+           <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+           <SvxULSpaceItem whichId="4018" nUpper="0" nLower="0" bContext="false" nPropUpper="100" nPropLower="100"/>
+           <SfxPoolItem whichId="4019" typeName="18SvxLineSpacingItem" presentation="S"/>
+           <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="A"/>
+          </SfxItemSet>
+         </DefaultProperties>
+         <OutlinerParaObject ptr="0x557b42df1ce0">
+          <EditTextObject>
+           <ContentInfo style="">
+            <text>williambrendanhenry@yahoo.com</text>
+            <SfxItemSet>
+             <SfxBoolItem whichId="4013" value="TRUE"/>
+             <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+             <SvxULSpaceItem whichId="4018" nUpper="0" nLower="0" bContext="false" nPropUpper="100" nPropLower="100"/>
+             <SfxPoolItem whichId="4019" typeName="18SvxLineSpacingItem" presentation="S"/>
+             <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="A"/>
+            </SfxItemSet>
+            <attribs start="0" end="29">
+             <SvxFontItem whichId="4041" familyName="MS Mincho" styleName="" family="0" pitch="0" textEncoding="76"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SfxPoolItem whichId="4054" typeName="14SvxCaseMapItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SvxPostureItem whichId="4048" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SvxPostureItem whichId="4047" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SvxWeightItem whichId="4046" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SvxWeightItem whichId="4045" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SvxFontHeightItem whichId="4044" height="200" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SvxFontHeightItem whichId="4043" height="200" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SvxFontItem whichId="4042" familyName="Vrinda" styleName="" family="0" pitch="0" textEncoding="76"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SvxColorItem whichId="4024" value="RGB(242, 242, 242)"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SfxPoolItem whichId="4036" typeName="14SvxKerningItem" presentation="K"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SfxPoolItem whichId="4034" typeName="17SvxEscapementItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SvxPostureItem whichId="4031" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SfxPoolItem whichId="4030" typeName="17SvxCrossedOutItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SfxPoolItem whichId="4029" typeName="16SvxUnderlineItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SvxWeightItem whichId="4028" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SvxFontHeightItem whichId="4026" height="200" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="29">
+             <SvxFontItem whichId="4025" familyName="Calibri" styleName="" family="0" pitch="0" textEncoding="0"/>
+            </attribs>
+           </ContentInfo>
+          </EditTextObject>
+          <Paragraph nDepth="-1" mnNumberingStartValue="-1" mbParaIsNumberingRestart="0"/>
+         </OutlinerParaObject>
+        </SdrObject>
+        <SdrObject ptr="0x557b42dfa520" symbol="17SdrObjCustomShape" name="Graphic 16" title="" description="" nOrdNum="3" aOutRect="7479, 5578, 352, 275">
+         <DefaultProperties>
+          <BaseProperties/>
+          <SfxItemSet>
+           <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+           <SfxInt32Item whichId="1002" value="1"/>
+           <SfxPoolItem whichId="1011" typeName="14XLineJointItem" presentation="L"/>
+           <SfxPoolItem whichId="1012" typeName="12XLineCapItem" presentation="L"/>
+           <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+           <XFillColorItem whichId="1015" value="f2f2f2"/>
+           <SfxInt32Item whichId="1065" value="133"/>
+           <SfxBoolItem whichId="1066" value="off"/>
+           <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+           <SfxInt32Item whichId="1068" value="142"/>
+           <SfxInt32Item whichId="1069" value="142"/>
+           <SfxInt32Item whichId="1070" value="71"/>
+           <SfxInt32Item whichId="1071" value="71"/>
+           <SdrTextVertAdjustItem whichId="1072" value="1"/>
+           <SfxInt32Item whichId="1074" value="68"/>
+           <SfxBoolItem whichId="1088" value="on"/>
+           <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+           <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+          </SfxItemSet>
+         </DefaultProperties>
+        </SdrObject>
+        <SdrObject ptr="0x557b42914d90" symbol="17SdrObjCustomShape" name="Text Box 530" title="" description="" nOrdNum="4" aOutRect="7936, 6161, 2374, 855">
+         <DefaultProperties>
+          <BaseProperties/>
+          <SfxItemSet>
+           <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+           <SfxInt32Item whichId="1002" value="0"/>
+           <XFillStyleItem whichId="1014" value="0" presentation="None"/>
+           <SfxInt32Item whichId="1065" value="856"/>
+           <SfxBoolItem whichId="1066" value="off"/>
+           <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+           <SfxInt32Item whichId="1068" value="0"/>
+           <SfxInt32Item whichId="1069" value="0"/>
+           <SfxInt32Item whichId="1070" value="0"/>
+           <SfxInt32Item whichId="1071" value="0"/>
+           <SdrTextVertAdjustItem whichId="1072" value="0"/>
+           <SfxInt32Item whichId="1074" value="2375"/>
+           <SfxBoolItem whichId="1088" value="on"/>
+           <SfxUInt16Item whichId="1159" value="0"/>
+           <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+           <SfxBoolItem whichId="4013" value="TRUE"/>
+           <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+           <SvxULSpaceItem whichId="4018" nUpper="0" nLower="0" bContext="false" nPropUpper="100" nPropLower="100"/>
+           <SfxPoolItem whichId="4019" typeName="18SvxLineSpacingItem" presentation="S"/>
+           <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="A"/>
+          </SfxItemSet>
+         </DefaultProperties>
+         <OutlinerParaObject ptr="0x557b42e0b2c0">
+          <EditTextObject>
+           <ContentInfo style="">
+            <text>4 Strathmore Avenue,</text>
+            <SfxItemSet>
+             <SfxBoolItem whichId="4013" value="TRUE"/>
+             <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+             <SvxULSpaceItem whichId="4018" nUpper="0" nLower="0" bContext="false" nPropUpper="100" nPropLower="100"/>
+             <SfxPoolItem whichId="4019" typeName="18SvxLineSpacingItem" presentation="S"/>
+             <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="A"/>
+            </SfxItemSet>
+            <attribs start="0" end="20">
+             <SvxFontItem whichId="4041" familyName="MS Mincho" styleName="" family="0" pitch="0" textEncoding="76"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SfxPoolItem whichId="4054" typeName="14SvxCaseMapItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SvxPostureItem whichId="4048" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SvxPostureItem whichId="4047" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SvxWeightItem whichId="4046" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SvxWeightItem whichId="4045" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SvxFontHeightItem whichId="4044" height="220" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SvxFontHeightItem whichId="4043" height="220" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SvxFontItem whichId="4042" familyName="Vrinda" styleName="" family="0" pitch="0" textEncoding="76"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SvxColorItem whichId="4024" value="RGB(242, 242, 242)"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SfxPoolItem whichId="4036" typeName="14SvxKerningItem" presentation="K"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SfxPoolItem whichId="4034" typeName="17SvxEscapementItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SvxPostureItem whichId="4031" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SfxPoolItem whichId="4030" typeName="17SvxCrossedOutItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SfxPoolItem whichId="4029" typeName="16SvxUnderlineItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SvxWeightItem whichId="4028" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SvxFontHeightItem whichId="4026" height="220" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="20">
+             <SvxFontItem whichId="4025" familyName="Calibri" styleName="" family="0" pitch="0" textEncoding="0"/>
+            </attribs>
+           </ContentInfo>
+           <ContentInfo style="">
+            <text>Milford, CT, 06461</text>
+            <SfxItemSet>
+             <SfxBoolItem whichId="4013" value="TRUE"/>
+             <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+             <SvxULSpaceItem whichId="4018" nUpper="0" nLower="0" bContext="false" nPropUpper="100" nPropLower="100"/>
+             <SfxPoolItem whichId="4019" typeName="18SvxLineSpacingItem" presentation="S"/>
+             <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="A"/>
+            </SfxItemSet>
+            <attribs start="0" end="18">
+             <SvxFontItem whichId="4041" familyName="MS Mincho" styleName="" family="0" pitch="0" textEncoding="76"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SfxPoolItem whichId="4054" typeName="14SvxCaseMapItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SvxPostureItem whichId="4048" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SvxPostureItem whichId="4047" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SvxWeightItem whichId="4046" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SvxWeightItem whichId="4045" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SvxFontHeightItem whichId="4044" height="220" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SvxFontHeightItem whichId="4043" height="220" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SvxFontItem whichId="4042" familyName="Vrinda" styleName="" family="0" pitch="0" textEncoding="76"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SvxColorItem whichId="4024" value="RGB(242, 242, 242)"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SfxPoolItem whichId="4036" typeName="14SvxKerningItem" presentation="K"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SfxPoolItem whichId="4034" typeName="17SvxEscapementItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SvxPostureItem whichId="4031" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SfxPoolItem whichId="4030" typeName="17SvxCrossedOutItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SfxPoolItem whichId="4029" typeName="16SvxUnderlineItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SvxWeightItem whichId="4028" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SvxFontHeightItem whichId="4026" height="220" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="18">
+             <SvxFontItem whichId="4025" familyName="Calibri" styleName="" family="0" pitch="0" textEncoding="0"/>
+            </attribs>
+           </ContentInfo>
+          </EditTextObject>
+          <Paragraph nDepth="-1" mnNumberingStartValue="-1" mbParaIsNumberingRestart="0"/>
+          <Paragraph nDepth="-1" mnNumberingStartValue="-1" mbParaIsNumberingRestart="0"/>
+         </OutlinerParaObject>
+        </SdrObject>
+        <SdrObject ptr="0x557b42e0bce0" symbol="17SdrObjCustomShape" name="Graphic 21" title="" description="" nOrdNum="5" aOutRect="7479, 6148, 352, 278">
+         <DefaultProperties>
+          <BaseProperties/>
+          <SfxItemSet>
+           <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+           <SfxInt32Item whichId="1002" value="1"/>
+           <SfxPoolItem whichId="1011" typeName="14XLineJointItem" presentation="L"/>
+           <SfxPoolItem whichId="1012" typeName="12XLineCapItem" presentation="L"/>
+           <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+           <XFillColorItem whichId="1015" value="f2f2f2"/>
+           <SfxInt32Item whichId="1065" value="136"/>
+           <SfxBoolItem whichId="1066" value="off"/>
+           <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+           <SfxInt32Item whichId="1068" value="142"/>
+           <SfxInt32Item whichId="1069" value="142"/>
+           <SfxInt32Item whichId="1070" value="71"/>
+           <SfxInt32Item whichId="1071" value="71"/>
+           <SdrTextVertAdjustItem whichId="1072" value="1"/>
+           <SfxInt32Item whichId="1074" value="68"/>
+           <SfxBoolItem whichId="1088" value="on"/>
+           <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+           <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+          </SfxItemSet>
+         </DefaultProperties>
+        </SdrObject>
+        <SdrObject ptr="0x557b42e16420" symbol="17SdrObjCustomShape" name="Text Box 530" title="" description="" nOrdNum="6" aOutRect="7935, 6756, 2079, 259">
+         <DefaultProperties>
+          <BaseProperties/>
+          <SfxItemSet>
+           <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+           <SfxInt32Item whichId="1002" value="0"/>
+           <XFillStyleItem whichId="1014" value="0" presentation="None"/>
+           <SfxInt32Item whichId="1065" value="260"/>
+           <SfxBoolItem whichId="1066" value="off"/>
+           <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+           <SfxInt32Item whichId="1068" value="0"/>
+           <SfxInt32Item whichId="1069" value="0"/>
+           <SfxInt32Item whichId="1070" value="0"/>
+           <SfxInt32Item whichId="1071" value="0"/>
+           <SdrTextVertAdjustItem whichId="1072" value="0"/>
+           <SfxInt32Item whichId="1074" value="2080"/>
+           <SfxBoolItem whichId="1088" value="on"/>
+           <SfxUInt16Item whichId="1159" value="0"/>
+           <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+           <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+           <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+          </SfxItemSet>
+         </DefaultProperties>
+        </SdrObject>
+        <SdrObject ptr="0x557b42d24660" symbol="17SdrObjCustomShape" name="Text Box 530" title="" description="" nOrdNum="7" aOutRect="7936, 7392, 138, 272">
+         <DefaultProperties>
+          <BaseProperties/>
+          <SfxItemSet>
+           <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+           <SfxInt32Item whichId="1002" value="0"/>
+           <XFillStyleItem whichId="1014" value="0" presentation="None"/>
+           <SfxInt32Item whichId="1065" value="273"/>
+           <SfxBoolItem whichId="1066" value="off"/>
+           <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+           <SfxInt32Item whichId="1068" value="0"/>
+           <SfxInt32Item whichId="1069" value="0"/>
+           <SfxInt32Item whichId="1070" value="0"/>
+           <SfxInt32Item whichId="1071" value="0"/>
+           <SdrTextVertAdjustItem whichId="1072" value="0"/>
+           <SfxInt32Item whichId="1074" value="139"/>
+           <SfxBoolItem whichId="1088" value="on"/>
+           <SfxUInt16Item whichId="1159" value="0"/>
+           <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+           <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+           <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+          </SfxItemSet>
+         </DefaultProperties>
+        </SdrObject>
+        <SdrObject ptr="0x557b42d31d40" symbol="17SdrObjCustomShape" name="Text Box 29" title="" description="" nOrdNum="8" aOutRect="7479, 4244, 2957, 412">
+         <DefaultProperties>
+          <BaseProperties/>
+          <SfxItemSet>
+           <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+           <SfxInt32Item whichId="1002" value="0"/>
+           <XFillStyleItem whichId="1014" value="0" presentation="None"/>
+           <SfxInt32Item whichId="1065" value="413"/>
+           <SfxBoolItem whichId="1066" value="off"/>
+           <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+           <SfxInt32Item whichId="1068" value="0"/>
+           <SfxInt32Item whichId="1069" value="0"/>
+           <SfxInt32Item whichId="1070" value="0"/>
+           <SfxInt32Item whichId="1071" value="0"/>
+           <SdrTextVertAdjustItem whichId="1072" value="0"/>
+           <SfxInt32Item whichId="1074" value="2958"/>
+           <SfxBoolItem whichId="1088" value="on"/>
+           <SfxUInt16Item whichId="1159" value="0"/>
+           <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+           <SfxBoolItem whichId="4013" value="TRUE"/>
+           <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+           <SvxULSpaceItem whichId="4018" nUpper="0" nLower="0" bContext="false" nPropUpper="100" nPropLower="100"/>
+           <SfxPoolItem whichId="4019" typeName="18SvxLineSpacingItem" presentation="S"/>
+           <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="A"/>
+          </SfxItemSet>
+         </DefaultProperties>
+         <OutlinerParaObject ptr="0x557b42b33db0">
+          <EditTextObject>
+           <ContentInfo style="">
+            <text>CONTACT</text>
+            <SfxItemSet>
+             <SfxBoolItem whichId="4013" value="TRUE"/>
+             <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+             <SvxULSpaceItem whichId="4018" nUpper="0" nLower="0" bContext="false" nPropUpper="100" nPropLower="100"/>
+             <SfxPoolItem whichId="4019" typeName="18SvxLineSpacingItem" presentation="S"/>
+             <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="A"/>
+            </SfxItemSet>
+            <attribs start="0" end="7">
+             <SvxColorItem whichId="4024" value="RGB(242, 242, 242)"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SvxFontItem whichId="4025" familyName="Cambria" styleName="" family="0" pitch="0" textEncoding="0"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SvxFontHeightItem whichId="4026" height="240" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SvxWeightItem whichId="4028" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SfxPoolItem whichId="4029" typeName="16SvxUnderlineItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SfxPoolItem whichId="4030" typeName="17SvxCrossedOutItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SvxPostureItem whichId="4031" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SfxPoolItem whichId="4034" typeName="17SvxEscapementItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SfxPoolItem whichId="4036" typeName="14SvxKerningItem" presentation="K"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SvxFontHeightItem whichId="4043" height="240" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SvxFontHeightItem whichId="4044" height="240" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SvxWeightItem whichId="4045" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SvxWeightItem whichId="4046" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SvxPostureItem whichId="4047" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SvxPostureItem whichId="4048" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="7">
+             <SfxPoolItem whichId="4054" typeName="14SvxCaseMapItem" presentation="N"/>
+            </attribs>
+           </ContentInfo>
+          </EditTextObject>
+          <Paragraph nDepth="-1" mnNumberingStartValue="-1" mbParaIsNumberingRestart="0"/>
+         </OutlinerParaObject>
+        </SdrObject>
+       </SdrObjList>
+      </SdrObjGroup>
+     </SwAnchoredDrawObject>
+    </anchored>
+                                    <Text nLength="32" nType="PortionType::Para" nHeight="281" nWidth="1691" Portion="                                "/>
+    <LineBreak nWidth="1691" Line="                                "/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b4281eed0" id="18" symbol="11SwTextFrame" next="19" prev="17" upper="2" txtNodeIndex="73" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="4499" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a92510" id="19" symbol="11SwTextFrame" next="20" prev="18" upper="2" txtNodeIndex="74" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="4780" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b428263c0" id="20" symbol="11SwTextFrame" next="21" prev="19" upper="2" txtNodeIndex="75" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="5061" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a257e0" id="21" symbol="11SwTextFrame" next="22" prev="20" upper="2" txtNodeIndex="76" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="5342" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42949040" id="22" symbol="11SwTextFrame" next="23" prev="21" upper="2" txtNodeIndex="77" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="5623" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b4289ad00" id="23" symbol="11SwTextFrame" next="24" prev="22" upper="2" txtNodeIndex="78" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="5904" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b4294fa90" id="24" symbol="11SwTextFrame" next="25" prev="23" upper="2" txtNodeIndex="79" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="6185" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b429a34c0" id="25" symbol="11SwTextFrame" next="26" prev="24" upper="2" txtNodeIndex="80" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="6466" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b4295dd30" id="26" symbol="11SwTextFrame" next="27" prev="25" upper="2" txtNodeIndex="81" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="6747" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42949ef0" id="27" symbol="11SwTextFrame" next="28" prev="26" upper="2" txtNodeIndex="82" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="7028" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42b33700" id="28" symbol="11SwTextFrame" next="29" prev="27" upper="2" txtNodeIndex="83" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="7309" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b429020a0" id="29" symbol="11SwTextFrame" next="30" prev="28" upper="2" txtNodeIndex="84" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="7590" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x557b42d48240" id="83" symbol="19SwFlyAtContentFrame" lower="84">
+      <infos>
+       <bounds left="7315" top="7814" width="3526" height="8085" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="3526" height="8085"/>
+      </infos>
+      <txt ptr="0x557b428187f0" id="84" symbol="11SwTextFrame" next="85" upper="83" txtNodeIndex="30" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="7814" width="3526" height="346" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="3526" height="326"/>
+       </infos>
+SKILLS       <Text nLength="6" nType="PortionType::Text" nHeight="326" nWidth="1184" Portion="SKILLS"/>
+       <LineBreak nWidth="1184" Line="SKILLS"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42818a00" id="85" symbol="11SwTextFrame" next="86" prev="84" upper="83" txtNodeIndex="31" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="8160" width="3526" height="521" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="288" width="3526" height="233"/>
+       </infos>
+PROFESSIONAL       <Special nLength="0" nType="PortionType::Bullet" rText="&#xF0D8;" nHeight="200">
+        <SwFont ptr="0x557b429084d0" color="00f2f2f2"/>
+       </Special>
+       <Special nLength="0" nType="PortionType::Kern" rText="" nHeight="212" nWidth="20"/>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="233" nWidth="109"/>
+       <Text nLength="12" nType="PortionType::Text" nHeight="233" nWidth="1747" Portion="PROFESSIONAL"/>
+       <LineBreak nWidth="2035" Line="&#xF0D8;PROFESSIONAL"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42817940" id="86" symbol="11SwTextFrame" next="87" prev="85" upper="83" txtNodeIndex="32" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="8681" width="3526" height="327" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="94" width="3526" height="233"/>
+       </infos>
+Microsoft Office Suite        <Special nLength="0" nType="PortionType::Bullet" rText="&#xF0B7;" nHeight="200">
+        <SwFont ptr="0x557b427df430" color="00f2f2f2"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="212" nWidth="206"/>
+       <Text nLength="23" nType="PortionType::Text" nHeight="233" nWidth="2203" Portion="Microsoft Office Suite "/>
+       <LineBreak nWidth="2491" Line="&#xF0B7;Microsoft Office Suite "/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42817b50" id="87" symbol="11SwTextFrame" next="88" prev="86" upper="83" txtNodeIndex="33" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="9008" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+Social Media Marketing       <Special nLength="0" nType="PortionType::Bullet" rText="&#xF0B7;" nHeight="200">
+        <SwFont ptr="0x557b42ef2e30" color="00f2f2f2"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="212" nWidth="206"/>
+       <Text nLength="22" nType="PortionType::Text" nHeight="233" nWidth="2324" Portion="Social Media Marketing"/>
+       <LineBreak nWidth="2612" Line="&#xF0B7;Social Media Marketing"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42818e20" id="88" symbol="11SwTextFrame" next="89" prev="87" upper="83" txtNodeIndex="34" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="9275" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+SAP &amp; Kronos       <Special nLength="0" nType="PortionType::Bullet" rText="&#xF0B7;" nHeight="200">
+        <SwFont ptr="0x557b3d8e4520" color="00f2f2f2"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="212" nWidth="206"/>
+       <Text nLength="12" nType="PortionType::Text" nHeight="233" nWidth="1357" Portion="SAP &amp; Kronos"/>
+       <LineBreak nWidth="1645" Line="&#xF0B7;SAP &amp; Kronos"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42819260" id="89" symbol="11SwTextFrame" next="90" prev="88" upper="83" txtNodeIndex="35" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="9542" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+Human Resources       <Special nLength="0" nType="PortionType::Bullet" rText="&#xF0B7;" nHeight="200">
+        <SwFont ptr="0x557b428a4ad0" color="00f2f2f2"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="212" nWidth="206"/>
+       <Text nLength="15" nType="PortionType::Text" nHeight="233" nWidth="1820" Portion="Human Resources"/>
+       <LineBreak nWidth="2108" Line="&#xF0B7;Human Resources"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42818190" id="90" symbol="11SwTextFrame" next="91" prev="89" upper="83" txtNodeIndex="36" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="9809" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+Conflict Resolution       <Special nLength="0" nType="PortionType::Bullet" rText="&#xF0B7;" nHeight="200">
+        <SwFont ptr="0x557b446ee630" color="00f2f2f2"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="212" nWidth="206"/>
+       <Text nLength="19" nType="PortionType::Text" nHeight="233" nWidth="1876" Portion="Conflict Resolution"/>
+       <LineBreak nWidth="2164" Line="&#xF0B7;Conflict Resolution"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b428196a0" id="91" symbol="11SwTextFrame" next="92" prev="90" upper="83" txtNodeIndex="37" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="10076" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+Retail Management       <Special nLength="0" nType="PortionType::Bullet" rText="&#xF0B7;" nHeight="200">
+        <SwFont ptr="0x557b3f91f800" color="00f2f2f2"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="212" nWidth="206"/>
+       <Text nLength="17" nType="PortionType::Text" nHeight="233" nWidth="1955" Portion="Retail Management"/>
+       <LineBreak nWidth="2243" Line="&#xF0B7;Retail Management"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b4281a970" id="92" symbol="11SwTextFrame" next="93" prev="91" upper="83" txtNodeIndex="38" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="10343" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+Corporate Training       <Special nLength="0" nType="PortionType::Bullet" rText="&#xF0B7;" nHeight="200">
+        <SwFont ptr="0x557b44625000" color="00f2f2f2"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="212" nWidth="206"/>
+       <Text nLength="18" nType="PortionType::Text" nHeight="233" nWidth="1882" Portion="Corporate Training"/>
+       <LineBreak nWidth="2170" Line="&#xF0B7;Corporate Training"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42958d60" id="93" symbol="11SwTextFrame" next="94" prev="92" upper="83" txtNodeIndex="39" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="10610" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+Cinemark Scholarship Recipient       <Special nLength="0" nType="PortionType::Bullet" rText="&#xF0B7;" nHeight="200">
+        <SwFont ptr="0x557b42ed5000" color="00f2f2f2"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="212" nWidth="206"/>
+       <Text nLength="30" nType="PortionType::Text" nHeight="233" nWidth="3186" Portion="Cinemark Scholarship Recipient"/>
+       <LineBreak nWidth="3474" Line="&#xF0B7;Cinemark Scholarship Recipient"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b429b1d80" id="94" symbol="11SwTextFrame" next="95" prev="93" upper="83" txtNodeIndex="40" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="10877" width="3526" height="534" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="500"/>
+       </infos>
+Interned with Disney for 2 Summers       <Special nLength="0" nType="PortionType::Bullet" rText="&#xF0B7;" nHeight="200">
+        <SwFont ptr="0x557b42ef3130" color="00f2f2f2"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="212" nWidth="206"/>
+       <Text nLength="27" nType="PortionType::Text" nHeight="233" nWidth="2672" Portion="Interned with Disney for 2 "/>
+       <LineBreak nWidth="2960" Line="&#xF0B7;Interned with Disney for 2 "/>
+       <Text nLength="7" nType="PortionType::Lay" nHeight="233" nWidth="953" Portion="Summers"/>
+       <LineBreak nWidth="953" Line="Summers"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42814740" id="95" symbol="11SwTextFrame" next="96" prev="94" upper="83" txtNodeIndex="41" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="11411" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+       <Text nLength="0" nType="PortionType::Para" nHeight="233"/>
+       <LineBreak/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b4281b1e0" id="96" symbol="11SwTextFrame" next="97" prev="95" upper="83" txtNodeIndex="42" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="11678" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+       <Text nLength="0" nType="PortionType::Para" nHeight="233"/>
+       <LineBreak/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b4281afc0" id="97" symbol="11SwTextFrame" next="98" prev="96" upper="83" txtNodeIndex="43" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="11945" width="3526" height="380" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="326"/>
+       </infos>
+EDUCATION       <Text nLength="9" nType="PortionType::Text" nHeight="326" nWidth="2046" Portion="EDUCATION"/>
+       <LineBreak nWidth="2046" Line="EDUCATION"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b4281a330" id="98" symbol="11SwTextFrame" next="99" prev="97" upper="83" txtNodeIndex="44" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="12325" width="3526" height="521" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="288" width="3526" height="233"/>
+       </infos>
+MFA | CREATIVE WRITING        <Text nLength="23" nType="PortionType::Para" nHeight="233" nWidth="2580" Portion="MFA | CREATIVE WRITING "/>
+       <LineBreak nWidth="2580" Line="MFA | CREATIVE WRITING "/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b4281b400" id="99" symbol="11SwTextFrame" next="100" prev="98" upper="83" txtNodeIndex="45" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="12846" width="3526" height="534" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="500"/>
+       </infos>
+Western CT State University | Danbury       <Text nLength="30" nType="PortionType::Para" nHeight="233" nWidth="3005" Portion="Western CT State University | "/>
+       <LineBreak nWidth="3005" Line="Western CT State University | "/>
+       <Text nLength="7" nType="PortionType::Lay" nHeight="233" nWidth="858" Portion="Danbury"/>
+       <LineBreak nWidth="858" Line="Danbury"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b428198b0" id="100" symbol="11SwTextFrame" next="101" prev="99" upper="83" txtNodeIndex="46" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="13380" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+2019 – 2020       <Text nLength="11" nType="PortionType::Para" nHeight="233" nWidth="1244" Portion="2019 &#x2013; 2020"/>
+       <LineBreak nWidth="1244" Line="2019 &#x2013; 2020"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42819040" id="101" symbol="11SwTextFrame" next="102" prev="100" upper="83" txtNodeIndex="47" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="13647" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+       <Text nLength="0" nType="PortionType::Para" nHeight="233"/>
+       <LineBreak/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42818c10" id="102" symbol="11SwTextFrame" next="103" prev="101" upper="83" txtNodeIndex="48" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="13914" width="3526" height="534" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="500"/>
+       </infos>
+BACHELOR’S | ENGLISH, MINOR: HISTORY        <Text nLength="29" nType="PortionType::Para" nHeight="233" nWidth="3281" Portion="BACHELOR&#x2019;S | ENGLISH, MINOR: "/>
+       <LineBreak nWidth="3281" Line="BACHELOR&#x2019;S | ENGLISH, MINOR: "/>
+       <Text nLength="8" nType="PortionType::Lay" nHeight="233" nWidth="928" Portion="HISTORY "/>
+       <LineBreak nWidth="928" Line="HISTORY "/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b4281ab80" id="103" symbol="11SwTextFrame" next="104" prev="102" upper="83" txtNodeIndex="49" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="14448" width="3526" height="534" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="500"/>
+       </infos>
+Southern CT State University | New Haven       <Text nLength="31" nType="PortionType::Para" nHeight="233" nWidth="3095" Portion="Southern CT State University | "/>
+       <LineBreak nWidth="3095" Line="Southern CT State University | "/>
+       <Text nLength="9" nType="PortionType::Lay" nHeight="233" nWidth="1141" Portion="New Haven"/>
+       <LineBreak nWidth="1141" Line="New Haven"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42817f70" id="104" symbol="11SwTextFrame" next="105" prev="103" upper="83" txtNodeIndex="50" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="14982" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+2013 -2018       <Text nLength="10" nType="PortionType::Para" nHeight="233" nWidth="1153" Portion="2013 -2018"/>
+       <LineBreak nWidth="1153" Line="2013 -2018"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b42819cd0" id="105" symbol="11SwTextFrame" next="106" prev="104" upper="83" txtNodeIndex="51" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="15249" width="3526" height="267" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="233"/>
+       </infos>
+       <Text nLength="0" nType="PortionType::Para" nHeight="233"/>
+       <LineBreak/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x557b4281a760" id="106" symbol="11SwTextFrame" prev="105" upper="83" txtNodeIndex="52" WritingMode="Horizontal">
+       <infos>
+        <bounds left="7315" top="15516" width="3526" height="315" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="34" width="3526" height="281"/>
+       </infos>
+       <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+       <LineBreak/>
+       <Finish/>
+      </txt>
+     </fly>
+     <SwAnchoredDrawObject ptr="0x557b42cecf40">
+      <bounds left="7314" top="7814" width="3526" height="8085"/>
+      <SdrObject ptr="0x557b42d45c40" symbol="17SdrObjCustomShape" name="Text Box 528" title="" description="" nOrdNum="0" aOutRect="7314, 7814, 3525, 8084">
+       <DefaultProperties>
+        <BaseProperties/>
+        <SfxItemSet>
+         <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+         <SfxInt32Item whichId="1002" value="0"/>
+         <XFillStyleItem whichId="1014" value="0" presentation="None"/>
+         <SfxInt32Item whichId="1065" value="8085"/>
+         <SfxBoolItem whichId="1066" value="off"/>
+         <SfxInt32Item whichId="1068" value="0"/>
+         <SfxInt32Item whichId="1069" value="0"/>
+         <SfxInt32Item whichId="1070" value="0"/>
+         <SfxInt32Item whichId="1071" value="0"/>
+         <SdrTextVertAdjustItem whichId="1072" value="0"/>
+         <SfxInt32Item whichId="1074" value="3526"/>
+         <SfxBoolItem whichId="1088" value="on"/>
+         <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+         <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+         <SvxColorItem whichId="4024" value="Black"/>
+         <SvxFontHeightItem whichId="4026" height="360" prop="100" propUnit="13"/>
+        </SfxItemSet>
+       </DefaultProperties>
+      </SdrObject>
+     </SwAnchoredDrawObject>
+    </anchored>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42948c70" id="30" symbol="11SwTextFrame" next="31" prev="29" upper="2" txtNodeIndex="85" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="7871" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b4279fa50" id="31" symbol="11SwTextFrame" next="32" prev="30" upper="2" txtNodeIndex="86" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="8152" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b427dd540" id="32" symbol="11SwTextFrame" next="33" prev="31" upper="2" txtNodeIndex="87" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="8433" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b427d95a0" id="33" symbol="11SwTextFrame" next="34" prev="32" upper="2" txtNodeIndex="88" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="8714" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42b5dbe0" id="34" symbol="11SwTextFrame" next="35" prev="33" upper="2" txtNodeIndex="89" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="8995" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b428d9b20" id="35" symbol="11SwTextFrame" next="36" prev="34" upper="2" txtNodeIndex="90" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="9276" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42d579d0" id="36" symbol="11SwTextFrame" next="37" prev="35" upper="2" txtNodeIndex="91" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="9557" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b429a0730" id="37" symbol="11SwTextFrame" next="38" prev="36" upper="2" txtNodeIndex="92" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="9838" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b427c9920" id="38" symbol="11SwTextFrame" next="39" prev="37" upper="2" txtNodeIndex="93" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="10119" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42906110" id="39" symbol="11SwTextFrame" next="40" prev="38" upper="2" txtNodeIndex="94" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="10400" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b427b3b00" id="40" symbol="11SwTextFrame" next="41" prev="39" upper="2" txtNodeIndex="95" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="10681" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b427d0570" id="41" symbol="11SwTextFrame" next="42" prev="40" upper="2" txtNodeIndex="96" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="10962" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b427d0f00" id="42" symbol="11SwTextFrame" next="43" prev="41" upper="2" txtNodeIndex="97" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="11243" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b4281ba30" id="43" symbol="11SwTextFrame" next="44" prev="42" upper="2" txtNodeIndex="98" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="11524" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b4281bc50" id="44" symbol="11SwTextFrame" next="45" prev="43" upper="2" txtNodeIndex="99" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="11805" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b4281be70" id="45" symbol="11SwTextFrame" next="46" prev="44" upper="2" txtNodeIndex="100" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="12086" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b4281c090" id="46" symbol="11SwTextFrame" next="47" prev="45" upper="2" txtNodeIndex="101" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="12367" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b4281c2b0" id="47" symbol="11SwTextFrame" next="48" prev="46" upper="2" txtNodeIndex="102" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="12648" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b428962e0" id="48" symbol="11SwTextFrame" next="49" prev="47" upper="2" txtNodeIndex="103" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="12929" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a3c6f0" id="49" symbol="11SwTextFrame" next="50" prev="48" upper="2" txtNodeIndex="104" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="13210" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a3d390" id="50" symbol="11SwTextFrame" next="51" prev="49" upper="2" txtNodeIndex="105" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="13491" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a46bb0" id="51" symbol="11SwTextFrame" next="52" prev="50" upper="2" txtNodeIndex="106" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="13772" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a78c00" id="52" symbol="11SwTextFrame" next="53" prev="51" upper="2" txtNodeIndex="107" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="14053" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+­­    <Special nLength="1" nType="PortionType::SoftHyphenComp" rText="-"/>
+    <Special nLength="1" nType="PortionType::SoftHyphenComp" rText="-"/>
+    <LineBreak Line="--"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a8f190" id="53" symbol="11SwTextFrame" next="54" prev="52" upper="2" txtNodeIndex="108" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="14334" width="12240" height="258" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="258"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="258"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a46d70" id="54" symbol="11SwTextFrame" next="55" prev="53" upper="2" txtNodeIndex="109" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="14592" width="12240" height="258" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="258"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="258"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a84cb0" id="55" symbol="11SwTextFrame" next="56" prev="54" upper="2" txtNodeIndex="110" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="14850" width="12240" height="258" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="258"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="258"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a92ef0" id="56" symbol="11SwTextFrame" next="59" prev="55" upper="2" txtNodeIndex="111" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="15108" width="12240" height="258" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="258"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="258"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a6f6d0" id="59" symbol="11SwTextFrame" next="60" prev="56" upper="2" txtNodeIndex="112" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="15366" width="12240" height="258" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="258"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="258"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x557b42a94790" id="60" symbol="11SwTextFrame" prev="59" upper="2" txtNodeIndex="113" WritingMode="Horizontal">
+    <infos>
+     <bounds left="6880" top="15624" width="12240" height="281" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="12240" height="281"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="281"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+</root>
