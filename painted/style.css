@@ -44,3 +44,7 @@ footer{
     max-width: 80%;
     margin: auto;
 }
+
+.formFooter{
+    display:none !important;
+}
