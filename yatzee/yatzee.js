@@ -78,7 +78,7 @@ function hold_score(cell) {
 
         document.getElementById("cell13").innerHTML = sub_total;
         document.getElementById("cell31").innerHTML = final_total;
-        if (game_over == true) document.getElementById('btn').innerHTML = "New Game?";
+        if (game_over == true) {document.getElementById('btn').innerHTML = "New Game?"; drawboard();}
     }
     /*
     sub_total = 0;
