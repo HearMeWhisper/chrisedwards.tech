@@ -34,9 +34,9 @@ function how_to() {
         document.getElementById("how-div").style.zIndex = 2;
     } else {
         document.getElementById("how-div").style.display = "none";
-        document.getElementById("how-div").style.zIndex = 1
+        document.getElementById("how-div").style.zIndex = 1;
     }
-};
+}
 
 function hold_score(cell) {
     if ((cell.className == "cells" && turn_over == false) || (document.getElementById("cell29").className == "cells1" && yatzee_counter == true)) {
@@ -117,27 +117,27 @@ function drawboard() {
 
     str += '</table>';
 
-    document.getElementById("scorecard").innerHTML = str
+    document.getElementById("scorecard").innerHTML = str;
 
-    document.getElementById("cell13").onclick = ""
-    document.getElementById("cell15").onclick = ""
-    document.getElementById("cell31").onclick = ""
+    document.getElementById("cell13").onclick = "";
+    document.getElementById("cell15").onclick = "";
+    document.getElementById("cell31").onclick = "";
         //top row
-    document.getElementById("cell0").innerHTML = "Ones"
-    document.getElementById("cell2").innerHTML = "Twos"
-    document.getElementById("cell4").innerHTML = "Threes"
-    document.getElementById("cell6").innerHTML = "Fours"
-    document.getElementById("cell8").innerHTML = "Fives"
-    document.getElementById("cell10").innerHTML = "Sixes"
-    document.getElementById("cell12").innerHTML = "Sub-total"
-    document.getElementById("cell14").innerHTML = "Bonus"
-    document.getElementById("cell16").innerHTML = "3 of a Kind"
-    document.getElementById("cell18").innerHTML = "4 of a Kind"
-    document.getElementById("cell20").innerHTML = "Full House"
-    document.getElementById("cell22").innerHTML = "Small Straight"
-    document.getElementById("cell24").innerHTML = "Large Straight"
-    document.getElementById("cell26").innerHTML = "Chance"
-    document.getElementById("cell28").innerHTML = "YAZTEE"
+    document.getElementById("cell0").innerHTML = "Ones";
+    document.getElementById("cell2").innerHTML = "Twos";
+    document.getElementById("cell4").innerHTML = "Threes";
+    document.getElementById("cell6").innerHTML = "Fours";
+    document.getElementById("cell8").innerHTML = "Fives";
+    document.getElementById("cell10").innerHTML = "Sixes";
+    document.getElementById("cell12").innerHTML = "Sub-total";
+    document.getElementById("cell14").innerHTML = "Bonus";
+    document.getElementById("cell16").innerHTML = "3 of a Kind";
+    document.getElementById("cell18").innerHTML = "4 of a Kind";
+    document.getElementById("cell20").innerHTML = "Full House";
+    document.getElementById("cell22").innerHTML = "Small Straight";
+    document.getElementById("cell24").innerHTML = "Large Straight";
+    document.getElementById("cell26").innerHTML = "Chance";
+    document.getElementById("cell28").innerHTML = "YAZTEE";
     document.getElementById("cell30").innerHTML = "Total Score";
 
 }
