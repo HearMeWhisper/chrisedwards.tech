@@ -2,14 +2,28 @@ body {
     background: -webkit-linear-gradient(45deg, hsla(0, 0%, 97%, 1) 0%, hsla(0, 0%, 97%, 0) 70%), -webkit-linear-gradient(315deg, hsla(0, 0%, 38%, 1) 10%, hsla(0, 0%, 38%, 0) 80%), -webkit-linear-gradient(225deg, hsla(0, 0%, 63%, 1) 10%, hsla(0, 0%, 63%, 0) 80%), -webkit-linear-gradient(135deg, hsla(0, 0%, 29%, 1) 100%, hsla(0, 0%, 29%, 0) 70%);
     background: linear-gradient(45deg, hsla(0, 0%, 97%, 1) 0%, hsla(0, 0%, 97%, 0) 70%), linear-gradient(135deg, hsla(0, 0%, 38%, 1) 10%, hsla(0, 0%, 38%, 0) 80%), linear-gradient(225deg, hsla(0, 0%, 63%, 1) 10%, hsla(0, 0%, 63%, 0) 80%), linear-gradient(315deg, hsla(0, 0%, 29%, 1) 100%, hsla(0, 0%, 29%, 0) 70%);
 }
-
+td{
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+}
 #game {
-    background-color: #E60000;
+    background-color:#ce4949;
     text-align: center;
     box-shadow: 5px 5px 5px #888888;
-    -webkit-animation: rubberBand 1s;
-    /* Chrome, Safari, Opera */
-    animation: rubberBand 1s;
+    height: 300px;
+    width: 300px;
+    border-collapse: collapse;
+    /* color:#1A1A1A; */
+
+}
+
+
+tr{
+   
+ }
+#game:hover{
+    cursor: pointer;
 }
 
 #button {
@@ -30,5 +44,22 @@ body {
 }
 
 .t2 {
-    color: red;
+ 
 }
+.cells{
+    text-align: center;
+}
+ #tic{
+  display: flex;
+  justify-content: center;
+ }
+main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+pre{
+    text-align: center;
+}
+/* style=" color:#1A1A1A" border="3" cellspacing="10" cellpadding="30" */

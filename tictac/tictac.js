@@ -1,26 +1,3 @@
-
-var isLame = {
-    
-    iOS: function() {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-    },
-    Opera: function() {
-        return navigator.userAgent.match(/Opera/i);
-    },
-    Windows: function() {
-        return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i) || navigator.appName.match(/Microsoft|Explorer|IE/i);
-    },
-    any: function() {
-        return (isLame.iOS() || isLame.Opera() || isLame.Windows());
-    }
-};
-if ( isLame.any() ) {
-document.getElementById("ham").removeAttribute("tabindex");document.getElementById("ham").removeAttribute("onblur");document.getElementById("ham").removeAttribute("onfocusout");
-//alert(navigator.userAgent)
-}
-
-
-
 var board = []
 var i = Number(i)
 var j, a, error,xmove, omove, xwin, owin, draw, start;
@@ -34,13 +11,13 @@ columns = 3
 function drawboard(ary){
 document.getElementById("tic").innerHTML = ""
 str = ""
-str += '<table id="game" align="center" style="border-collapse: collapse;width:95px; height:95px; color:#1A1A1A" border="3" cellspacing="10" cellpadding="30">'
+str += '<table id="game">'
 
 for(p = 1, q=1; p < rows; p++){
   
    str += '<tr>'
    for (j = 0; j < columns; q++,j++){
-      str += '<td style =  color:#FFFFFF id="cell'+q+'">' +ary[q]+'</td>';
+      str += '<td style =  color:#FFFFFF class="cells" id="cell'+q+'">' +ary[q]+'</td>';
       
    }
    str += '</tr>'
@@ -79,6 +56,8 @@ function cell9(){ if (board[9] == 9 && endgame == false){ board[9] = turn; docum
 
 function changeTurn(){
       if(turn == 'X'){
+        // document.getElementsByTagName("td").style.color = "#19FF19";
+
            turn = 'O';
       } else {
            turn = 'X';
