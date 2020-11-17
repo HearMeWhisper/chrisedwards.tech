@@ -29,7 +29,26 @@ nav{
     color: rgb(241, 147, 233);
 }
 
+.mainLogo{
+    height: 120px;
+    display: flex;
+    justify-self: center;
+    margin: auto;
+    /* background-color: black; */
+    padding:15px;
+}
+#painted{
+    display:flex;
+    justify-content: center;
+    font-family: 'Lalezar', cursive;
+    font-size: 4rem;
+    padding: 0%;
+    margin: 0;
 
+}
+#p{
+    color: #d580ab;
+}
 footer{
     display: flex;
     flex-wrap: wrap;
