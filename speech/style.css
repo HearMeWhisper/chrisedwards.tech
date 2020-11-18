@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    padding: 20px;
+    height: 100%;
+
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: cornflowerblue;
+}
+#btn{
+    color: blueviolet;
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    font-size: 4rem;
+    border-radius: 50%;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h1{
+    font-size: 7rem;
+}
