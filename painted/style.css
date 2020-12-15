@@ -49,9 +49,12 @@ nav{
     margin: 0;
 
 }
-#p{
+#painted:nth-child(0){
     color: #d580ab;
+    font-size: xx-large;
 }
+
+
 footer{
     display: flex;
     flex-wrap: wrap;
