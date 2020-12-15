@@ -49,12 +49,31 @@ nav{
     margin: 0;
 
 }
-#painted:nth-child(0){
+#painted:nth-child(1){
     color: #d580ab;
     font-size: xx-large;
 }
-
-
+#p{
+    color: #d580ab
+}
+#a{
+    color: #159F9E
+}
+#i{
+    color: #D07E56
+}
+#n{
+   color: #9966CC
+}
+#t{
+    color: #129ECC
+}
+#e{
+    color: #679935
+}
+#d{
+    color: #CB9D3E
+}
 footer{
     display: flex;
     flex-wrap: wrap;
