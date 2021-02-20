@@ -30,6 +30,8 @@ nav{
     font-family: 'Sansita Swashed', cursive;
     text-align: center;
     color: rgb(241, 147, 233);
+    -webkit-text-stroke: 1px #9966cc;
+	-webkit-text-fill-color: rgb(241, 147, 233);
 }
 
 .mainLogo{
@@ -73,6 +75,9 @@ nav{
 }
 #d{
     color: #CB9D3E
+}
+#you{
+    margin-left: 20px
 }
 footer{
     display: flex;
