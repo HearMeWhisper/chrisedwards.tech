@@ -1,0 +1,655 @@
+
+<!DOCTYPE html>
+<meta charset="UTF-8"> 
+<html>
+<head>
+<meta name="theme-color" content="#FF99E6">
+<link rel="stylesheet" type="text/css" href="menu.css" />
+<link rel="icon" type="image/ico" href="bingo.ico">
+<title> Bingo!</title>
+<style>
+.btn1 {
+  background: #14b8b8;
+  background-image: -webkit-linear-gradient(top, #14b8b8, #2980b9);
+  background-image: -moz-linear-gradient(top, #14b8b8, #2980b9);
+  background-image: -ms-linear-gradient(top, #14b8b8, #2980b9);
+  background-image: -o-linear-gradient(top, #14b8b8, #2980b9);
+  background-image: linear-gradient(to bottom, #14b8b8, #2980b9);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  -webkit-box-shadow: 7px 6px 8px #666666;
+  -moz-box-shadow: 7px 6px 8px #666666;
+  box-shadow: 7px 6px 8px #666666;
+  font-family: Courier New;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin:10px;
+}
+
+.btn1:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+html, body { height: 100%; }
+
+body {
+    cursor:default;
+/* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top left, #FF4D17 0%, #EF26DB 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #FF4D17 0%, #EF26DB 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #FF4D17 0%, #EF26DB 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FF4D17), color-stop(1, #EF26DB));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #FF4D17 0%, #EF26DB 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #FF4D17 0%, #EF26DB 100%);
+}
+
+#listTable{text-align:center;color:#1A1A1A; background-color:black;box-shadow: 10px 10px 5px #5F5F5F; border: 2px solid; border-radius: 10px;}
+#current{text-align:center; height:105px;
+}
+#button{text-align:center}
+#container{ overflow:hidden; text-align:center;}
+#card1{background-color:#D63333;width:auto;float:left; margin:auto;box-shadow: 5px 5px 2.5px #5F5F5F}
+#card2{background-color:#D63333;float:left;width:auto;margin:10px;box-shadow: 5px 5px 2.5px #5F5F5F}
+#aicard1{background-color:#3385D6; float:right;width:auto;margin:auto;box-shadow: 5px 5px 2.5px #5F5F5F}
+#aicard2{background-color:#3385D6; float:right;width:auto;margin:10px;box-shadow: 5px 5px 2.5px #5F5F5F}
+td{width:23px}
+.t:hover {background-clip: padding-box; 
+    border-radius: 20px;
+  background-color:#FF6600;
+}
+.t{background-clip: padding-box; 
+    border-radius: 20px;
+    background:#D63333}
+.t1{background-clip: padding-box; 
+    border-radius: 20px;
+    background:#3385D6}
+.t2{background-clip: padding-box; 
+    border-radius: 20px;
+    background:#D65CFF}
+.t3{background-clip: padding-box; 
+    border-radius: 20px;
+    background-color:#D65CFF;}
+#form{text-align: center}
+</style>
+</head>
+
+
+<body>
+ <div id="nav_menu" >
+  </div>
+  <script src="menu.js"></script>
+<br /><br /><br />
+
+<div id="form">
+<form name="autoform">
+AUTO MODE:
+<br /><input type="radio" id="no" name="auto" value="no" checked="checked" onclick="cleari()">Manual</input> <input type="radio" id="auto" name="auto" value="yes" onclick="cleari()">Semi-Auto</input>
+<input type="radio" id="yes1" name="auto" value="yes1">Fully-Auto</input>
+</form>
+<div>
+<div id = "list">     </div>
+
+<div id = "current">  </div>
+
+<br />
+<div id = "button">
+<button class="btn1" id="startbtn" onclick="nextNum()" > Start!</button>
+</div>
+
+<br />
+<div id = "container">
+<div id = "card1"> </div>
+<div id = "card2"> </div>
+<div id = "aicard2"></div>
+<div id = "aicard1"> </div>
+</div>
+
+
+<script type="text/javascript">
+
+
+var isLame = {
+    
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i) || navigator.appName.match(/Microsoft|Explorer|IE/i);
+    },
+    any: function() {
+        return (isLame.iOS() || isLame.Opera() || isLame.Windows());
+    }
+};
+if ( isLame.any() ) {
+document.getElementById("ham").removeAttribute("tabindex");document.getElementById("ham").removeAttribute("onblur");document.getElementById("ham").removeAttribute("onfocusout");
+console.log(isLame.any)
+}
+
+
+//body {background:linear-gradient(to bottom right, purple ,white, red);}
+var buttonpress = false
+var bingo = ["B", "I", "N", "G", "O"]
+var t = 1
+var board= [];
+var board2 = [];
+var aiboard = [];
+var aiboard2 = [];
+var card, card2, card3, card4
+var w
+var i
+var self_play
+var test = true;
+var repeat;
+for (i=0; i<26; i++) {
+board[i] = new Array(2); 
+board2[i] = new Array(2);
+aiboard[i] = new Array(2); 
+aiboard2[i] = new Array(2);
+}
+
+
+var target = [];
+var target1 = [];
+var target2 = [];
+var target3 = [];
+var target4 = [];
+var target5 =[]
+var rows = 7
+var columns = 5
+var target0 = []
+ Array.prototype.shuffle = function() {
+    var input = this;
+    for (var i = input.length-1; i >=0; i--) {
+        var randomIndex = Math.floor(Math.random()*(i+1));
+        var itemAtIndex = input[randomIndex];  
+        input[randomIndex] = input[i];
+        input[i] = itemAtIndex;   }
+    
+    return input;
+    
+}
+
+
+function listNum(){
+
+document.getElementById("list").innerHTML = ""
+
+for (s=0; s<=75; s++){target0[s] = s}
+var str = ''
+str += '<table id = "listTable" align = "center" cellpadding = "7">'
+for (s=0, e=1; s<5; s++){
+str += '<tr><td style="color:red">'+bingo[s]+'</td>'
+    for (y=0; y<15; e++, y++){
+	str +='<td id = "list'+e+'">'+target0[e]+'</td>';
+    }
+    str += '</tr>'
+}
+document.getElementById("list").innerHTML = str
+}
+
+listNum();
+
+
+
+
+function drawboard(ary, ary2){
+range = 15
+for (w=0,i=0; w<range;i++, w++){
+target[i] = w+1};
+target.shuffle()
+for (i=1, j=0; i<26; j++, i= i+5) {ary[i][0] = target[j]; }
+range = 30
+for (w=15, i=0; w<range;i++, w++){
+target1[i] = w+1};
+target1.shuffle();
+for (i=2, j=0; i<26; j++, i=i+5) ary[i][0] = target1[j]
+range = 45
+for (w=30, i=0; w<range; i++, w++){
+target2[i] = w+1};
+target2.shuffle();
+for (i=3, j=0; i<26;j++, i=i+5) ary[i][0] = target2[j]
+range = 60
+for (w=45, i=0; w<range;i++, w++){
+target3[i] = w+1};
+target3.shuffle();
+for (i=4, j=0; i<26; j++, i=i+5) ary[i][0] = target3[j]
+range = 75
+for (w=60, i=0; w<range;i++, w++){
+target4[i] = w+1};
+target4.shuffle();
+for (i=5, j=0; i<26;j++, i=i+5) ary[i][0] = target4[j]
+ ary[13][0] = "F"
+document.getElementById("card1").innerHTML = ""
+card= ""
+card += 'Player Card 1<table id="game" style="border-collapse: collapse; text-align:center; color:#1A1A1A" border="3" cellspacing="10" cellpadding="10">'
+card += '<tr><td style= "color:red; background-color:white;"> B </td> <td style= "color:red;background-color:white;"> I </td> <td style= "color:red;background-color:white;"> N </td> <td style= "color:red;background-color:white;"> G </td> <td style= "color:red;background-color:white;"> O </td>' 
+for(p = 1, q=1; p < rows-1; p++){
+  
+   card += '<tr>'
+   for (j = 0; j < columns; q++,j++){
+      card += '<td class="t" class="ce" onclick="cSwap(this)" id="cell'+q+'">' +ary[q][0]+'</td>';
+      
+   }
+   card += '</tr>'
+   
+}
+ 
+card += '</table>'
+document.getElementById("card1").innerHTML =card
+
+//Card 2
+range = 15
+for (w=0,i=0; w<range;i++, w++){
+target[i] = w+1};
+target.shuffle()
+for (i=1, j=0; i<26; j++, i= i+5) {ary2[i][0] = target[j]; }
+range = 30
+for (w=15, i=0; w<range;i++, w++){
+target[i] = w+1};
+target.shuffle();
+for (i=2, j=0; i<26; j++, i=i+5) ary2[i][0] = target[j]
+range = 45
+for (w=30, i=0; w<range; i++, w++){
+target[i] = w+1};
+target.shuffle();
+for (i=3, j=0; i<26;j++, i=i+5) ary2[i][0] = target[j]
+range = 60
+for (w=45, i=0; w<range;i++, w++){
+target[i] = w+1};
+target.shuffle();
+for (i=4, j=0; i<26; j++, i=i+5) ary2[i][0] = target[j]
+range = 75
+for (w=60, i=0; w<range;i++, w++){
+target[i] = w+1};
+target.shuffle();
+for (i=5, j=0; i<26;j++, i=i+5) ary2[i][0] = target[j]
+ ary2[13][0] = "F"
+document.getElementById("card2").innerHTML = ""
+card2 = ""
+card2 += 'Player Card 2<table id="game"  style="border-collapse: collapse; text-align:center; color:#1A1A1A" border="3" cellspacing="10" cellpadding="10">'
+card2 += '<tr><td style= "color:red; background-color:white;"> B </td> <td style= "color:red;background-color:white;"> I </td> <td style= "color:red;background-color:white;"> N </td> <td style= "color:red;background-color:white;"> G </td> <td style= "color:red;background-color:white;"> O </td>'
+for(p = 1, q=1; p < rows-1; p++){
+  
+   card2 += '<tr>'
+   for (j = 0; j < columns; q++,j++){
+      card2 += '<td class="t" class="ce" onclick="cSwap(this)" id="cell2_'+q+'">' +ary2[q][0]+'</td>';
+      
+   }
+   card2 += '</tr>'
+   
+}
+ 
+card2 += '</table>'
+document.getElementById("card2").innerHTML =card2
+
+for (i=1; i<26; i++) {board[i][1] = false; board2[i][1] = false}
+}
+drawboard(board, board2)
+
+
+
+function aidrawboard(ary, ary2){
+//Card3
+range = 15
+for (w=0,i=0; w<range;i++, w++){
+target[i] = w+1};
+target.shuffle()
+for (i=1, j=0; i<26; j++, i= i+5) {ary[i][0] = target[j]; }
+range = 30
+for (w=15, i=0; w<range;i++, w++){
+target1[i] = w+1};
+target1.shuffle();
+for (i=2, j=0; i<26; j++, i=i+5) ary[i][0] = target1[j]
+range = 45
+for (w=30, i=0; w<range; i++, w++){
+target2[i] = w+1};
+target2.shuffle();
+for (i=3, j=0; i<26;j++, i=i+5) ary[i][0] = target2[j]
+range = 60
+for (w=45, i=0; w<range;i++, w++){
+target3[i] = w+1};
+target3.shuffle();
+for (i=4, j=0; i<26; j++, i=i+5) ary[i][0] = target3[j]
+range = 75
+for (w=60, i=0; w<range;i++, w++){
+target4[i] = w+1};
+target4.shuffle();
+for (i=5, j=0; i<26;j++, i=i+5) ary[i][0] = target4[j]
+ ary[13][0] = "F"
+document.getElementById("aicard1").innerHTML = ""
+card4 = ""
+card4 += 'Opponent Card 1<table id="game" style="border-collapse: collapse; text-align:center; color:#1A1A1A" border="3" cellspacing="10" cellpadding="10">'
+card4 += '<tr><td style= "color:red; background-color:white;"> B </td> <td style= "color:red;background-color:white;"> I </td> <td style= "color:red;background-color:white;"> N </td> <td style= "color:red;background-color:white;"> G </td> <td style= "color:red;background-color:white;"> O </td>'
+for(p = 1, q=1; p < rows-1; p++){
+  
+   card4 += '<tr>'
+   for (j = 0; j < columns; q++,j++){
+      card4 += '<td class="t1" onclick="cSwap(this)" id="aicell_'+q+'">' +ary[q][0]+'</td>';
+      
+   }
+   card4 += '</tr>'
+   
+}
+ 
+card4 += '</table>'
+document.getElementById("aicard1").innerHTML = card4
+
+//Card 4
+range = 15
+for (w=0,i=0; w<range;i++, w++){
+target[i] = w+1};
+target.shuffle()
+for (i=1, j=0; i<26; j++, i= i+5) {ary2[i][0] = target[j]; }
+range = 30
+for (w=15, i=0; w<range;i++, w++){
+target[i] = w+1};
+target.shuffle();
+for (i=2, j=0; i<26; j++, i=i+5) ary2[i][0] = target[j]
+range = 45
+for (w=30, i=0; w<range; i++, w++){
+target[i] = w+1};
+target.shuffle();
+for (i=3, j=0; i<26;j++, i=i+5) ary2[i][0] = target[j]
+range = 60
+for (w=45, i=0; w<range;i++, w++){
+target[i] = w+1};
+target.shuffle();
+for (i=4, j=0; i<26; j++, i=i+5) ary2[i][0] = target[j]
+range = 75
+for (w=60, i=0; w<range;i++, w++){
+target[i] = w+1};
+target.shuffle();
+for (i=5, j=0; i<26;j++, i=i+5) ary2[i][0] = target[j]
+ ary2[13][0] = "F"
+document.getElementById("aicard2").innerHTML = ""
+card3 = ""
+card3 += 'Opponent Card 2<table id="game"  style="border-collapse: collapse; text-align:center; color:#1A1A1A" border="3" cellspacing="10" cellpadding="10">'
+card3 += '<tr><td style= "color:red; background-color:white;"> B </td> <td style= "color:red;background-color:white;"> I </td> <td style= "color:red;background-color:white;"> N </td> <td style= "color:red;background-color:white;"> G </td> <td style= "color:red;background-color:white;"> O </td>'
+for(p = 1, q=1; p < rows-1; p++){
+  
+   card3 += '<tr>'
+   for (j = 0; j < columns; q++,j++){
+      card3 += '<td class="t1"  onclick="cSwap(this)" id="aicell2_'+q+'">' +ary2[q][0]+'</td>';
+      
+   }
+   card3 += '</tr>'
+   
+}
+ 
+card3 += '</table>'
+document.getElementById("aicard2").innerHTML = card3
+
+for (i=1; i<26; i++) {aiboard[i][1] = false; aiboard2[i][1] = false}
+document.getElementById("aicell2_13").className = "t3";aiboard2[13][1] = true
+document.getElementById("aicell_13").className = "t3";aiboard[13][1] = true
+
+}
+aidrawboard(aiboard, aiboard2)
+
+
+
+function cSwap(cell){  
+    if (cell.className == "t")
+       { cell.className = "t2";  }
+    else if (cell.className == "t2")
+        {cell.className = "t"; }
+}
+
+for (i=1; i<=75; i++){target5[i-1] = i}
+target5.shuffle();
+
+
+
+function marked(){
+var a
+var td = document.getElementsByClassName("ce");
+for (i=1, a=1; i<26  ;a++, i++){
+      if (document.getElementById("cell"+i).className == "t2") {board[i][1] = true;}
+else if (document.getElementById("cell"+i).className == "t"){board[i][1] = false;}
+}
+
+for (i=1, a=1; i<26  ;a++, i++){
+      if (document.getElementById("cell2_"+i).className == "t2") {board2[i][1] = true;}
+else if (document.getElementById("cell2_"+i).className == "t"){board2[i][1] = false;}
+}
+
+for (i=1, a=1; i<26  ;a++, i++){
+      if (document.getElementById("aicell2_"+i).className == "t1") {aiboard2[i][1] = true;}
+else if (document.getElementById("aicell2_"+i).className == "t3"){aiboard2[i][1] = false;}
+}
+
+
+for (i=1, a=1; i<26  ;a++, i++){
+      if (document.getElementById("aicell"+i).className == "t1") {aiboard[i][1] = true;}
+else if (document.getElementById("aicell"+i).className == "t3"){aiboard[i][1] = false;}
+}
+
+}
+var oldNum = [];
+
+var start = false;
+
+
+function nextNum(){
+if (start != true){
+document.getElementById("button").innerHTML = '<button class="btn1" id="startbtn" onclick="nextNum()" > Next Number!</button><button class="btn1" id="bingobtn" onclick="check()" > BINGO!! </button><button class="btn1" id="newbtn" onclick="NewGame()" >New Game </button> '; start = true;}
+document.getElementById("startbtn").innerHTML = "Next Number!";console.log('before ' +t)
+calledNum = target5[t];
+oldNum[0] = 'F';
+oldNum[t] = target5[t]
+if (document.getElementById('no').checked == true){cleari();};
+if (document.getElementById('auto').checked == true || document.getElementById('yes1').checked == true  ){ playermark(); cleari();};
+if (document.getElementById('yes1').checked == true) {  self_play = true};
+if (document.getElementById('yes1').checked == false) {self_play = false};
+aimark();
+do {
+if (t<75){
+document.getElementById("list"+calledNum).style.color = "white";
+}}
+while (1 == 0);
+t++
+var game1 = 'Game Over'
+
+if (t <= 75){
+if (calledNum <= 15) calledNum = bingo[0]+calledNum
+if (calledNum <= 30 && calledNum > 15) calledNum = bingo[1]+calledNum
+if (calledNum <= 45 && calledNum > 30) calledNum = bingo[2]+calledNum
+if (calledNum <= 60 && calledNum > 45) calledNum = bingo[3]+calledNum
+if (calledNum <= 75 && calledNum > 60) calledNum = bingo[4]+calledNum
+document.getElementById("current").innerHTML ='<h1>'+ calledNum+'</h1>';
+}
+else document.getElementById("current").innerHTML ='<h1>Game Over</h1>';
+
+checkai();
+check();
+
+}
+
+
+
+function aimark(){
+for (i=0; i<26; i++){
+
+if (aiboard[i][0] == calledNum) {document.getElementById("aicell_"+i).className = "t3"; aiboard[i][1] = true}
+if (aiboard2[i][0] == calledNum) { document.getElementById("aicell2_"+i).className = "t3"; aiboard2[i][1] = true}
+}
+}
+
+
+function playermark(){
+document.getElementById("cell2_13").className = "t3";board2[13][1] = true
+document.getElementById("cell13").className = "t3";board[13][1] = true
+
+for (i=0; i<26; i++){
+
+if (board2[i][0] == calledNum) {document.getElementById("cell2_"+i).className = "t3";
+board2[i][1] = true}
+
+if (board[i][0] == calledNum) {document.getElementById("cell"+i).className = "t3";
+board[i][1] = true}
+}
+}
+
+
+
+function checkai(){
+if (aiboard[1][1] == true && aiboard[6][1] == true && aiboard[11][1] == true && aiboard[16][1] == true && aiboard[21][1] == true){ matchNum(aiboard, 1, 6, 11, 16, 21);}
+if (aiboard[2][1] == true && aiboard[7][1] == true && aiboard[12][1] == true && aiboard[17][1] == true && aiboard[22][1] == true){ matchNum(aiboard,2,7,12,17,22);}
+if (aiboard[3][1] == true && aiboard[8][1] == true && aiboard[13][1] == true && aiboard[18][1] == true && aiboard[23][1] == true){ matchNum(aiboard,3,8,13,18,23);}
+if (aiboard[4][1] == true && aiboard[9][1] == true && aiboard[14][1] == true && aiboard[19][1] == true && aiboard[24][1] == true){ matchNum(aiboard,4,9,14,18,24);}
+if (aiboard[5][1] == true && aiboard[10][1] == true && aiboard[15][1] == true && aiboard[20][1] == true && aiboard[25][1] == true){ matchNum(aiboard,5,10,15,20,25);}
+
+if (aiboard[1][1] == true && aiboard[2][1] == true && aiboard[3][1] == true && aiboard[4][1] == true && aiboard[5][1] == true){ matchNum(aiboard,1,2,3,4,5);}
+if (aiboard[6][1] == true && aiboard[7][1] == true && aiboard[8][1] == true && aiboard[9][1] == true && aiboard[10][1] == true){ matchNum(aiboard,6,7,8,9,10);}
+if (aiboard[11][1] == true && aiboard[12][1] == true && aiboard[13][1] == true && aiboard[14][1] == true && aiboard[15][1] == true){ matchNum(aiboard,11,12,13,14,15);}
+if (aiboard[16][1] == true && aiboard[17][1] == true && aiboard[18][1] == true && aiboard[19][1] == true && aiboard[20][1] == true){ matchNum(aiboard,16,17,18,19,20);}
+if (aiboard[21][1] == true && aiboard[22][1] == true && aiboard[23][1] == true && aiboard[24][1] == true && aiboard[25][1] == true){ matchNum(aiboard,21,22,23,24,25);}
+
+if (aiboard[1][1] == true && aiboard[7][1] == true && aiboard[13][1] == true && aiboard[19][1] == true && aiboard[25][1] == true){ matchNum(aiboard,1,7,13,19,25);}
+if (aiboard[5][1] == true && aiboard[9][1] == true && aiboard[13][1] == true && aiboard[17][1] == true && aiboard[21][1] == true){ matchNum(aiboard,5,9,13,17,21);}
+
+
+
+if (aiboard2[1][1] == true && aiboard2[6][1] == true && aiboard2[11][1] == true && aiboard2[16][1] == true && aiboard2[21][1] == true){ matchNum(aiboard2, 1, 6, 11, 16, 21);}
+if (aiboard2[2][1] == true && aiboard2[7][1] == true && aiboard2[12][1] == true && aiboard2[17][1] == true && aiboard2[22][1] == true){ matchNum(aiboard2,2,7,12,17,22);}
+if (aiboard2[3][1] == true && aiboard2[8][1] == true && aiboard2[13][1] == true && aiboard2[18][1] == true && aiboard2[23][1] == true){ matchNum(aiboard2,3,8,13,18,23);}
+if (aiboard2[4][1] == true && aiboard2[9][1] == true && aiboard2[14][1] == true && aiboard2[19][1] == true && aiboard2[24][1] == true){ matchNum(aiboard2,4,9,14,18,24);}
+if (aiboard2[5][1] == true && aiboard2[10][1] == true && aiboard2[15][1] == true && aiboard2[20][1] == true && aiboard2[25][1] == true){ matchNum(aiboard2,5,10,15,20,25);}
+
+if (aiboard2[1][1] == true && aiboard2[2][1] == true && aiboard2[3][1] == true && aiboard2[4][1] == true && aiboard2[5][1] == true){ matchNum(aiboard2,1,2,3,4,5);}
+if (aiboard2[6][1] == true && aiboard2[7][1] == true && aiboard2[8][1] == true && aiboard2[9][1] == true && aiboard2[10][1] == true){ matchNum(aiboard2,6,7,8,9,10);}
+if (aiboard2[11][1] == true && aiboard2[12][1] == true && aiboard2[13][1] == true && aiboard2[14][1] == true && aiboard2[15][1] == true){ matchNum(aiboard2,11,12,13,14,15);}
+if (aiboard2[16][1] == true && aiboard2[17][1] == true && aiboard2[18][1] == true && aiboard2[19][1] == true && aiboard2[20][1] == true){ matchNum(aiboard2,16,17,18,19,20);}
+if (aiboard2[21][1] == true && aiboard2[22][1] == true && aiboard2[23][1] == true && aiboard2[24][1] == true && aiboard2[25][1] == true){ matchNum(aiboard2,21,22,23,24,25);}
+
+if (aiboard2[1][1] == true && aiboard2[7][1] == true && aiboard2[13][1] == true && aiboard2[19][1] == true && aiboard2[25][1] == true){ matchNum(aiboard2,1,7,13,19,25);}
+if (aiboard2[5][1] == true && aiboard2[9][1] == true && aiboard2[13][1] == true && aiboard2[17][1] == true && aiboard2[21][1] == true){ matchNum(aiboard2,5,9,13,17,21);}
+
+
+}
+
+
+
+function matchNum(ary, num1, num2, num3, num4, num5){
+win = false;
+//console.log('aiboard = ' + aiboard);
+console.log('aboard2 = ' + aiboard2);
+var aibingo = 0;
+var playerbingo = 0;
+
+for (i=0; i<oldNum.length; i++){
+if (oldNum[i] == ary[num1][0]){ if(ary == aiboard || ary == aiboard2) aibingo++; else{ playerbingo++}}
+if (oldNum[i] == ary[num2][0]){ if(ary == aiboard || ary == aiboard2) aibingo++; else{ playerbingo++}}
+if (oldNum[i] == ary[num3][0]){ if(ary == aiboard || ary == aiboard2) aibingo++; else{ playerbingo++}}
+if (oldNum[i] == ary[num4][0]){ if(ary == aiboard || ary == aiboard2) aibingo++; else{ playerbingo++}}
+if (oldNum[i] == ary[num5][0]){ if(ary == aiboard || ary == aiboard2) aibingo++; else{ playerbingo++}}
+}
+if (win == false && aibingo == 5) {win = true;cleari(); alert('Computer Wins!'); var play = confirm('Play again?');}
+if (win == false && playerbingo == 5) {win = true; cleari(); alert('You Win!'); var play = confirm('Play again?'); }
+if (play == false){document.getElementById("button").innerHTML='<button class="btn1" id="startbtn" onclick="NewGame()" > Start!</button>'; cleari();test = false}
+
+if (play == true){drawboard(board, board2); aidrawboard(aiboard, aiboard2); listNum(); t = 0; document.getElementById("current").innerHTML = "";cleari();}
+}
+
+
+function marked(){
+var a
+var td = document.getElementsByClassName("ce");
+//var td1 = document.getElementById('cell
+//console.log(td.length)
+for (i=1, a=1; i<26  ;a++, i++){
+      if (document.getElementById("cell"+i).className == "t2") {board[i][1] = true;}
+else if (document.getElementById("cell"+i).className == "t"){board[i][1] = false;}
+}
+
+for (i=1, a=1; i<26  ;a++, i++){
+      if (document.getElementById("cell2_"+i).className == "t2") {board2[i][1] = true;}
+else if (document.getElementById("cell2_"+i).className == "t"){board2[i][1] = false}
+}
+}
+
+function check(){
+
+marked();
+
+if (board[1][1] == true && board[6][1] == true && board[11][1] == true && board[16][1] == true && board[21][1] == true){ matchNum(board, 1, 6, 11, 16, 21);}
+if (board[2][1] == true && board[7][1] == true && board[12][1] == true && board[17][1] == true && board[22][1] == true){ matchNum(board,2,7,12,17,22);}
+if (board[3][1] == true && board[8][1] == true && board[13][1] == true && board[18][1] == true && board[23][1] == true){ matchNum(board,3,8,13,18,23);}
+if (board[4][1] == true && board[9][1] == true && board[14][1] == true && board[19][1] == true && board[24][1] == true){ matchNum(board,4,9,14,18,24);}
+if (board[5][1] == true && board[10][1] == true && board[15][1] == true && board[20][1] == true && board[25][1] == true){ matchNum(board,5,10,15,20,25);}
+
+if (board[1][1] == true && board[2][1] == true && board[3][1] == true && board[4][1] == true && board[5][1] == true){ matchNum(board,1,2,3,4,5);}
+if (board[6][1] == true && board[7][1] == true && board[8][1] == true && board[9][1] == true && board[10][1] == true){ matchNum(board,6,7,8,9,10);}
+if (board[11][1] == true && board[12][1] == true && board[13][1] == true && board[14][1] == true && board[15][1] == true){ matchNum(board,11,12,13,14,15);}
+if (board[16][1] == true && board[17][1] == true && board[18][1] == true && board[19][1] == true && board[20][1] == true){ matchNum(board,16,17,18,19,20);}
+if (board[21][1] == true && board[22][1] == true && board[23][1] == true && board[24][1] == true && board[25][1] == true){ matchNum(board,21,22,23,24,25);}
+
+if (board[1][1] == true && board[7][1] == true && board[13][1] == true && board[19][1] == true && board[25][1] == true){ matchNum(board,1,7,13,19,25);}
+if (board[5][1] == true && board[9][1] == true && board[13][1] == true && board[17][1] == true && board[21][1] == true){ matchNum(board,5,9,13,17,21);}
+
+
+
+if (board2[1][1] == true && board2[6][1] == true && board2[11][1] == true && board2[16][1] == true && board2[21][1] == true){ matchNum(board2, 1, 6, 11, 16, 21);}
+if (board2[2][1] == true && board2[7][1] == true && board2[12][1] == true && board2[17][1] == true && board2[22][1] == true){ matchNum(board2,2,7,12,17,22);}
+if (board2[3][1] == true && board2[8][1] == true && board2[13][1] == true && board2[18][1] == true && board2[23][1] == true){ matchNum(board2,3,8,13,18,23);}
+if (board2[4][1] == true && board2[9][1] == true && board2[14][1] == true && board2[19][1] == true && board2[24][1] == true){ matchNum(board2,4,9,14,18,24);}
+if (board2[5][1] == true && board2[10][1] == true && board2[15][1] == true && board2[20][1] == true && board2[25][1] == true){ matchNum(board2,5,10,15,20,25);}
+
+if (board2[1][1] == true && board2[2][1] == true && board2[3][1] == true && board2[4][1] == true && board2[5][1] == true){ matchNum(board2,1,2,3,4,5);}
+if (board2[6][1] == true && board2[7][1] == true && board2[8][1] == true && board2[9][1] == true && board2[10][1] == true){ matchNum(board2,6,7,8,9,10);}
+if (board2[11][1] == true && board2[12][1] == true && board2[13][1] == true && board2[14][1] == true && board2[15][1] == true){ matchNum(board2,11,12,13,14,15);}
+if (board2[16][1] == true && board2[17][1] == true && board2[18][1] == true && board2[19][1] == true && board2[20][1] == true){ matchNum(board2,16,17,18,19,20);}
+if (board2[21][1] == true && board2[22][1] == true && board2[23][1] == true && board2[24][1] == true && board2[25][1] == true){ matchNum(board2,21,22,23,24,25);}
+
+if (board2[1][1] == true && board2[7][1] == true && board2[13][1] == true && board2[19][1] == true && board2[25][1] == true){ matchNum(board2,1,7,13,19,25);}
+if (board2[5][1] == true && board2[9][1] == true && board2[13][1] == true && board2[17][1] == true && board2[21][1] == true){ matchNum(board2,5,9,13,17,21);}
+
+repeat1();
+}
+
+function repeat1(){if (self_play == true && test == true){
+repeat = setInterval(nextNum, 15000); 
+}
+else if (self_play == false) {clearInterval(repeat);}
+test = false;}
+
+function cleari(){clearInterval(repeat); test=true;}
+
+function NewGame(){
+var confirmnew = confirm('Wait! This will clear all current progress!');
+if (confirmnew == true){
+    t = 0;
+drawboard(board, board2); aidrawboard(aiboard, aiboard2); listNum(); clearInterval(repeat); test = true; start = false;
+document.getElementById("button").innerHTML='<button class="btn1" id="startbtn" onclick="nextNum()" > Start!</button>';
+document.getElementById("current").innerHTML="";
+}
+}
+
+</script>
+</body>
+</html>
