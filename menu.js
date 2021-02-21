@@ -29,8 +29,8 @@ var sites = [
     ["/binary/", "Binary Converter"],
     ["/rollDice", "Dice"],
     ["/be_mine/", "Be Mine!"],
-    ["/Movies", "Movies"],
-    ["/Tv%20Shows", "Tv Shows"]
+    ["/media/Movies", "Movies"],
+    ["/media/Tv%20Shows", "Tv Shows"]
 ];
 var foobar = "";
 for (i = 0; i < sites.length; i++) {
