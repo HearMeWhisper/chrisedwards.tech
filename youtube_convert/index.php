@@ -14,7 +14,7 @@ echo '
 <head>
   <meta name="theme-color" content="#bb0000">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link rel="stylesheet" type="text/css" href="../menu.css" />
+  <link rel="stylesheet" type="text/css" href="/menu/menu.css" />
 <title>YouTube Music</title>
 <style>
 body {background-color:#8f98a8; color:white}
@@ -23,7 +23,7 @@ body {background-color:#8f98a8; color:white}
 <body onload="">
 <div id="nav_menu">
 </div>
-<script src="../menu.js"></script> 
+<script src="/menu/menu.js"></script> 
 <script language="javascript">
 
 function reload(){

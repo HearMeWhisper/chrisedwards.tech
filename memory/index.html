@@ -5,7 +5,7 @@
 <!--Card flip animation by Chris Theil-->
 <title>Test YOUR Memory</title>
 <meta name="theme-color" content="#00FFAA">
-<link rel="stylesheet" type="text/css" href="../menu.css" />
+<link rel="stylesheet" type="text/css" href="/menu.css" />
 <link rel="icon" type="image/ico" href="mem.ico">
 <!--<meta name="viewport" content="width=device-width, initial-scale=1"/>-->
 <style>
@@ -15,6 +15,14 @@
  box-shadow:7px 9px 10px #000;}
 img{height:150px; width:150px; border-radius:12%; }
 
+.unselectable {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
 
 body{background-color:#bc9ad4}
 .cells{ border-radius:12%; -moz-box-shadow: 5px  7px 10px #000;
@@ -108,9 +116,8 @@ perspective: 1000;
 </head>
 
 <body>
-  <div id="nav_menu">
-  </div>
-  <script src="../menu.js"></script> 
+  <div id="nav_menu"></div>
+  <script src="/menu.js"></script> 
 <br />
 <br />
 <br />
@@ -176,7 +183,7 @@ function drawboard(ary){
     score = 0;
 document.getElementById("score").innerHTML = "Number of turns: "+score;
 document.getElementById("merpic").checked  = "checked";
-for( i=0, j=10; i<=9; i++, j++){board[i][0] = '<img  class="pics" id="img'+i+'" src="mem_pics/mer/mem_img'+i+'.jpeg"  onclick="cSwap(this)" />'; board[i][1] = false;
+for( i=0, j=10; i<=9; i++, j++){board[i][0] = '<img  draggable="false" (dragstart)="false;" class="unselectable pics" id="img'+i+'" src="mem_pics/mer/mem_img'+i+'.jpeg"  onclick="cSwap(this)" />'; board[i][1] = false;
 board[j][0] = '<img  class="pics" id="img'+j+'" src="mem_pics/mer/mem_img'+i+'.jpeg"  onclick="cSwap(this)" />'; board[j][1] = false;}
 console.log(board);
 board.shuffle();

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta name="theme-color" content="#FF99E6">
-<link rel="stylesheet" type="text/css" href="../menu.css" />
+<link rel="stylesheet" type="text/css" href="/menu/menu.css" />
 <link rel="icon" type="image/ico" href="bingo.ico">
 <title> Bingo!</title>
 <style>
@@ -64,6 +64,8 @@ background-image: -webkit-linear-gradient(top left, #FF4D17 0%, #EF26DB 100%);
 /* W3C Markup, IE10 Release Preview */ 
 background-image: linear-gradient(to bottom right, #FF4D17 0%, #EF26DB 100%);
 }
+body {background:linear-gradient(to bottom right, purple ,white, red);}
+
 
 #listTable{text-align:center;color:#1A1A1A; background-color:black;box-shadow: 10px 10px 5px #5F5F5F; border: 2px solid; border-radius: 10px;}
 #current{text-align:center; height:105px;
@@ -99,7 +101,7 @@ td{width:23px}
 <body>
  <div id="nav_menu" >
   </div>
-  <script src="../menu.js"></script>
+  <script src="/menu/menu.js"></script>
 <br /><br /><br />
 
 
@@ -129,54 +131,54 @@ AUTO MODE:
 
 
 <script type="text/javascript">
-var isMobile = {
-    Android: function() {
-        return navigator.userAgent.match(/Android/i);
-    },
-    BlackBerry: function() {
-        return navigator.userAgent.match(/BlackBerry/i);
-    },
-    iOS: function() {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-    },
-    Opera: function() {
-        return navigator.userAgent.match(/Opera Mini/i);
-    },
-    Windows: function() {
-        return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
-    },
-    any: function() {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-    }
-};
-if ( isMobile.any() ) {
-document.location = "bingomobile.html"
-
-}
-
-
-var isLame = {
-    
-    iOS: function() {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-    },
-    Opera: function() {
-        return navigator.userAgent.match(/Opera/i);
-    },
-    Windows: function() {
-        return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i) || navigator.appName.match(/Microsoft|Explorer|IE/i);
-    },
-    any: function() {
-        return (isLame.iOS() || isLame.Opera() || isLame.Windows());
-    }
-};
-if ( isLame.any() ) {
-document.getElementById("ham").removeAttribute("tabindex");document.getElementById("ham").removeAttribute("onblur");document.getElementById("ham").removeAttribute("onfocusout"); //document.getElementById("bigx").setAttribute("onclick", "slideout()")
-
-}
+// var isMobile = {
+    // Android: function() {
+        // return navigator.userAgent.match(/Android/i);
+    // },
+    // BlackBerry: function() {
+        // return navigator.userAgent.match(/BlackBerry/i);
+    // },
+    // iOS: function() {
+        // return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    // },
+    // Opera: function() {
+        // return navigator.userAgent.match(/Opera Mini/i);
+    // },
+    // Windows: function() {
+        // return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
+    // },
+    // any: function() {
+        // return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    // }
+// };
+// if ( isMobile.any() ) {
+// document.location = "bingomobile.html"
+// 
+// }
 
 
-//body {background:linear-gradient(to bottom right, purple ,white, red);}
+// var isLame = {
+    // 
+    // iOS: function() {
+        // return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    // },
+    // Opera: function() {
+        // return navigator.userAgent.match(/Opera/i);
+    // },
+    // Windows: function() {
+        // return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i) || navigator.appName.match(/Microsoft|Explorer|IE/i);
+    // },
+    // any: function() {
+        // return (isLame.iOS() || isLame.Opera() || isLame.Windows());
+    // }
+// };
+// if ( isLame.any() ) {
+// document.getElementById("ham").removeAttribute("tabindex");document.getElementById("ham").removeAttribute("onblur");document.getElementById("ham").removeAttribute("onfocusout"); //document.getElementById("bigx").setAttribute("onclick", "slideout()")
+// 
+// }
+
+
+
 var buttonpress = false
 var bingo = ["B", "I", "N", "G", "O"]
 var t = 1
