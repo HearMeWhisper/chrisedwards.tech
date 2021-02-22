@@ -5,41 +5,157 @@
 <!--Card flip animation by Chris Theil-->
 <title>Test YOUR Memory</title>
 <meta name="theme-color" content="#00FFAA">
-<link rel="stylesheet" type="text/css" href="../menu.css" />
+<link rel="stylesheet" type="text/css" href="menu.css" />
 <link rel="icon" type="image/ico" href="mem.ico">
-<script src="menu.js"></script>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1"/>-->
 <style>
-#mainboard{float:left;}
-#score{float:right;}
-.cells:hover{-moz-box-shadow: 0 0 10px #000;
+#score{text-align:center; font-weight:bold; text-shadow: 25%;}
+.cells:hover{-moz-box-shadow: 7px  9px 10px #000;
+ -webkit-box-shadow: 7px 9px 10px #000;
+ box-shadow:7px 9px 10px #000;}
+img{height:150px; width:150px; border-radius:12%; }
+
+
+body{background-color:#bc9ad4}
+.cells{ border-radius:12%; -moz-box-shadow: 5px  7px 10px #000;
+ -webkit-box-shadow: 5px 7px 10px #000;
+ box-shadow: 5px 7px 10px #000; background-color:#79addd;}
+.pics{opacity:0;
+    -webkit-transform: translateZ(0);
+	transform: translateZ(0)
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+-webkit-perspective: 1000;
+perspective: 1000;
+    -webkit-animation: unflip .3s; /* Chrome, Safari, Opera */
+    animation: unflip .3s;
+    height:150px;
+    width:150px;
+    position:relative;}
+.pics2{opacity:1;
+    -webkit-transform: translateZ(0);
+	transform: translateZ(0)
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+-webkit-perspective: 1000;
+perspective: 1000;
+    -webkit-animation: flip .3s; /* Chrome, Safari, Opera */
+    animation: flip .3s;
+    height:150px;
+    width:150px;
+    position:relative;
+    -moz-box-shadow: 0 0 10px #000;
  -webkit-box-shadow: 0 0 10px #000;
  box-shadow: 0 0 10px #000;}
-img{height:150px; width:150px; }
-td{background-color:blue; height:80px; width:80px  }
-body{background-color:#00FFAA}
-.cells{height:150px;
-	width:150px;
+.pics3{opacity:1;
+    -webkit-transform: translateZ(0);
+	transform: translateZ(0)
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+-webkit-perspective: 1000;
+perspective: 1000;
+    -webkit-animation: flip .3s; /* Chrome, Safari, Opera */
+    animation: flip .3s;
+    height:150px;
+    width:150px;
+    position:relative;}
+
+
+
+.center{ text-align:center; border-radius:10px; }
+#restart{text-align:center; border-radius:10px; }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes flip {
+  0%   { width: 0px; left: 0px;}
+  50% { width: 0px;left:75px;}
+  51%{background:yellow;}
+  100%{width:150;left:0px;}
+
+
 }
-.pics{opacity:0;}
-.pics2{opacity:1;}
-.pics3{opacity:1;}
+
+
+/*Standard*/
+@keyframes flip {
+  0%   { width: 0px; left: 0px;}
+  50% { width: 0px;left:75px;}
+  51%{background:}
+  100%{width:150;left:0px;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes unflip {
+  0%   {opacity:1; width: 150; left: 0px;}
+  50% {opacity:1; width: 0px;left:75px;}
+  51%{opacity:0;background:;}
+  100%{opacity:0;width:150;left:0px;}
 
 
 
-#game{ margin: 0px auto;}
+}
+
+/*Standard */
+@keyframes unflip {
+  0%   { opacity:1;width: 150; left: 0px;}
+  50% { opacity:1;width: 0px;left:75px;}
+  51%{opacity:0;background:;}
+  100%{opacity:0;width:150;left:0px;}
+}
+
+#game{ margin: 0px auto; border-style:none;  border-collapse: separate; border-spacing: 7px 7px;}
 </style>
 </head>
 
 <body>
-<div id="nav_menu">
-</div>
-<script src="../menu.js"></script>
+  <div id="nav_menu">
+  </div>
+  <script src="menu.js"></script> 
 <br />
 <br />
 <br />
-<div id="score">Number of turns:</div>
+<div id="score">Number of turns: 0</div>
+<br />
 <div id="main_board"></div>
+<br />
+<div id="restart"><button onclick='drawboard(board)'>RESET BOARD</button></div>
+<div class="center"><button onclick="change_back_button()">Change Card Back</button></div>
+<div id="changeme" class="center"> <input type="radio" name="back" id="merpic" onclick="cleari()" value="mer" checked="checked">Mermaids!</input>
+                                   <input type="radio" name="back" id="kawaiipic" onclick="cleari()" value="kiwi">Kawaii</input>
+
+         <input type="radio" name="back" id="superpic" onclick="cleari()" value="super">Super Females!</input>
+                             </div>
+
+
 <script type="text/javascript">
+
+var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+if ( isMobile.any() ) {
+//document.location = "memorymobile.html"
+
+}
+
+
+var score = 0
 var rows, columns, j, i, p
 var board = new Array();
 var num_squares = 0
@@ -50,33 +166,34 @@ var src1, src2
 id1 = 0
 id2 = 0
 var k, game_end
-var score =0
-
+document.getElementById("changeme").style.opacity = "0"
 for (i=0; i<=19; i++) { board[i] = new Array(2);}
 
 
 rows = 5
 columns = 5
 function drawboard(ary){
-
-for( i=0, j=10; i<=9; i++, j++){board[i][0] = '<img  class="pics" id="img'+i+'" src="mer/mem_img'+i+'.jpg"  onclick="cSwap(this)" />'; board[i][1] = false;
-board[j][0] = '<img  class="pics" id="img'+j+'" src="mer/mem_img'+i+'.jpg"  onclick="cSwap(this)" />'; board[j][1] = false;}
+    score = 0;
+document.getElementById("score").innerHTML = "Number of turns: "+score;
+document.getElementById("merpic").checked  = "checked";
+for( i=0, j=10; i<=9; i++, j++){board[i][0] = '<img  class="pics" id="img'+i+'" src="mem_pics/mer/mem_img'+i+'.jpeg"  onclick="cSwap(this)" />'; board[i][1] = false;
+board[j][0] = '<img  class="pics" id="img'+j+'" src="mem_pics/mer/mem_img'+i+'.jpeg"  onclick="cSwap(this)" />'; board[j][1] = false;}
 console.log(board);
 board.shuffle();
 console.log(board.length);
 document.getElementById("main_board").innerHTML = ""
 str = ""
-str += '<div id="game_div"><table id="game"  style=" color:#1A1A1A" border="5px" ">'
+str += '<div id="game_div"><table id="game"   ">'
 
 for(p = 1, q=0; p < rows; p++){
-  
+
    str += '<tr>'
    for (j = 0; j < columns; q++,j++){
       str += '<td  class="cells" id="cell'+q+'">' +ary[q][0]+'</td>';
-      
+
    }
    str += '</tr>'
-   
+
 }
 
 str += '</table></div>'
@@ -88,14 +205,15 @@ Array.prototype.shuffle = function() {
     var input = this;
     for (var i = input.length-1; i >=0; i--) {
         var randomIndex = Math.floor(Math.random()*(i+1));
-        var itemAtIndex = input[randomIndex];  
+        var itemAtIndex = input[randomIndex];
         input[randomIndex] = input[i];
         input[i] = itemAtIndex;   }
-    
+
     return input;
-    
+
 }
-function cSwap(cell){ 
+function cSwap(cell){
+
 if (cell.className != "pics3"){
     if (cell.className == "pics" && num_squares <2 )
        { cell.className = "pics2"; num_squares++ ; }
@@ -105,10 +223,11 @@ for(i=0; i<=board.length-1; i++) {
 
     if (document.getElementById('img'+i).className == "pics2") {board[i][1] = true;  }
     if (document.getElementById('img'+i).className == "pics") board[i][1] = false;
-    if (document.getElementById('img'+i).className == "pics3") board[i][1] = false;      
-    
+    if (document.getElementById('img'+i).className == "pics3") board[i][1] = false;
+
     }
 if (num_squares == 2){
+    score++
 k = 0;
 for (i=0; i<board.length; i++){
 
@@ -121,7 +240,7 @@ k++;console.log("k"+k)
 
 document.getElementById('img'+id1).removeAttribute("onclick");
 document.getElementById('img'+id2).removeAttribute("onclick")
-console.log(document.getElementById('img'+id2))
+//console.log(document.getElementById('img'+id2))
 if (src1 == src2) {document.getElementById('img'+id1).className = 'pics3'; document.getElementById('img'+id2).className = 'pics3'; num_squares = 0; src1 = ""; src2 = ""; document.getElementById('img'+id1).setAttribute("onclick", "cSwap(this)");document.getElementById('img'+id2).setAttribute("onclick", "cSwap(this)")}
 if (src1 != src2) {setTimeout(function(){ if (document.getElementById('img'+id1).className == 'pics2' && document.getElementById('img'+id2).className == 'pics2' ){ document.getElementById('img'+id1).className = 'pics'; document.getElementById('img'+id2).className = 'pics'; num_squares = 0; src1 = ""; src2 = ""; document.getElementById('img'+id1).setAttribute("onclick", "cSwap(this)");document.getElementById('img'+id2).setAttribute("onclick", "cSwap(this)");}}, 750)
 }
@@ -133,9 +252,25 @@ if (document.getElementById('img'+i).className == "pics3") game_end++;}
 if (game_end == 20) alert("You Win!");
 document.getElementById("score").innerHTML = "Number of turns: "+score
 //alert(game_end)
-}   
-}
 
+}
+}
+console.log(document.getElementById("changeme").style.opacity+" opacity")
+function change_back_button(){
+    console.log(document.getElementById("changeme").style.opacity+" opacity")
+if (document.getElementById("changeme").style.opacity == "0") document.getElementById("changeme").style.opacity = "1"
+else document.getElementById("changeme").style.opacity = "0"}
+
+function cleari(){
+if (document.getElementById("merpic").checked == true) {for( i=0, j=10; i<=9; i++, j++){
+    document.getElementById('img'+i).src = 'mem_pics/mer/mem_img'+i+'.jpeg';  document.getElementById('img'+j).src = 'mem_pics/mer/mem_img'+i+'.jpeg'}}
+if (document.getElementById("kawaiipic").checked == true){for( i=0, j=10; i<=9; i++, j++){
+    document.getElementById('img'+i).src = 'mem_pics/kawaii/mem_img'+i+'.jpeg';  document.getElementById('img'+j).src = 'mem_pics/kawaii/mem_img'+i+'.jpeg'}
+}
+if (document.getElementById("superpic").checked == true){for( i=0, j=10; i<=9; i++, j++){
+    document.getElementById('img'+i).src = 'mem_pics/super/mem_img'+i+'.jpeg';  document.getElementById('img'+j).src = 'mem_pics/super/mem_img'+i+'.jpeg'}
+}
+}
 drawboard(board);
 
 </script>

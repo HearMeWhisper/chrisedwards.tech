@@ -22,8 +22,8 @@ function closemenu1() {
 var sites = [
     ["/", "Home"],
     ["/tictac/", "Tic Tac Touch"],
-    ["/bingo/index.html", "Bingo!"],
-    ["/memory/index.html", "Memory"],
+    ["/bingo/", "Bingo!"],
+    ["/memory/", "Memory"],
     ["/yatzee/", "Yatzee!"],
     ["/youtube_convert/", "Youtube Converter"],
     ["/binary/", "Binary Converter"],
