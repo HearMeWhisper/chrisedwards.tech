@@ -41,7 +41,7 @@ for (i = 0; i < sites.length; i++) {
 }
 
 //document.getElementById("ham").addEventListener('onmouseleave', function() {slideout(), alert('test')});
-var foo = '<div  id="menu" onclick="slideout()"   ><img id="bars" src="3bar.png" /></div><div id="ham" class="ham-menu"  ><img id="bars" src="x.png" onclick="slideout()"/><div id="site"></div> </div>'
+var foo = '<div  id="menu" onclick="slideout()"   ><img id="bars" src="/menu/3bar.png" /></div><div id="ham" class="ham-menu"  ><img id="bars" src="/menu/x.png" onclick="slideout()"/><div id="site"></div> </div>'
 
 document.getElementById("nav_menu").innerHTML = foo;
 document.getElementById("site").innerHTML = foobar;
