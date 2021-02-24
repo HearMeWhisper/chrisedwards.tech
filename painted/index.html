@@ -28,21 +28,27 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/painted">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li  class="nav-item">
-                    <a class="nav-link" href="facepainting/index.html">Face Painting</a>
+                    <a class="nav-link" href="facepainting/">Face Painting</a>
+                </li> 
+                <li  class="nav-item">
+                    <a class="nav-link" href="/painted/balloontwisting">Balloon Twisting</a>
                 </li> 
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.beachpartyballoons.com">Balloon Decor</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact/index.html">Contact Us</a>
+                    <a class="nav-link" href="contact/">Contact Us</a>
                 </li>
 
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <a href="tel:+2033062900">Give us a call: 203.306.2900</a>
+            </form>
+            <form class="form-inline my-2 my-lg-0">
+                <a href="/painted/contact/">Contact Us!</a>
             </form>
         </div>
     </nav>
@@ -170,8 +176,9 @@
 
 
     <footer>
-        Painted You © <script>new Date().getYear()</script> All Rights Reserved  | &nbsp;<a href="mailto:paintme@paintedyou.com">paintme@paintedyou.com</a>
+        Painted You © <span id="year"></span>All Rights Reserved  | &nbsp;<a href="mailto:paintme@paintedyou.com">paintme@paintedyou.com</a>
     </footer>
+    <script src="/painted/year.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
