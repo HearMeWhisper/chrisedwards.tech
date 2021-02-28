@@ -472,7 +472,7 @@ function die_gif() {
 
 function shuffle_dice() {
     var cls = document.getElementsByClassName('dice_pic');
-
+    window.navigator.vibrate(200);
     turn_over = false;
     if (start == 0) {
         for (i = 0, j = 1; i < die_value.length; i++, j++) {
