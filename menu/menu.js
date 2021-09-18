@@ -21,6 +21,7 @@ function closemenu1() {
 }
 var sites = [
     ["/", "Home"],
+    ["/resume/", "Resume"]
     ["/tictac/", "Tic Tac Touch"],
     ["/bingo/", "Bingo!"],
     ["/memory/", "Memory"],
