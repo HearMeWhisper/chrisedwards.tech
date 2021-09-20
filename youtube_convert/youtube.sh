@@ -20,7 +20,7 @@ if [ "$3" = "--extract-audio" ]; then
                 mkdir -p $2
                 chmod 777 $2
                 cd $2
-                youtube-dl $1 --proxy socks5://x9107481:zJnGLnYgAe@proxy-nl.privateinternetaccess.com:1080/ > log
+                youtube-dl $1 -f mp4 --proxy socks5://x9107481:zJnGLnYgAe@proxy-nl.privateinternetaccess.com:1080/ > log
             fi
 chmod 777 *
 
