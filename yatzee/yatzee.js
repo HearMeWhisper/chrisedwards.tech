@@ -1,6 +1,6 @@
 var i, j, q, p;
 var str, hold_die_start;
-var ones, twos, threes, fours, fives, sixes, sub, three_kind, four_kind, full_house, sm_staight, lg_straight, chance, yaztee;
+var ones, twos, threes, fours, fives, sixes, sub, three_kind, four_kind, full_house, sm_staight, lg_straight, chance, yatzee;
 var one_num, two_num, three_num, four_num, five_num, six_num, num_total;
 var ones_final, twos_final, threes_final, fours_final, fives_final, sixes_final, bonus, sub_total, final_total;
 var start = 0;
@@ -137,7 +137,7 @@ function drawboard() {
     document.getElementById("cell22").innerHTML = "Small Straight";
     document.getElementById("cell24").innerHTML = "Large Straight";
     document.getElementById("cell26").innerHTML = "Chance";
-    document.getElementById("cell28").innerHTML = "YAZTEE";
+    document.getElementById("cell28").innerHTML = "YATZEE";
     document.getElementById("cell30").innerHTML = "Total Score";
 
 }
@@ -394,7 +394,7 @@ function update_board() {
                 document.getElementById("cell29").innerHTML = yatzee;
                 yatzee_counter = true;
             } else {
-                yaztee = 0;
+                yatzee = 0;
                 document.getElementById("cell29").innerHTML = ""
             }
         }
@@ -414,8 +414,8 @@ function update_board() {
 function upper_score() {
     //total
     if (document.getElementById("cell17").className == "cells1" && document.getElementById("cell19").className == "cells1" && document.getElementById("cell21").className == "cells1" && document.getElementById("cell23").className == "cells1" && document.getElementById("cell25").className == "cells1" && document.getElementById("cell27").className == "cells1" && document.getElementById("cell29").className == "cells1" && document.getElementById("cell1").className == "cells1" && document.getElementById("cell3").className == "cells1" && document.getElementById("cell5").className == "cells1" && document.getElementById("cell7").className == "cells1" && document.getElementById("cell9").className == "cells1" && document.getElementById("cell11").className == "cells1") {
-        final_total = bonus + four_kind + three_kind + sm_staight + lg_staight + chance + full_house + yaztee + sub_total;
-        console.log("sub: " + sub_total + " bonus: " + bonus + " fourkind: " + four_kind + " threekind: " + three_kind + "sm: " + sm_staight + "lg: " + lg_staight + "chance: " + chance + "full: " + full_house + "yatzee: " + yaztee);
+        final_total = bonus + four_kind + three_kind + sm_staight + lg_staight + chance + full_house + yatzee + sub_total;
+        console.log("sub: " + sub_total + " bonus: " + bonus + " fourkind: " + four_kind + " threekind: " + three_kind + "sm: " + sm_staight + "lg: " + lg_staight + "chance: " + chance + "full: " + full_house + "yatzee: " + yatzee);
         Number(final_total);
         document.getElementById("cell31").innerHTML = final_total;
         game_over = true;
