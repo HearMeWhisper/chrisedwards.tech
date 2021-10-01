@@ -41,7 +41,7 @@ function how_to() {
 function hold_score(cell) {
     if ((cell.className == "cells" && turn_over == false) || (document.getElementById("cell29").className == "cells1" && yatzee_counter == true)) {
         cell.className = "cells1";
-        document.getElementById("cell1").style.borderTopRightRadius = "5px";
+        document.getElementById("cell1").style.borderTopRightRadius = "15px";
         turn_over = true;
         bottom_score();
         upper_score();
@@ -78,7 +78,13 @@ function hold_score(cell) {
 
         document.getElementById("cell13").innerHTML = sub_total;
         document.getElementById("cell31").innerHTML = final_total;
-        if (game_over == true) {document.getElementById('btn').innerHTML = "New Game?"; drawboard();}
+        if (game_over == true) {
+            document.getElementById('btn').innerHTML = "New Game?";
+            document.getElementById('btn').onclick = function() {
+               drawboard();
+            };
+                  
+        }
     }
     /*
     sub_total = 0;
@@ -90,6 +96,15 @@ function hold_score(cell) {
 }
 
 function drawboard() {
+    if (game_over == true) {
+        document.getElementById('btn').innerHTML = "New Game?";
+        document.getElementById('btn').onclick = function() {
+            window.location.reload(false); 
+        };
+        game_over = false;
+        return;
+    
+    }
     document.getElementById('highscore').innerHTML = "Your High Score: " + localStorage.getItem('high_score');
     document.getElementById("scorecard").innerHTML = "";
     document.getElementById('btn').innerHTML = 'Start Game!';
@@ -421,7 +436,7 @@ function upper_score() {
         game_over = true;
         if (Number(localStorage.getItem('high_score')) < final_total) localStorage.setItem('high_score', final_total);
         document.getElementById('btn').onclick = function() {
-            window.location.reload(false); 
+            drawboard();
         };
 
 

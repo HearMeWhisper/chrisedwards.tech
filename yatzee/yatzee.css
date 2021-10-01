@@ -1,14 +1,14 @@
 body {
-    background-color: #23313d;
+    background-color: #42739e;
     cursor: default;
     font-size: 130%;
 }
 
 #score {
     border: 2px solid black;
-    background-color: black;
+    background-color: rgb(46, 45, 45);
     color: white;
-    border-radius: 7px;
+    border-radius: 15px;
     float: left;
     border-collapse: collapse;
     border-style: hidden;
@@ -28,7 +28,7 @@ body {
 }
 
 .cells1 {
-    background-color: #70d38b;
+    background-color: #d86e60;
     text-align: center;
     padding-top: 4%;
     padding-bottom: 4%;
@@ -41,7 +41,7 @@ body {
 .dice {
     border: 5px solid black;
     width: 80%;
-    background-color: #53a788;
+    background-color: #56667e;
     align-self: center;
     margin-top: 7%;
     padding: 12px;
@@ -81,7 +81,7 @@ body {
 
 #btn {
     border-radius: 10px;
-    background-color: #cbffd8;
+    background-color: #e9eb85;
     color: 23313d;
     text-align: center;
     border: 2.5px solid black;
@@ -94,7 +94,7 @@ body {
 #fullscreen {
     display: flex;
     border-radius: 10px;
-    background-color: #cbffd8;
+    background-color:  #e9eb85;
     color: #23313d;
     text-align: center;
     border: 2.5px solid black;
@@ -126,13 +126,14 @@ body {
 }
 
 #cell13 {
-    color: #cbffd8;
+    color: #c6f2ff;
     background-color: #181c28;
 }
 
 #cell31 {
-    color: #cbffd8;
+    color:#c6f2ff;
     background-color: #181c28;
+    border-radius: 15px;
 }
 
 #how:hover {
@@ -144,6 +145,7 @@ body {
     width: 35px;
     float: right;
 }
+
 
 @media (max-device-width: 550px) {
     .cells {
