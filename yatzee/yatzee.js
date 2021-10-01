@@ -421,7 +421,7 @@ function upper_score() {
         game_over = true;
         if (Number(localStorage.getItem('high_score')) < final_total) localStorage.setItem('high_score', final_total);
         document.getElementById('btn').onclick = function() {
-            drawboard();
+            window.location.reload(false); 
         };
 
 
