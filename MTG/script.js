@@ -1,8 +1,20 @@
 window.onunload = function(){
-    localStorage.setItem('playerCount', playerCount)
+    localStorage.setItem('playerCount', playerCount);
+    for (i=1; i<9; i++){
+        localStorage.setItem('playerName'+i, document.getElementById('name'+i).innerHTML);
+        localStorage.setItem('lifeCount'+i, document.getElementById('lifeCount'+i).innerHTML)
+    }
 };
 window.onload = function(){
-    localStorage.getItem('playerCount')
+    localStorage.getItem('playerCount');
+    for (i=1; i<9; i++){
+        document.getElementById('name'+i).innerHTML = localStorage.getItem('playerName'+i);
+        document.getElementById('lifeCount'+i).innerHTML = 20
+        if (document.getElementById('lifeCount'+i).innerHTML != ""){
+        
+        document.getElementById('lifeCount'+i).innerHTML = localStorage.getItem('lifeCount'+i)
+        }
+    }
 };
 
 
