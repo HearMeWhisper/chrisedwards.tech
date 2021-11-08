@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+<link rel="manifest" href="icons/site.webmanifest">
+<link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <title>MTG Life Counter</title>
+    <style>
+               *, *:after, *:before { 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+    background-color: darkslategray;
+}
+        main{
+            display: flex;
+            justify-content: space-evenly;
+            font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+flex-wrap: wrap;
+        }
+        #name{
+            font-size: xx-large;
+	display: flex;
+	margin: 0 0 20px;
+	padding: 10px 0;
+	opacity: 0.9;
+	background-color: #EEE;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEE), color-stop(100%, #CCC));
+	background-image: -webkit-linear-gradient(top, #EEE, #AAA);
+	background-image: -moz-linear-gradient(top, #EEE, #AAA);
+	background-image: -ms-linear-gradient(top, #EEE, #AAA);
+	background-image: -o-linear-gradient(top, #EEE, #AAA);
+	background-image: linear-gradient(top, #EEE, #AAA);
+	border: 1px solid #999;
+	border-bottom: 1px solid #BBB;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	text-shadow: 0 1px 0 #EEE;
+	background-color: #EEE;
+    width: 400px;
+    justify-content: center;
+        }
+        .life{
+	opacity: 0.9;
+	background-color: #EEE;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEE), color-stop(100%, #CCC));
+	background-image: -webkit-linear-gradient(top, #EEE, #AAA);
+	background-image: -moz-linear-gradient(top, #EEE, #AAA);
+	background-image: -ms-linear-gradient(top, #EEE, #AAA);
+	background-image: -o-linear-gradient(top, #EEE, #AAA);
+	background-image: linear-gradient(top, #EEE, #AAA);
+	border: 1px solid #999;
+	border-bottom: 1px solid #BBB;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	color: #333;
+	padding: 8px 0;
+	text-shadow: 0 1px 0 #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    font-size: 5rem;
+    user-select: none;
+}
+
+.player{
+    padding: 20px
+}
+
+.buttons-left{
+    display: block;
+	font-size: 3em;
+	line-height: 1.3em;
+	text-align: center;
+	height: 65px;
+	width: 65px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	color: #333;
+	text-shadow: 0 1px 0 #EEE;
+	opacity: 0.2;
+	background-color: #EEE;
+    user-select: none;
+	-webkit-border-top-right-radius: 30px;
+	-moz-border-radius-topright: 30px;
+	border-top-right-radius: 30px;
+}
+.buttons-right{
+    display: block;
+	font-size: 3em;
+	line-height: 1.3em;
+	text-align: center;
+	height: 65px;
+	width: 65px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	color: #333;
+	text-shadow: 0 1px 0 #EEE;
+	opacity: 0.2;
+	background-color: #EEE;
+    user-select: none;
+	-webkit-border-top-left-radius: 30px;
+	-moz-border-radius-topleft: 30px;
+	border-top-left-radius: 30px;
+}
+
+.buttons-top{
+    display: block;
+	font-size: 3em;
+	line-height: 1.3em;
+	text-align: center;
+	height: 65px;
+	width: 65px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	color: #333;
+	text-shadow: 0 1px 0 #EEE;
+	opacity: 0.2;
+	background-color: #EEE;
+    user-select: none;
+	-webkit-border-bottom-left-radius: 30px;
+	-moz-border-radius-bottomleft: 30px;
+	border-bottom-left-radius: 30px;
+}
+#lifeCount{
+padding: 10px
+}
+    </style>
+</head>
+<body>
+    <main>
+        <div onclick="removePlayer()" id="removePlayer" class="buttons-top">−</div>
+        <div id="player1" class="player">
+                <div id="name" contenteditable="true">
+                        Player 1</div>
+                        <div class="life">
+                            <div onclick="lifeIncrease1()" id="lifeUp">▲</div>
+                            <div id="lifeCount1">20</div>
+                            <div onclick="lifeDecrease1()" id="lifeDown">▼</div>
+                            </div>
+                </div>
+
+                <div id="player2" class="player">
+                    <div id="name" contenteditable="true">
+                            Player 2</div>
+                            <div class="life">
+                                <div onclick="lifeIncrease2()" id="lifeUp">▲</div>
+                                <div id="lifeCount2">20</div>
+                                <div onclick="lifeDecrease2()" id="lifeDown">▼</div>
+                                </div>
+                    </div>
+                    <div id="player3" class="player">
+                        <div id="name" contenteditable="true">
+                                Player 3</div>
+                                <div class="life">
+                                    <div onclick="lifeIncrease3()" id="lifeUp">▲</div>
+                                    <div id="lifeCount3">20</div>
+                                    <div onclick="lifeDecrease3()" id="lifeDown">▼</div>
+                                    </div>
+                        </div>
+                        <div id="player4" class="player">
+                            <div id="name" contenteditable="true">
+                                    Player 4</div>
+                                    <div class="life">
+                                        <div onclick="lifeIncrease4()" id="lifeUp">▲</div>
+                                        <div id="lifeCount4">20</div>
+                                        <div onclick="lifeDecrease4()" id="lifeDown">▼</div>
+                                        </div>
+                            </div>
+                            <div id="player5" class="player">
+                                <div id="name" contenteditable="true">
+                                        Player 5</div>
+                                        <div class="life">
+                                            <div onclick="lifeIncrease5()" id="lifeUp">▲</div>
+                                            <div id="lifeCount5">20</div>
+                                            <div onclick="lifeDecrease5()" id="lifeDown">▼</div>
+                                            </div>
+                                </div>
+                                <div id="player6" class="player">
+                                    <div id="name" contenteditable="true">
+                                            Player 6</div>
+                                            <div class="life">
+                                                <div onclick="lifeIncrease6()" id="lifeUp">▲</div>
+                                                <div id="lifeCount6">20</div>
+                                                <div onclick="lifeDecrease6()" id="lifeDown">▼</div>
+                                                </div>
+                                    </div>
+                                    <div id="player7" class="player">
+                                        <div id="name" contenteditable="true">
+                                                Player 7</div>
+                                                <div class="life">
+                                                    <div onclick="lifeIncrease7()" id="lifeUp">▲</div>
+                                                    <div id="lifeCount7">20</div>
+                                                    <div onclick="lifeDecrease7()" id="lifeDown">▼</div>
+                                                    </div>
+                                        </div>
+                                        <div id="player8" class="player">
+                                            <div id="name" contenteditable="true">
+                                                    Player 8</div>
+                                                    <div class="life">
+                                                        <div onclick="lifeIncrease8()" id="lifeUp">▲</div>
+                                                        <div id="lifeCount8">20</div>
+                                                        <div onclick="lifeDecrease8()" id="lifeDown">▼</div>
+                                                        </div>
+                                            </div>
+                                            
+                                                                                                                                                
+
+    </main>
+    <div onclick="reset()" id="reset" class="buttons-left">↺</div>
+    <div onclick="addPlayer()" id="addPlayer" class="buttons-right">+</div>
+
+<script>
+    for (i=2; i<9; i++){document.getElementById("player"+i).style.display = "none" }
+    const startLife = 20;
+    var playerCount = 1;
+    let lifeIncrease1 = () => {
+        let counter = Number(this.document.getElementById("lifeCount1").innerHTML);
+        counter++;
+        document.getElementById("lifeCount1").innerHTML = counter;
+        };
+
+        let lifeDecrease1 = () => {
+        let counter = Number(document.getElementById("lifeCount1").innerHTML);
+        counter--;
+        document.getElementById("lifeCount1").innerHTML = counter;
+        };
+
+        let lifeIncrease2 = () => {
+        let counter = Number(this.document.getElementById("lifeCount2").innerHTML);
+        counter++;
+        document.getElementById("lifeCount2").innerHTML = counter;
+        };
+
+        let lifeDecrease2 = () => {
+        let counter = Number(document.getElementById("lifeCount2").innerHTML);
+        counter--;
+        document.getElementById("lifeCount2").innerHTML = counter;
+        };
+
+        let lifeIncrease3 = () => {
+        let counter = Number(this.document.getElementById("lifeCount3").innerHTML);
+        counter++;
+        document.getElementById("lifeCount3").innerHTML = counter;
+        };
+
+        let lifeDecrease3 = () => {
+        let counter = Number(document.getElementById("lifeCount3").innerHTML);
+        counter--;
+        document.getElementById("lifeCount3").innerHTML = counter;
+        };
+
+        let lifeIncrease4 = () => {
+        let counter = Number(this.document.getElementById("lifeCount4").innerHTML);
+        counter++;
+        document.getElementById("lifeCount4").innerHTML = counter;
+        };
+
+        let lifeDecrease4 = () => {
+        let counter = Number(document.getElementById("lifeCount4").innerHTML);
+        counter--;
+        document.getElementById("lifeCount4").innerHTML = counter;
+        };
+
+        let lifeIncrease5 = () => {
+        let counter = Number(this.document.getElementById("lifeCount5").innerHTML);
+        counter++;
+        document.getElementById("lifeCount5").innerHTML = counter;
+        };
+
+        let lifeDecrease5 = () => {
+        let counter = Number(document.getElementById("lifeCount5").innerHTML);
+        counter--;
+        document.getElementById("lifeCount5").innerHTML = counter;
+        };
+
+        let lifeIncrease6 = () => {
+        let counter = Number(this.document.getElementById("lifeCount6").innerHTML);
+        counter++;
+        document.getElementById("lifeCount6").innerHTML = counter;
+        };
+
+        let lifeDecrease6 = () => {
+        let counter = Number(document.getElementById("lifeCount6").innerHTML);
+        counter--;
+        document.getElementById("lifeCount6").innerHTML = counter;
+        };
+        let lifeIncrease7 = () => {
+        let counter = Number(this.document.getElementById("lifeCount7").innerHTML);
+        counter++;
+        document.getElementById("lifeCount7").innerHTML = counter;
+        };
+
+        let lifeDecrease7 = () => {
+        let counter = Number(document.getElementById("lifeCount7").innerHTML);
+        counter--;
+        document.getElementById("lifeCount7").innerHTML = counter;
+        };
+        let lifeIncrease8 = () => {
+        let counter = Number(this.document.getElementById("lifeCount8").innerHTML);
+        counter++;
+        document.getElementById("lifeCount8").innerHTML = counter;
+        };
+
+        let lifeDecrease8 = () => {
+        let counter = Number(document.getElementById("lifeCount8").innerHTML);
+        counter--;
+        document.getElementById("lifeCount8").innerHTML = counter;
+        };
+let reset = () => {
+    for (i=1; i<9; i++){
+      document.getElementById("lifeCount"+i).innerHTML = 20  
+    }
+    
+}
+
+let addPlayer = () => {
+    if (playerCount != 8){
+       playerCount++;
+  document.getElementById("player"+playerCount).style.display = ""; 
+    }
+  
+}
+
+let removePlayer = () => {
+    if (playerCount != 1){
+  document.getElementById("player"+playerCount).style.display = "none"; 
+  playerCount--;
+    }
+  
+}
+</script>
+</body>
+</html>
