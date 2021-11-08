@@ -8,12 +8,16 @@ window.onunload = function(){
 window.onload = function(){
     localStorage.getItem('playerCount');
     for (i=1; i<9; i++){
+        if (localStorage.getItem('playerName'+i)){
         document.getElementById('name'+i).innerHTML = localStorage.getItem('playerName'+i);
-        document.getElementById('lifeCount'+i).innerHTML = 20
-        if (document.getElementById('lifeCount'+i).innerHTML != ""){
+        console.log(document.getElementById('name'+i).innerHTML)
+        }
+  
+        if (localStorage.getItem('lifeCount'+i)){
         
         document.getElementById('lifeCount'+i).innerHTML = localStorage.getItem('lifeCount'+i)
         }
+       
     }
 };
 
