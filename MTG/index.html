@@ -89,16 +89,16 @@
                                                         <div onclick="lifeDecrease8()" id="lifeDown">▼</div>
                                                         </div>
                                             </div>
-                                            
+                                          <div id="buttonWrapper">
+                                                <div onclick="removePlayer()" id="removePlayer" class="buttons">−</div>
+                                            <div onclick="resetLife()" id="reset" class="buttons">↺<span class="buttonText">life</span></div>
+                                            <div onclick="resetName()" id="reset" class="buttons">↻<span class="buttonText">name</span></div>
+                                            <div onclick="addPlayer()" id="addPlayer" class="buttons">+</div>
+                                            </div>  
                                                                                                                                                 
-
+                                            
     </main>
-    <div id="buttonWrapper">
-        <div onclick="removePlayer()" id="removePlayer" class="buttons">−</div>
-    <div onclick="resetLife()" id="reset" class="buttons">↺<span class="buttonText">life</span></div>
-    <div onclick="resetName()" id="reset" class="buttons">↻<span class="buttonText">name</span></div>
-    <div onclick="addPlayer()" id="addPlayer" class="buttons">+</div>
-    </div>
+    
     
 
 <script src="script.js"></script>
