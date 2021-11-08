@@ -65,7 +65,7 @@
       padding: 20px
   }
   
-  .buttons-left{
+  .buttons{
      
       font-size: 3em;
       line-height: 1.3em;
@@ -75,66 +75,21 @@
       font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
       color: #333;
       text-shadow: 0 1px 0 #EEE;
-      opacity: 0.2;
+      opacity: 0.6;
       background-color: #EEE;
       user-select: none;
-      -webkit-border-top-left-radius: 30px;
-      -moz-border-radius-topleft: 30px;
-      border-top-left-radius: 30px;
-      -webkit-border-top-right-radius: 30px;
-      -moz-border-radius-topright: 30px;
-      border-top-right-radius: 30px;
-  }
-  .buttons-right{
-     
-      font-size: 3em;
-      line-height: 1.3em;
-      text-align: center;
-      height: 65px;
-      width: 100%;
-      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-      color: #333;
-      text-shadow: 0 1px 0 #EEE;
-      opacity: 0.2;
-      background-color: #EEE;
-      user-select: none;
-      -webkit-border-top-left-radius: 30px;
-      -moz-border-radius-topleft: 30px;
-      border-top-left-radius: 30px;
-      -webkit-border-top-right-radius: 30px;
-      -moz-border-radius-topright: 30px;
-      border-top-right-radius: 30px;
-  }
-  .buttons-middle{
-     
-      font-size: 3em;
-      line-height: 1.3em;
-      text-align: center;
-      height: 65px;
-      width: 100%;
-      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-      color: #333;
-      text-shadow: 0 1px 0 #EEE;
-      opacity: 0.2;
-      background-color: #EEE;
-      user-select: none;
-      -webkit-border-top-left-radius: 30px;
-      -moz-border-radius-topleft: 30px;
-      border-top-left-radius: 30px;
-      -webkit-border-top-right-radius: 30px;
-      -moz-border-radius-topright: 30px;
-      border-top-right-radius: 30px;
-
+      border-radius: 30px;  
   }
   #buttonWrapper{
       display: flex;
       flex-direction: row;
-      justify-content:space-around;
-      bottom: 0;
-      right: 0;
-      left: 0;
+      justify-content:space-evenly;
       width: 100%;
-     margin-top: auto;
+     
+  }
+  .buttonText{
+      font-size: .6rem;     
+      margin: auto;
   }
   #lifeCount{
   padding: 10px;
