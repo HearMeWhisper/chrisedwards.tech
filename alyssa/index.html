@@ -1,23 +1,288 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alyssa Mulville</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
     <style>
-        div:{
+        body {
+            font-family: 'Open Sans', sans-serif;
+
+            height: 100vh;
+            box-sizing: border-box
+        }
+
+        img {
+            width: 15vw;
+            margin: auto;
+            padding: 10%;
+        }
+
+        #col {
             display: flex;
-            align-content: center;
+            height: 100vh
+        }
+
+        #col1 {
+            background-color: #476436;
+            width: 30vw;
+            min-height: 100vh;
             justify-content: center;
+            justify-items: center;
+            color: white;
+            flex-direction: column;
+            overflow: auto;
+            word-wrap: break-word;
+
+        }
+
+        #col2 {
+
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+            justify-content: center;
+            justify-items: center;
+            overflow: auto;
+
+        }
+
+        #col1 a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #col1 hr {
+            width: 75%;
+            height: .5px;
+            margin-left: 0;
+        }
+
+        #info {
+            font-size: 3vw;
+            margin-left: 2vw;
+            margin-bottom: 150px;
+        }
+
+
+        #info ul {
+            margin-left: -10vw;
+            list-style-type: none;
+            max-width: 85%;
+            word-wrap: break-word;
+            font-size: 1.5vw;
+        }
+
+        @media only screen and (min-width: 600px) {
+
+            /* For tablets: */
+            #info ul {
+                margin-left: -2.2vw;
+                list-style-type: none;
+                max-width: 85%;
+                word-wrap: break-word;
+                font-size: 1.5vw;
+            }
+
+            #contact {
+                margin-left: -50px;
+            }
+
+            #tell {
+                padding-left: 2vw;
+                background-image: url(phone.svg);
+                background-position: 0 0;
+                background-size: 1.5vw;
+                background-repeat: no-repeat;
+            }
+
+            #mail {
+                padding-left: 2vw;
+                background-image: url(mail.svg);
+                background-position: 0 0;
+                background-size: 1.5vw;
+                background-repeat: no-repeat;
+
+            }
+
+            #map {
+                padding-left: 2vw;
+                background-image: url(map.svg);
+                background-position: 0 0;
+                background-size: 1.5vw;
+                background-repeat: no-repeat;
+            }
+
+        }
+
+        @media only screen and (min-width: 768px) {
+
+            /* For desktop: */
+            #info ul {
+                margin-left: -1.5vw;
+                list-style-type: none;
+                max-width: 90%;
+                word-wrap: break-word;
+                font-size: 1.5vw;
+            }
+
+            #contact {
+                margin-left: -3vw !important;
+            }
+        }
+
+        .head {
+            font-weight: bolder;
+            font-size: 2.3vw;
+        }
+
+        .sm_head {
+            font-weight: 550;
+        }
+
+        #skills {
+            list-style-type: disc !important;
+            color: white;
+        }
+
+        #name {
+            font-size: 5vw;
+            text-align: center;
+            margin: auto;
+            padding-top: 5%;
+        }
+
+        #pitch {
+            font-size: 2.75vw;
+            text-align: center;
+        }
+
+
+        #tell {
+            padding-left: 2vw;
+            background-image: url(phone.svg);
+            background-position: 0 0;
+            background-size: 1.5vw;
+            background-repeat: no-repeat;
+        }
+
+        #mail {
+            padding-left: 2vw;
+            background-image: url(mail.svg);
+            background-position: 0 0;
+            background-size: 1.5vw;
+            background-repeat: no-repeat;
+
+        }
+
+        #map {
+            padding-left: 2vw;
+            background-image: url(map.svg);
+            background-position: 0 0;
+            background-size: 1.5vw;
+            background-repeat: no-repeat;
+        }
+
+        #summery {
+            font-size: 2vw;
+            margin: 15px;
+            margin-bottom: 150px;
         }
     </style>
 </head>
-<body>
 
-    <div>
-        Future Site of Alyssa Mulville
+<body>
+    <div id="col">
+
+
+        <div id="col1">
+            <img src="alyssa.jpg" alt="Alyssa Mulville">
+            <div id="info">
+                <p>CONTACT</p>
+                <hr>
+                <ul id="contact">
+                    <li id="tell">
+                        <a href="tel:860.491.8647">860..491.8647</a>
+                    </li>
+                    <br>
+                    <li id="mail">
+                        <a href="mailto:alyssa.mulville@gmail.com">alyssa.mulville@gmail.com</a>
+                    </li>                    
+                </ul>
+                <p>SKILLS</p>
+                <hr>
+                <ul id="skills">
+                    <li>Quickbooks</li>
+                    <li>Customer Service</li>
+                    <li>Calender and Scheduling</li>
+                    <li>Cash Management</li>
+                    <li>Accounts Management</li>
+                    <li>New Staff Traning</li>
+                    <li>Attention to Detail</li>
+                </ul>
+                <p>CERTS</p>
+                <hr>
+                <ul id="skills">
+                    <li>Servsafe</li>
+                </ul>
+                <p>CHARITY</p>
+                <hr>
+                <ul id="skills">
+                    <li>2 Years - <a href="https://www.heroarmycosplay.com/about">The Hero Army</a></li>
+                  
+                    </ul>
+            </div>
+
+        </div>
+        <div id="col2">
+            <p id="name">ALYSSA MULVILLE</p>
+            <p id="pitch">SELF-MOTIVATED AND DETERMINED</p>
+            <div id="summery">
+                <p class="head">PROFESSIONAL PROFILE</p>
+                <hr>
+                <p>
+                    I strive to excel in every envirnment I'm in.  
+                    I actively try to be a team player and build up reliable and strong relations with coworkers.
+                    I love to use skills I've learned from my previous experiances to further aid in my work.
+                    I am looking to find a good fit to build a good foundation to grow on.
+                </p>
+
+                <p class="head">RELEVANT WORK EXPERIENCE</p>
+                <hr>
+                <h3 class="sm_head">
+                    Asst. Manager
+                </h3>
+                <p>Beach Party Balloons | Milford, CT | 2018 - 2021 </p>
+                    <p>Confer with clients regarding price, type of decor, and delivery details<br>
+                        Utilize knowledge of design and materials to fulfill orders <br>
+                        Trained new staff on policies and procedures<br>
+                        Maintained calendar with dates and times of deliveries</p>
+                <hr>
+                <h3 class="sm_head">Shift Manager</h3>
+                <p>Subway | Milford, CT | 2017 - 2020 </p>
+                    <p>
+                        Managed cash drawer<br>
+                        Operated under strict health and safety guidelines - from Subway and City<br>
+                        Trained and supervised new employees<br>
+                        Responsible for state of the store during shift - supply levels and cleanliness
+                </p>
+                 <hr>
+             <h3 class="sm_head">Bug Busters</h3>
+                <p> Progressive Retail Managment | Bridgeport, CT | May 2015 - Aug 2017 </p>
+                    <p>
+                        Quickbooks - records management, calendar<br>
+                        Preformed financial calculations such as amounts due, balances, discounts <br>
+                        Accessed computerized financial information to answer general questions as well as those related to specific accounts<br>
+                        Scheduling and calendar management
+                </p>
+            </div>
+
+        </div>
     </div>
-    
+
 </body>
+
 </html>
