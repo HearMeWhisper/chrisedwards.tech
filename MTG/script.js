@@ -30,12 +30,19 @@ playerCount = localStorage.getItem('playerCount');
 let playerCount1 = Number(playerCount)+1;
 for (i=playerCount1; i<9; i++){document.getElementById("player"+i).style.display = "none" }
 
-let lifeIncrease1 = () => {
+    let lifeIncrease1 = () => {
     let counter = Number(this.document.getElementById("lifeCount1").innerHTML);
     counter++;
     if (counter > 0) document.getElementById("lifeCount1").style.color = "black";
     document.getElementById("lifeCount1").innerHTML = counter;
     };
+
+    // let fiveIncreaseLife1 = () => {
+    //     let counter = Number(this.document.getElementById("lifeCount1").innerHTML);
+    // counter +=5;
+    // if (counter > 0) document.getElementById("lifeCount1").style.color = "black";
+    // document.getElementById("lifeCount1").innerHTML = counter;
+    // }
 
     let lifeDecrease1 = () => {
     let counter = Number(document.getElementById("lifeCount1").innerHTML);
@@ -142,6 +149,26 @@ let lifeIncrease1 = () => {
     document.getElementById("lifeCount8").innerHTML = counter;
     };
 
+
+    let reset = () => {
+        Swal.fire({
+            title: 'What would you like to reset?',
+            showDenyButton: true,
+            showCancelButton: true,
+            confirmButtonText: 'Life',
+            denyButtonText: `Names`,
+          }).then((result) => {
+            /* Read more about isConfirmed, isDenied below */
+            if (result.isConfirmed) {
+              Swal.fire('Life reset', '', 'success');
+              resetLife();
+            } else if (result.isDenied) {
+              Swal.fire('All player names reset', '', 'success');
+              resetName();
+            }
+          })
+        
+        }
 let resetLife = () => {
 for (i=1; i<9; i++){
   document.getElementById("lifeCount"+i).innerHTML = 20  

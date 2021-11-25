@@ -30,7 +30,7 @@
                     <div class="name" id="name2" contenteditable="true">
                             Player 2</div>
                             <div class="life">
-                                <div onclick="lifeIncrease2()" id="lifeUp">▲</div>
+                                <div onclick="lifeIncrease2()" ondblclick="" id="lifeUp">▲</div>
                                 <div id="lifeCount2">20</div>
                                 <div onclick="lifeDecrease2()" id="lifeDown">▼</div>
                                 </div>
@@ -91,8 +91,8 @@
                                             </div>
                                           <div id="buttonWrapper">
                                                 <div onclick="removePlayer()" id="removePlayer" class="buttons">−</div>
-                                            <div onclick="resetLife()" id="reset" class="buttons">↺<span class="buttonText">life</span></div>
-                                            <div onclick="resetName()" id="reset" class="buttons">↻<span class="buttonText">name</span></div>
+                                            <div onclick="reset()" id="reset" class="buttons">↺<span class="buttonText"></span></div>
+                                            <!-- <div onclick="resetName()" id="reset" class="buttons">↻<span class="buttonText">reset name</span></div> -->
                                             <div onclick="addPlayer()" id="addPlayer" class="buttons">+</div>
                                             </div>  
                                                                                                                                                 
@@ -100,7 +100,7 @@
     </main>
     
     
-
+ <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="script.js"></script>
 </body>
 </html>
