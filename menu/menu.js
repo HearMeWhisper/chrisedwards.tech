@@ -26,6 +26,7 @@ var sites = [
     ["/bingo/", "Bingo!"],
     ["/memory/", "Memory"],
     ["/yatzee/", "Yatzee!"],
+    ["/MTG/", "MTG"],
     ["/youtube_convert/", "Youtube Converter"],
     ["/binary/", "Binary Converter"],
     ["/rollDice", "Dice"],
