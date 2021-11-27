@@ -3,10 +3,10 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-  html{
+  /* html{
       /* height:100% */
       /* width: 100% */
-  }
+  } */
   body{
       background-color: darkslategray;
       /* height: 100vh; */
