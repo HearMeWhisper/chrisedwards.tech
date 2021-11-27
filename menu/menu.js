@@ -11,6 +11,7 @@ function slideout() {
     }
 }
 
+
 function closemenu1() {
     setTimeout(function() {
         document.getElementById("ham").className = "ham-menu";

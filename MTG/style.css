@@ -1,117 +1,129 @@
-*, *:after, *:before { 
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-  body{
-      background-color: darkslategray;
-      /* height: 100vh; */
-      /* width: 100vw; */
-      /* margin: 0 auto; */
-      display: flex;
-      /* align-items: center */
-  }
-  main{
-        display: flex;
-        justify-content: space-evenly;
-        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+body {
+  background-color: darkslategray;
+  /* height: 100vh; */
+  /* width: 100vw; */
+  /* margin: 0 auto; */
+  display: flex;
+  /* align-items: center */
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
+    Verdana, sans-serif;
   flex-wrap: wrap;
   width: 100vw;
-  height:100vh;
+  height: 100vh;
   align-items: center;
   /* margin: 0 auto; */
+}
+.name {
+  font-size: 2rem;
+  display: flex;
+  margin: 0 0 20px;
+  padding: 10px 0;
+  opacity: 0.9;
+  background-color: #eee;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #eee),
+    color-stop(100%, #ccc)
+  );
+  background-image: -webkit-linear-gradient(top, #eee, #aaa);
+  background-image: -moz-linear-gradient(top, #eee, #aaa);
+  background-image: -ms-linear-gradient(top, #eee, #aaa);
+  background-image: -o-linear-gradient(top, #eee, #aaa);
+  background-image: linear-gradient(top, #eee, #aaa);
+  border: 1px solid #999;
+  border-bottom: 1px solid #bbb;
+  border-radius: 30px;
+  text-shadow: 0 1px 0 #eee;
+  background-color: #eee;
+  width: auto;
+  justify-content: center;
+  align-content: center;
+}
+.life {
+  opacity: 0.9;
+  background-color: #eee;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #eee),
+    color-stop(100%, #ccc)
+  );
+  background-image: -webkit-linear-gradient(top, #eee, #aaa);
+  background-image: -moz-linear-gradient(top, #eee, #aaa);
+  background-image: -ms-linear-gradient(top, #eee, #aaa);
+  background-image: -o-linear-gradient(top, #eee, #aaa);
+  background-image: linear-gradient(top, #eee, #aaa);
+  border: 1px solid #999;
+  border-bottom: 1px solid #bbb;
+  border-radius: 30px;
+  color: #333;
+  padding: 10px 0;
+  text-shadow: 0 1px 0 #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height:250px; */
+  width: auto;
+  font-size: 4.5rem;
+  user-select: none;
+}
 
+.life div {
+  margin: 15px;
+}
 
-          }
-  .name{
-      font-size: xx-large;
-      display: flex;
-      margin: 0 0 20px;
-      padding: 10px 0;
-      opacity: 0.9;
-      background-color: #EEE;
-      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEE), color-stop(100%, #CCC));
-      background-image: -webkit-linear-gradient(top, #EEE, #AAA);
-      background-image: -moz-linear-gradient(top, #EEE, #AAA);
-      background-image: -ms-linear-gradient(top, #EEE, #AAA);
-      background-image: -o-linear-gradient(top, #EEE, #AAA);
-      background-image: linear-gradient(top, #EEE, #AAA);
-      border: 1px solid #999;
-      border-bottom: 1px solid #BBB;
-      border-radius: 30px;
-      text-shadow: 0 1px 0 #EEE;
-      background-color: #EEE;
-      width: auto;
-      justify-content: center;
-      align-content: center;
-          }
-          .life{
-      opacity: 0.9;
-      background-color: #EEE;
-      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEE), color-stop(100%, #CCC));
-      background-image: -webkit-linear-gradient(top, #EEE, #AAA);
-      background-image: -moz-linear-gradient(top, #EEE, #AAA);
-      background-image: -ms-linear-gradient(top, #EEE, #AAA);
-      background-image: -o-linear-gradient(top, #EEE, #AAA);
-      background-image: linear-gradient(top, #EEE, #AAA);
-      border: 1px solid #999;
-      border-bottom: 1px solid #BBB;
-      border-radius: 30px;
-      color: #333;
-      padding: 10px 0;
-      text-shadow: 0 1px 0 #EEE;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      /* height:250px; */
-      width: auto;
-      font-size: 4.5rem;
-      user-select: none;
-  }
-  .life div{
-      margin: 15px;
-     }
-  
-  .player{
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      margin: 3%;
-  }
-  
-  .buttons{
-     
-      font-size: 3em;
-      line-height: 1.3em;
-      text-align: center;
-      height: 65px;
-      width: 100%;
-      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-      color: #333;
-      text-shadow: 0 1px 0 #EEE;
-      opacity: 0.6;
-      background-color: #EEE;
-      user-select: none;
-      border-radius: 30px;  
-  }
-  #buttonWrapper{
-      display: flex;
-      flex-direction: row;
-      justify-content:space-evenly;
-      width: 100%;
-      position: relative;
-      bottom: 0;
-     
-  }
-  .buttonText{
-      font-size: .6rem; 
-  
-  }
-  #lifeCount{
+.player {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+}
+
+.buttons {
+  font-size: 3em;
+  line-height: 1.3em;
+  text-align: center;
+  height: 65px;
+  width: 100%;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
+    Verdana, sans-serif;
+  color: #333;
+  text-shadow: 0 1px 0 #eee;
+  opacity: 0.6;
+  background-color: #eee;
+  user-select: none;
+  border-radius: 30px;
+}
+#buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+.buttonText {
+  font-size: 0.65rem;
+}
+#lifeCount {
   padding: 10px;
-  }
+}
 
-  .fiveLifeUp{
-color:greenyellow
-  }
+.fiveLifeUp {
+  color: greenyellow;
+}
