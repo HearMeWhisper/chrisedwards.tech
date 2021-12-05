@@ -15,7 +15,7 @@
  box-shadow:7px 9px 10px #000;}
 img{height:150px; width:150px; border-radius:12%; }
 
-.unselectable {
+img {
   user-drag: none; 
   user-select: none;
   -moz-user-select: none;
@@ -158,8 +158,8 @@ function drawboard(ary){
     score = 0;
 document.getElementById("score").innerHTML = "Number of turns: "+score;
 document.getElementById("merpic").checked  = "checked";
-for( i=0, j=10; i<=9; i++, j++){board[i][0] = '<img  class="pics unselectable" id="img'+i+'" src="mem_pics/mer/mem_img'+i+'.jpeg"  onclick="cSwap(this)" />'; board[i][1] = false;
-board[j][0] = '<img  class="pics unselectable" id="img'+j+'" src="mem_pics/mer/mem_img'+i+'.jpeg"  onclick="cSwap(this)" />'; board[j][1] = false;}
+for( i=0, j=10; i<=9; i++, j++){board[i][0] = '<img  class="pics" id="img'+i+'" src="mem_pics/mer/mem_img'+i+'.jpeg"  onclick="cSwap(this)" />'; board[i][1] = false;
+board[j][0] = '<img  class="pics" id="img'+j+'" src="mem_pics/mer/mem_img'+i+'.jpeg"  onclick="cSwap(this)" />'; board[j][1] = false;}
 console.log(board);
 board.shuffle();
 console.log(board.length);
