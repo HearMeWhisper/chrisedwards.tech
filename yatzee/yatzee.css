@@ -102,12 +102,12 @@ body {
     margin: auto;
     margin-top: 15px;
     font-size: large;
-    padding: 5px;
+    padding: 20px;
 }
 
 #how {
     margin-top: 10%;
-    width: 50PX;
+    width: 20%;
     border: 1px black solid;
     margin-right: .2%;
     float: right;
