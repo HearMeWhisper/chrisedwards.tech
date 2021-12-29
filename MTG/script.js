@@ -44,111 +44,28 @@ for (i=playerCount1; i<9; i++){document.getElementById("player"+i).style.display
     // document.getElementById("lifeCount1").innerHTML = counter;
     // }
 
-    let lifeDecrease1 = () => {
-    let counter = Number(document.getElementById("lifeCount1").innerHTML);
-    counter--;
-    if (counter <= 0) document.getElementById("lifeCount1").style.color = "red";
-    document.getElementById("lifeCount1").innerHTML = counter;
-    };
+    
+    let lifeIncrease = (playerNum) => {
+      let counter = Number(this.document.getElementById("lifeCount"+playerNum).innerHTML);
+      counter++;
+      if (counter >= 0) document.getElementById("lifeCount"+playerNum).style.color = "black";
+      document.getElementById("lifeCount"+playerNum).innerHTML = counter;
+      };
 
-    let lifeIncrease2 = () => {
-    let counter = Number(this.document.getElementById("lifeCount2").innerHTML);
-    counter++;
-    if (counter > 0) document.getElementById("lifeCount2").style.color = "black";
-    document.getElementById("lifeCount2").innerHTML = counter;
-    };
+      let lifeDecrease = (playerNum) => {
+        let counter = Number(document.getElementById("lifeCount"+playerNum).innerHTML);
+        counter--;
+        if (counter <= 0) document.getElementById("lifeCount"+playerNum).style.color = "red";
+        document.getElementById("lifeCount"+playerNum).innerHTML = counter;
+        };
 
-    let lifeDecrease2 = () => {
-    let counter = Number(document.getElementById("lifeCount2").innerHTML);
-    counter--;
-    if (counter <= 0) document.getElementById("lifeCount2").style.color = "red";
-    document.getElementById("lifeCount2").innerHTML = counter;
-    };
-
-    let lifeIncrease3 = () => {
-    let counter = Number(this.document.getElementById("lifeCount3").innerHTML);
-    counter++;
-    if (counter > 0) document.getElementById("lifeCount3").style.color = "black";
-    document.getElementById("lifeCount3").innerHTML = counter;
-    };
-
-    let lifeDecrease3 = () => {
-    let counter = Number(document.getElementById("lifeCount3").innerHTML);
-    counter--;
-    if (counter <= 0) document.getElementById("lifeCount3").style.color = "red";
-    document.getElementById("lifeCount3").innerHTML = counter;
-    };
-
-    let lifeIncrease4 = () => {
-    let counter = Number(this.document.getElementById("lifeCount4").innerHTML);
-    counter++;
-    if (counter > 0) document.getElementById("lifeCount4").style.color = "black";
-    document.getElementById("lifeCount4").innerHTML = counter;
-    };
-
-    let lifeDecrease4 = () => {
-    let counter = Number(document.getElementById("lifeCount4").innerHTML);
-    counter--;
-    if (counter <= 0) document.getElementById("lifeCount4").style.color = "red";
-    document.getElementById("lifeCount4").innerHTML = counter;
-    };
-
-    let lifeIncrease5 = () => {
-    let counter = Number(this.document.getElementById("lifeCount5").innerHTML);
-    counter++;
-    if (counter > 0) document.getElementById("lifeCount5").style.color = "black";
-    document.getElementById("lifeCount5").innerHTML = counter;
-    };
-
-    let lifeDecrease5 = () => {
-    let counter = Number(document.getElementById("lifeCount5").innerHTML);
-    counter--;
-    if (counter <= 0) document.getElementById("lifeCount5").style.color = "red";
-    document.getElementById("lifeCount5").innerHTML = counter;
-    };
-
-    let lifeIncrease6 = () => {
-    let counter = Number(this.document.getElementById("lifeCount6").innerHTML);
-    counter++;
-    if (counter > 0) document.getElementById("lifeCount6").style.color = "black";
-    document.getElementById("lifeCount6").innerHTML = counter;
-    };
-
-    let lifeDecrease6 = () => {
-    let counter = Number(document.getElementById("lifeCount6").innerHTML);
-    counter--;
-    if (counter <= 0) document.getElementById("lifeCount6").style.color = "red";
-    document.getElementById("lifeCount6").innerHTML = counter;
-    };
-
-    let lifeIncrease7 = () => {
-    let counter = Number(this.document.getElementById("lifeCount7").innerHTML);
-    counter++;
-    if (counter > 0) document.getElementById("lifeCount7").style.color = "black";
-    document.getElementById("lifeCount7").innerHTML = counter;
-    };
-
-    let lifeDecrease7 = () => {
-    let counter = Number(document.getElementById("lifeCount7").innerHTML);
-    counter--;
-    if (counter <= 0) document.getElementById("lifeCount7").style.color = "red";
-    document.getElementById("lifeCount7").innerHTML = counter;
-    };
-
-    let lifeIncrease8 = () => {
-    let counter = Number(this.document.getElementById("lifeCount8").innerHTML);
-    counter++;
-    if (counter > 0) document.getElementById("lifeCount8").style.color = "black";
-    document.getElementById("lifeCount8").innerHTML = counter;
-    };
-
-    let lifeDecrease8 = () => {
-    let counter = Number(document.getElementById("lifeCount8").innerHTML);
-    counter--;
-    if (counter <= 0) document.getElementById("lifeCount8").style.color = "red";
-    document.getElementById("lifeCount8").innerHTML = counter;
-    };
-
+        let lifeIncrease5 = (playerNum) => {
+        for (i=0; i<5; i++) lifeIncrease(playerNum);
+          };
+   
+          let lifeDecrease5 = (playerNum) => {
+            for (i=0; i<5; i++) lifeDecrease(playerNum);
+              };
 
     let reset = () => {
         Swal.fire({

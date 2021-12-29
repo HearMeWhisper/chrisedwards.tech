@@ -25,7 +25,9 @@ main {
   align-items: center;
   position: relative;
   /* margin: 0 auto; */
-  padding-bottom: 2.5rem;
+  padding-bottom: 70px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 .name {
   font-size: 3rem;
@@ -74,13 +76,13 @@ main {
   border-bottom: 1px solid #bbb;
   border-radius: 30px;
   color: #333;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   text-shadow: 0 1px 0 #eee;
   display: flex;
   justify-content: center;
   align-items: center;
   /* height:250px; */
-  width: auto;
+  min-width: auto;
   font-size: 6rem;
   user-select: none;
 }
@@ -119,17 +121,26 @@ main {
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
-  position: absolute;
+  position:absolute;
   bottom: 0;
   height:fit-content;
 }
 .buttonText {
   font-size: 0.65rem;
 }
-#lifeCount {
-  padding: 10px;
-}
 
-.fiveLifeUp {
+.fiveLife {
+  display: flex;
+  color: blue;
+  /* font-size: 3rem; */
+}
+.vert{
+  flex-direction: column;
+  font-size: 5rem ;
+}
+.fiveLifeDown {
   color: greenyellow;
+}
+.lifeFlex{
+  flex-direction: column
 }
