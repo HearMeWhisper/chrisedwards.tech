@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(73, 109, 109);
+  background-color: rgb(82, 100, 100);
   /* height: 100vh; */
   /* width: 100vw; */
   /* margin: 0 auto; */
@@ -21,12 +21,14 @@ main {
     Verdana, sans-serif;
   flex-wrap: wrap;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   align-items: center;
+  position: relative;
   /* margin: 0 auto; */
+  padding-bottom: 2.5rem;
 }
 .name {
-  font-size: 2rem;
+  font-size: 3rem;
   display: flex;
   margin: 0 0 20px;
   padding: 10px 0;
@@ -79,7 +81,7 @@ main {
   align-items: center;
   /* height:250px; */
   width: auto;
-  font-size: 4.5rem;
+  font-size: 6rem;
   user-select: none;
 }
 
@@ -88,10 +90,13 @@ main {
 }
 
 .player {
-  padding: 20px;
+  /* padding: 20px; */
+
   display: flex;
   flex-direction: column;
+  /* flex-grow: 1; */
   margin: 3%;
+  gap: 0;
 }
 
 .buttons {
@@ -114,8 +119,9 @@ main {
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
-  position: relative;
+  position: absolute;
   bottom: 0;
+  height:fit-content;
 }
 .buttonText {
   font-size: 0.65rem;
