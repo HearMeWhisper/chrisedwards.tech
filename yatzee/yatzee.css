@@ -17,6 +17,7 @@ body {
     z-index: 0;
     margin-bottom: 7%;
     font-size: larger;
+    margin-left: 5px;
 }
 
 .cells {
@@ -104,6 +105,15 @@ body {
     font-size: large;
     padding: 20px;
 }
+#full{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    z-index: 100;
+    color:rgb(165, 162, 162);
+    font-size: 3rem;
+    margin-right:5px;
+  }
 
 #how {
     margin-top: 10%;
