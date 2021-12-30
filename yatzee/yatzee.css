@@ -93,18 +93,7 @@ body {
     font-size: large;
 }
 
-#fullscreen {
-    display: flex;
-    border-radius: 10px;
-    background-color:  #e9eb85;
-    color: #23313d;
-    text-align: center;
-    border: 2.5px solid black;
-    margin: auto;
-    margin-top: 15px;
-    font-size: large;
-    padding: 20px;
-}
+
 #full{
     position: absolute;
     top: 5px;
