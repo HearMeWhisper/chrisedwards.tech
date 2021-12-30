@@ -30,19 +30,7 @@ playerCount = localStorage.getItem('playerCount');
 let playerCount1 = Number(playerCount)+1;
 for (i=playerCount1; i<9; i++){document.getElementById("player"+i).style.display = "none" }
 
-    let lifeIncrease1 = () => {
-    let counter = Number(this.document.getElementById("lifeCount1").innerHTML);
-    counter++;
-    if (counter > 0) document.getElementById("lifeCount1").style.color = "black";
-    document.getElementById("lifeCount1").innerHTML = counter;
-    };
-
-    // let fiveIncreaseLife1 = () => {
-    //     let counter = Number(this.document.getElementById("lifeCount1").innerHTML);
-    // counter +=5;
-    // if (counter > 0) document.getElementById("lifeCount1").style.color = "black";
-    // document.getElementById("lifeCount1").innerHTML = counter;
-    // }
+    
 
     
     let lifeIncrease = (playerNum) => {

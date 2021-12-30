@@ -32,7 +32,7 @@ main {
   margin-top: 70px;
 }
 .name {
-  font-size: 3rem;
+  font-size: 3em;
   display: flex;
   margin: 0 0 20px;
   padding: 10px 0;
@@ -56,6 +56,7 @@ main {
   text-shadow: 0 1px 0 #eee;
   background-color: #eee;
   width: auto;
+  min-height: 75px;
   justify-content: center;
   align-content: center;
 }
@@ -85,7 +86,7 @@ main {
   align-items: center;
   /* height:250px; */
   min-width: auto;
-  font-size: 6rem;
+  font-size: 3em;
   user-select: none;
   height:fit-content
 }
@@ -99,6 +100,7 @@ main {
   display: flex;
   flex-direction: column;
   margin: 1.5rem;
+  max-width: max-content;
   
 
 }
