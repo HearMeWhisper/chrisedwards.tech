@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ChrisEdwards.tech</title>
+    <!--<link rel="icon" type="image/x-icon" href="http://hearmewhisper.ddns.net/games.ico">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/menu/menu.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <style>
+        body {
+            background-color: #667788;
+        }
+        
+        @media only screen and (max-width: 600px) {}
+        
+        main {
+            display: flex;
+            align-self: right;
+            background-color: #004455;
+            color: #a76f6f;
+            width: 75%;
+            font-family: "Roboto Slab";
+            word-wrap: break-word;
+            margin-top: 70px;
+            margin-left: 7%;
+        }
+        
+        main li {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            text-align: right;
+            padding: 12px;
+            ;
+        }
+        
+        #pic {
+            width: 95%;
+            margin: auto;
+            text-align: center;
+            
+            display: block;
+        }
+
+        #nav_menu{
+            margin-bottom: 100px;
+        }
+
+        #pic{
+            width: 300px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-content: flex-start;
+          padding-left: 20px;;
+
+        }
+        #type{
+            margin: auto;
+
+        }
+    </style>
+</head>
+
+
+<body>
+    <nav>
+         <div id="nav_menu">
+    </div>    
+    </nav>
+    <script src="/menu/menu.js"></script>
+   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <main>
+        <div id="type"></div>
+                        
+            <!-- <img id="pic" src="resume/chris.jpg" alt="Chris Edwards"> -->
+            <li>
+                <h4>Computer Science Student and Enthusist</h4>
+            </li>
+            <li>
+                <h4>I love all kinds of tech, programming, networking, and hobbist projects.</h4>
+            </li>
+            <li>
+                <h4>This is a collection of some of my projects, each one forced me to learn a new skill I didn't know before it.
+                </h4>
+            </li>
+            <li><a style="color:#a76f6f; text-align: right;" href="mailto:edwards.christophermichael@gmail.com">email
+                    me</a>
+            </li>
+
+        </ul>
+    </main>
+
+
+
+
+    <script type="text/javascript">
+    </script>
+    <script type="text/javascript">
+    var app = document.getElementById('type');
+
+var typewriter = new Typewriter(document.getElementById('type'), {
+  loop: false,
+  cursor: "_",
+});
+
+typewriter
+  .pauseFor(1500)
+  .typeString('chris edwards')
+  .pauseFor(2000)
+  .start();
+
+</script>
+</body>
+
+</html>
