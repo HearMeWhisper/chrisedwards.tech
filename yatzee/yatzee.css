@@ -1,202 +1,199 @@
 body {
-    background-color: #42739e;
-    cursor: default;
-    font-size: 130%;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #42739e;
+  cursor: default;
+  font-size: 130%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 #score {
-    border: 2px solid black;
-    background-color: rgb(46, 45, 45);
-    color: white;
-    border-radius: 15px;
-    float: left;
-    border-collapse: collapse;
-    border-style: hidden;
-    width: 25%;
-    z-index: 0;
-    margin-bottom: 7%;
-    font-size: larger;
-    margin-left: 5px;
+  border: 2px solid black;
+  background-color: rgb(46, 45, 45);
+  color: white;
+  border-radius: 15px;
+  float: left;
+  border-collapse: collapse;
+  border-style: hidden;
+  width: 45%;
+  z-index: 0;
+  margin-bottom: 7%;
+  font-size: larger;
+  margin-left: 5px;
 }
 
 .cells {
-    text-align: center;
-    border-bottom: 4px solid #33505d;
-    border-right: 2px solid gray;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    width: 1000px;
+  text-align: center;
+  border-bottom: 4px solid #33505d;
+  border-right: 2px solid gray;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  width: 1000px;
 }
 
 .cells1 {
-    background-color: #d86e60;
-    text-align: center;
-    padding-top: 4%;
-    padding-bottom: 4%;
+  background-color: #d86e60;
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 #main {
-    margin-top: 17%;
+  margin-top: 10%;
 }
 
 .dice {
-    border: 5px solid black;
-    width: 80%;
-    background-color: #56667e;
-    align-self: center;
-    margin-top: 7%;
-    padding: 12px;
+  border: 5px solid black;
+  width: 80%;
+  background-color: #56667e;
+  align-self: center;
+  margin-top: 7%;
+  padding: 12px;
 }
 
 .dice_pic {
-    height: 70px;
-    width: 70px;
-    display: flex;
-    justify-self: start;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-self: start;
 }
 
 .dice_pic_hold {
-    height: 70px;
-    width: 70px;
-    float: right;
-    margin-right: 15px;
-    display: flex;
+  height: 70px;
+  width: 70px;
+  float: right;
+  /* margin-right: 15px; */
+  display: flex;
 }
 
 #center {
-    text-align: center
+  text-align: center;
 }
 
 #highscore {
-    color: white;
-    margin: auto;
-    text-align: center;
+  color: white;
+  margin: auto;
+  text-align: center;
 }
 
 #button_dice {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10%;
 }
 
 #btn {
-    border-radius: 10px;
-    background-color: #e9eb85;
-    color: 23313d;
-    text-align: center;
-    border: 2.5px solid black;
-    height: 70px;
-    width: 100px;
-    align-self: center;
-    font-size: large;
+  border-radius: 10px;
+  background-color: #e9eb85;
+  color: 23313d;
+  text-align: center;
+  border: 2.5px solid black;
+  height: 70px;
+  width: 100px;
+  align-self: center;
+  font-size: large;
 }
 
-
-#full{
-    position: absolute;
-    top: 5px;
-    right: 0;
-    z-index: 100;
-    color:rgb(165, 162, 162);
-    font-size: 3rem;
-    margin-right:5px;
-  }
+#full {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  z-index: 100;
+  color: rgb(165, 162, 162);
+  font-size: 3rem;
+  margin-right: 5px;
+}
 
 #how {
-    margin-top: 10%;
-    width: 5%;
-    margin-right: 3%;
-    float: right;
+  margin-top: 10%;
+  width: 5%;
+  margin-right: 3%;
+  float: right;
 }
 
 #how-div {
-    border-radius: 10px;
-    border: 2px black solid;
-    background-color: white;
-    z-index: 3;
-    display: none;
-    position: absolute;
-    top: 10%;
-    padding: 3%;
-    overflow: auto;
-    height: 65%;
-    width: 80%;
+  border-radius: 10px;
+  border: 2px black solid;
+  background-color: white;
+  z-index: 3;
+  display: none;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  padding: 3%;
+  overflow: auto;
+  height: 75%;
+  width: 80%;
 }
 
 #cell13 {
-    color: #c6f2ff;
-    background-color: #181c28;
+  color: #c6f2ff;
+  background-color: #181c28;
 }
 
 #cell31 {
-    color:#c6f2ff;
-    background-color: #181c28;
-    border-radius: 15px;
+  color: #c6f2ff;
+  background-color: #181c28;
+  border-radius: 15px;
 }
 
 #how:hover {
-    border: 3px black solid
+  border: 3px black solid;
 }
 
 #smX {
-    height: 35px;
-    width: 35px;
-    float: right;
+  height: 35px;
+  width: 35px;
+  float: right;
 }
 
-
 @media (max-device-width: 550px) {
-    .cells {
-        border-bottom: 4px solid #2E2E45;
-        border-right: 2px solid gray;
-        padding-top: 4%;
-        padding-bottom: 4%;
-        min-width: 55px;
-        font-size: medium;
-    }
-    .cells1 {
-        border-radius: 5px;
-        background-color: #33505d;
-        padding-top: 4%;
-        padding-bottom: 4%;
-        min-width: 55px;
-        font-size: medium;
-    }
-    .dice_pic {
-        width: 50px;
-        height: 50px
-    }
-    .dice_pic_hold {
-        width: 50px;
-        height: 50px
-    }
-    .dice {
-        width: 70%;
-    }
+  .cells {
+    border-bottom: 4px solid #2e2e45;
+    border-right: 2px solid gray;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    min-width: 55px;
+    font-size: medium;
+  }
+  .cells1 {
+    border-radius: 5px;
+    background-color: #33505d;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    min-width: 55px;
+    font-size: medium;
+  }
+  .dice_pic {
+    width: 50px;
+    height: 50px;
+  }
+  .dice_pic_hold {
+    width: 50px;
+    height: 50px;
+  }
+  .dice {
+    /* width: 70%; */
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    #main {
-        margin-top: 8%;
-    }
+  #main {
+    margin-top: 8%;
+  }
 }
-
 
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
-    #main {
-        margin-top: 8%;
-    }
+  #main {
+    margin-top: 8%;
+  }
 }
-
 
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-    #main {
-        margin-top: 8%;
-    }
+  #main {
+    margin-top: 8%;
+  }
 }
