@@ -118,6 +118,14 @@ color:rgb(141, 140, 140);
   user-select: none;
 
 }
+
+.buttons:focus, .lifeDown:focus, .lifeUp:focus{ -webkit-animation: beat 1s ease-in-out backwards; 
+                    animation: beat 1s ease-in-out backwards; 
+                  } 
+.buttons:active, .lifeDown:active, .lifeUp:active{ 
+  -webkit-animation: none; 
+  animation: none; 
+}
 #buttonWrapper {
   display: flex;
   flex-direction: row;
