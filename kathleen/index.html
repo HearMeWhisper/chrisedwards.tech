@@ -22,6 +22,10 @@
             background-color: lime;
             width: fit-content;
             padding: 2rem;
+            align-items: center;
+        }
+        #noclass{
+            align-self: center;
         }
     </style>
 </head>
@@ -33,36 +37,54 @@
         <div id="noclass">No Classes Right Now 😁</div>
     </section>
     <script type="text/javascript"> 
+    // var d = new Date(); 
+   
+    let morningStart =  new Date()
+    morningStart.setHours(08) 
+    morningStart.setMinutes(54)//"08:55:00"
+    let morningEnd =  new Date() //"09:05:00"
+    morningEnd.setHours(09)
+    morningEnd.setMinutes(05)
+    let humanitiesStart = new Date() //"10:25:00"
+    humanitiesStart.setHours(10)
+    humanitiesStart.setMinutes(24)
+    let humanitiesEnd = new Date() //"10:35:00"
+    humanitiesEnd.setHours(10)
+    humanitiesEnd.setMinutes(35)
+    let stemStart = new Date() //"13:25:00"
+    stemStart.setHours(13)
+    stemStart.setMinutes(24)
+    let stemEnd = new Date() //"13:35:00"
+    stemEnd.setHours(13)
+    stemEnd.setMinutes(35)
 
-//   document.querySelector()
+
+//   document.querySelector()   dt >= dt1 && dt <= dt2
     function checkTime() {
         var d = new Date(); // current time
-        var hours = d.getHours();
-        var mins = d.getMinutes();
-        var classes = 0
-        if ((hours <= 9 && hours > 8) && mins >= 45 || mins == 00){
+   
+        if (d.getTime() >= morningStart.getTime()  && d.getTime() <= morningEnd.getTime()){
       document.getElementById("morning").style.display = 'flex';
-      classes = 1;
     }
-    else {document.getElementById("morning").style.display = 'none'; classes = 0;}
+    else {document.getElementById("morning").style.display = 'none'; }
 
 
-    if ((hours <= 10 ) && mins >= 25 && mins <= 35) {
-            document.getElementById("humanties").style.display = 'flex';
-            classes = 1;
+    if (d.getTime() >= humanitiesStart.getTime() && d.getTime() <= humanitiesEnd.getTime()) {
+            document.getElementById("humanities").style.display = 'flex';
+          
         }
-        else { document.getElementById("humanities").style.display = 'none'; classes = 0;}
+        else { document.getElementById("humanities").style.display = 'none'; }
 
 
 
-        if ((hours <= 13) && mins >= 25 && mins <= 35) {
+        if (d.getTime() >= stemStart.getTime() && d.getTime() <= stemEnd.getTime()) {
             document.getElementById("stem").style.display = 'flex';
-            classes = 1;
         }
-        else { document.getElementById("stem").style.display = 'none'; classes = 0}
+        else { document.getElementById("stem").style.display = 'none'; }
         
 
-        if (classes == 1) document.getElementById("noclass").style.display = 'none';
+        if (document.getElementById("morning").style.display == 'flex' || document.getElementById("humanities").style.display == 'flex' || document.getElementById("stem").style.display == 'flex') document.getElementById("noclass").style.display = 'none';
+        return
 }
 checkTime();
 
