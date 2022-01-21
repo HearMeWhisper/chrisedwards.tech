@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kathleen</title>
+    <style>
+        body{
+            font-size: xx-large;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        section{
+            display: flex;
+            width: 80%;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            margin: auto
+        }
+        .links{
+            background-color: lime;
+            width: fit-content;
+            padding: 2rem;
+            align-self: center;
+        }
+        #noclass{
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="links" id="morning"><a href="https://meet.google.com/qew-czjp-tpp?pli=1">9:00</a> </div>
+        <div class="links" id="humanities"><a href="https://meet.google.com/vtj-djcg-xud">10:30</a> </div>
+        <div class="links" id="stem"><a href="https://meet.google.com/vtj-djcg-xud">1:30</a> </div>
+        <div id="noclass">No Classes Right Now 😁</div>
+    </section>
+    <script type="text/javascript"> 
+    // var d = new Date(); 
+   
+    let morningStart =  new Date()
+    morningStart.setHours(08) 
+    morningStart.setMinutes(54)//"08:55:00"
+    let morningEnd =  new Date() //"09:05:00"
+    morningEnd.setHours(09)
+    morningEnd.setMinutes(05)
+    let humanitiesStart = new Date() //"10:25:00"
+    humanitiesStart.setHours(10)
+    humanitiesStart.setMinutes(24)
+    let humanitiesEnd = new Date() //"10:35:00"
+    humanitiesEnd.setHours(10)
+    humanitiesEnd.setMinutes(35)
+    let stemStart = new Date() //"13:25:00"
+    stemStart.setHours(13)
+    stemStart.setMinutes(24)
+    let stemEnd = new Date() //"13:35:00"
+    stemEnd.setHours(13)
+    stemEnd.setMinutes(35)
+
+
+//   document.querySelector()   dt >= dt1 && dt <= dt2
+    function checkTime() {
+        var d = new Date(); // current time
+   
+        if (d.getTime() >= morningStart.getTime()  && d.getTime() <= morningEnd.getTime()){
+      document.getElementById("morning").style.display = 'flex';
+    }
+    else {document.getElementById("morning").style.display = 'none'; }
+
+
+    if (d.getTime() >= humanitiesStart.getTime() && d.getTime() <= humanitiesEnd.getTime()) {
+            document.getElementById("humanities").style.display = 'flex';
+          
+        }
+        else { document.getElementById("humanities").style.display = 'none'; }
+
+
+
+        if (d.getTime() >= stemStart.getTime() && d.getTime() <= stemEnd.getTime()) {
+            document.getElementById("stem").style.display = 'flex';
+        }
+        else { document.getElementById("stem").style.display = 'none'; }
+        
+
+        if (document.getElementById("morning").style.display == 'flex' || document.getElementById("humanities").style.display == 'flex' || document.getElementById("stem").style.display == 'flex') document.getElementById("noclass").style.display = 'none';
+        return
+}
+checkTime();
+setInterval(checkTime, 1000);
+
+
+    </script>
+</body>
+</html>
