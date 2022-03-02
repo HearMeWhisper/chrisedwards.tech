@@ -6,13 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Phonetic Alphabet Converter</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/menu/menu.css" />
+
+
 </head>
 <body>
+    <nav>
+        <div id="nav_menu">
+    </nav>
+    
     <main>
     <h1>Nato Phonetic Alphabet</h1>
-    <input id="input" autocomplete="off" autofocus="autofocus" maxlength="100"  type="text">
+    <input  id="input" autocomplete="off" autofocus="autofocus" maxlength="100"  type="text" onkeyup="convert()">
 <div class="button">
-    <button onclick="convert()">Submit</button>
     <button onclick="clearInput()">Clear Input</button>
 </div>
 <div id="output"></div>
@@ -20,5 +26,6 @@
     </main>
 
     <script src="index.js"></script>
+    <script src="/menu/menu.js"></script>
 </body>
 </html>

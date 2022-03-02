@@ -30,6 +30,7 @@ var sites = [
     ["/MTG/", "MTG"],
     ["/youtube_convert/", "Youtube Converter"],
     ["/binary/", "Binary Converter"],
+    ["/nato/", "NATO Phonetic Alphabet"],
     ["/rollDice", "Dice"],
     ["/be_mine/", "Be Mine!"],
     ["/media/Movies", "Movies"],

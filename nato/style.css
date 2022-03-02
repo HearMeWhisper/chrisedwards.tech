@@ -6,7 +6,7 @@
 
 }
 body{
-    background-color: black;
+    background-color:#2d2e2e;
 }
 h1{
     text-align: center;
@@ -25,7 +25,11 @@ h1{
     flex-direction: column;
 }
 button{
-font-size: 25px; margin: 3%;
+font-size: 35px; margin: 3%;
+background-color:cornflowerblue;
+border-radius: 15px;
+color: white;
+padding: 5px;
 }
 #output{
     background-color: cornflowerblue;
@@ -34,5 +38,7 @@ font-size: 25px; margin: 3%;
     margin: auto;
     color: white;
     padding: 12px;
-    border-radius: 10%;
+    border-radius: 15px;
+    font-size: 3rem;
+    box-shadow:grey;
 }
