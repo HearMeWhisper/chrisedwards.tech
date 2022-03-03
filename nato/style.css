@@ -12,6 +12,7 @@ h1{
     text-align: center;
     font-family: cursive;
     color: whitesmoke;
+    margin: 15px;
 }
 .button{
     display: flex;
