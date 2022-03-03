@@ -1,0 +1,52 @@
+body {
+
+
+
+background-color: darkred;
+}
+
+
+#text {
+display: flex;
+justify-self: center;
+margin: auto;
+width: 75%;
+margin-top: 40%;
+padding: 7px;
+border-radius: 15px;
+font-size: 2rem;
+
+}
+label{
+    display: none
+}
+
+#speed{
+    display: none;
+    justify-self: center;
+    width: 1rem;
+
+}
+.buttons_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttons{
+display: flex;
+justify-content: center;
+align-content: center;
+margin: 2rem;
+background-color: transparent;
+font-size: 5rem;
+flex-direction: row;
+border: none;
+}
+
+
+main{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
