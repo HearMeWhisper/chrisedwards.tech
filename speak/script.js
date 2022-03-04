@@ -5,6 +5,22 @@ const textInput = document.getElementById('text')
 const speedInput = document.getElementById('speed')
 let currentCharacter
 
+
+const utterance = new SpeechSynthesisUtterance()
+
+utterance.addEventListener('end', () => {
+
+textInput.disabled = false
+
+})
+
+utterance.addEventListener('boundary', e => {
+
+currentCharacter = e.charIndex
+
+})
+
+
 playButton.addEventListener('click', () => {
   playText(textInput.value)
 })
@@ -13,14 +29,6 @@ stopButton.addEventListener('click', stopText)
 speedInput.addEventListener('input', () => {
   stopText()
   playText(utterance.text.substring(currentCharacter))
-})
-
-const utterance = new SpeechSynthesisUtterance()
-utterance.addEventListener('end', () => {
-  textInput.disabled = false
-})
-utterance.addEventListener('boundary', e => {
-  currentCharacter = e.charIndex
 })
 
 
@@ -40,6 +48,7 @@ function pauseText() {
 }
 
 function stopText() {
-  speechSynthesis.resume()
-  speechSynthesis.cancel()
+  speechSynthesis.resume();
+  speechSynthesis.cancel();
+  document.getElementById("text").value = ""
 }

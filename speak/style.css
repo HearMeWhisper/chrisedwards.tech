@@ -11,7 +11,7 @@ display: flex;
 justify-self: center;
 margin: auto;
 width: 75%;
-margin-top: 40%;
+margin-top: 30vh;
 padding: 7px;
 border-radius: 15px;
 font-size: 2rem;
@@ -26,6 +26,9 @@ label{
     justify-self: center;
     width: 1rem;
 
+}
+#pause-button{
+    display: none;
 }
 .buttons_div{
     display: flex;
