@@ -100,11 +100,15 @@ main {
 
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   margin: min(1rem, 1.5rem);
   /* max-width: max-content; */
-  width: clamp(min-content, max-content, max-content+1rem)
+  width: clamp(min-content, max-content, max-content+1rem);
+  max-width: 25%;
+  flex-basis: 20%
 
 }
+
 
 .buttons {
   font-size: 3em;
