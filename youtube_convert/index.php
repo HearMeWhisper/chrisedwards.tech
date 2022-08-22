@@ -24,6 +24,8 @@ body {background-color:#8f98a8; color:white}
 <div id="nav_menu">
 </div>
 <script src="/menu/menu.js"></script> 
+<script defer data-domain="chrisedwards.tech" src="https://metric1.chrisedwards.tech/js/plausible.js"></script>
+
 <script language="javascript">
 
 function reload(){
