@@ -104,9 +104,8 @@ main {
   margin: min(1rem, 1.5rem);
   /* max-width: max-content; */
   width: clamp(min-content, max-content, max-content+1rem);
-  max-width: 25%;
-  flex-basis: 20%
-
+  /* max-width: 25%; */
+  
 }
 
 
