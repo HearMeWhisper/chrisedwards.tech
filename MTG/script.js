@@ -136,3 +136,38 @@ function fullscreen() {
   }
 }
 
+// let rand = Math.floor(Math.random() * 20 +1);
+let random = () => {
+  spin();
+  let rand = Math.floor(Math.random() * 20 +1);
+  console.log(rand);
+  document.getElementById("center").innerHTML = rand;
+}
+
+
+
+
+
+// function rolar(){
+//   let rolagem = Math.floor(Math.random() * 20 +1);
+//   let valor = 1
+//   spin()
+//   document.getElementById("result").innerHTML = rolagem;
+//   document.getElementById("span").innerHTML = parseInt(valor)+rolagem;
+//   if (rolagem === 20){
+//       document.getElementById("result").style.color = "var(--green)";
+//       document.getElementById("body").style.backgroundColor = "var(--dark-green)";
+//   }
+//   else if(rolagem === 1){
+//       document.getElementById("result").style.color = "var(--red)";
+//       document.getElementById("body").style.backgroundColor = "var(--dark-red)";
+//   }
+//   else{
+//       document.getElementById("result").style.color = "black";
+//       document.getElementById("body").style.backgroundColor = "var(--black)";
+//   }
+// }
+function spin(){
+  document.getElementById("d20").classList.add("spin");
+  setTimeout(function(){document.getElementById("d20").classList.remove("spin");}, 500);
+}

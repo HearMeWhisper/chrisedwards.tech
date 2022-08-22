@@ -4,35 +4,46 @@ body {
 }
 td{
     border: 3px solid black;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
 }
 #game {
+    justify-self: center;
+    align-content: center;
+    margin-top: 20px;
     background-color:#ce4949;
     text-align: center;
     box-shadow: 5px 5px 5px #888888;
-    height: 300px;
-    width: 300px;
+    /* height: 300px; */
+    width: 100%;
+/*     table-layout: fixed; */
     border-collapse: collapse;
     /* color:#1A1A1A; */
 
 }
+#tic{
+/*     width: 85%; */
+    margin:auto;
+}
 
-
-tr{
+tr{ width: 10vh;
    
  }
 #game:hover{
     cursor: pointer;
 }
 
-#button {
-    text-align: center
+#button {    
+    text-align: center;
 }
-
+button{
+    font-size: large;
+    padding: 2vh;
+}
 #score {
     text-align: center;
-    color: #1A1A1A
+    color: #1A1A1A;
+    font-size: larger;
 }
 
 #level {
@@ -48,6 +59,8 @@ tr{
 }
 .cells{
     text-align: center;
+    font-size: 70pt
+        
 }
  #tic{
   display: flex;
