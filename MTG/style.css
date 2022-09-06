@@ -110,7 +110,7 @@ main {
 
 
 .buttons {
-  font-size: 3em;
+  font-size: 3.95em;
 
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
     Verdana, sans-serif;
@@ -147,11 +147,11 @@ color:rgb(141, 140, 140);
   align-content: center;
 }
 .buttonText {
-  font-size: 0.65rem;
+  font-size: 1.5rem;
   
 }
 #d20 {
-  width: 2.85rem;
+  width: 3.95rem;
 }
 
 .fiveLife {
@@ -195,7 +195,7 @@ color:rgb(141, 140, 140);
   left: 50%;
   transform: translate(-50%, -50%);
   color: #792f22;
-  font-size: 0.55rem;
+  font-size: 1rem;
 } 
 /* 
 
