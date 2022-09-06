@@ -93,7 +93,7 @@ main {
 }
 
 .life div {
-  margin: 15px;
+  margin: 10px;
 }
 
 .player {
@@ -101,7 +101,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: min(1rem, 1.5rem);
+  margin: min(1rem, 1rem);
   /* max-width: max-content; */
   width: clamp(min-content, max-content, max-content+1rem);
   /* max-width: 25%; */
@@ -152,6 +152,9 @@ color:rgb(141, 140, 140);
 }
 #d20 {
   width: 3.95rem;
+}
+#center{
+  color: red;
 }
 
 .fiveLife {
