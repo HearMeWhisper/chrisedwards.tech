@@ -110,7 +110,7 @@ main {
 
 
 .buttons {
-  font-size: 3.95em;
+  font-size: 2.95rem;
 
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
     Verdana, sans-serif;
@@ -136,7 +136,7 @@ color:rgb(141, 140, 140);
   flex-direction: row;
   justify-content:space-evenly;
   /* z-index: 100; */
-  width: 70%;
+  width: 75%;
   border-radius: 30px;
   opacity: 0.6;
   background-color: #eee;
@@ -151,7 +151,7 @@ color:rgb(141, 140, 140);
   
 }
 #d20 {
-  width: 3.95rem;
+  width: 2.95rem;
 }
 #center{
   color: red;
@@ -198,7 +198,7 @@ color:rgb(141, 140, 140);
   left: 50%;
   transform: translate(-50%, -50%);
   color: #792f22;
-  font-size: 1rem;
+  font-size: .70rem;
 } 
 /* 
 
