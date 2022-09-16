@@ -21,6 +21,18 @@ window.onload = function(){
     }
 };
 
+function isInstalled() {
+  // For iOS
+  if(window.navigator.standalone) return true
+  document.getElementById("nav").style.display = "none"
+
+  // For Android
+  if(window.matchMedia('(display-mode: standalone)').matches) return true
+document.getElementById("nav").style.display = "none"
+  // If neither is true, it's not installed
+  return false
+}
+
 
 
 const startLife = 20;
