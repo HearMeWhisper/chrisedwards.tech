@@ -16,26 +16,30 @@ background: radial-gradient(circle, #792f22 0%, #4f644f 47%, rgb(108, 127, 131) 
   height: 100vh
 
 }
+html{
+  height: 100vh;
+}
 #full{
   color:rgb(165, 162, 162);
 
 }
 main {
   display: flex;
+  flex-shrink: 1;
   justify-content: space-evenly;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
     Verdana, sans-serif;
   flex-wrap: wrap;
   width: 100vw;
-
+ height: 100vh;
   position: relative;
   margin-top: 70px;
 }
 
 .name {
-  font-size: 3em;
+  font-size: 2rem;
   display: flex;
-  margin: 0 0 20px;
+  margin: 0 0 10px;
   padding: 10px 0;
   opacity: 0.9;
   background-color: #eee;
@@ -57,7 +61,7 @@ main {
   text-shadow: 0 1px 0 #eee;
   background-color: #eee;
   width: auto;
-  min-height: 75px;
+  /* min-height: px; */
   justify-content: center;
   align-content: center;
 }
@@ -83,13 +87,16 @@ main {
   /* padding: 10px 0; */
   text-shadow: 0 1px 0 #eee;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* height:250px; */
+  /* height:2rem; */
+  height: calc(100%-35px);
   min-width: auto;
   font-size: 3em;
   user-select: none;
-  height:fit-content
+  /* margin-bottom: -50px; */
+
 }
 
 .life div {
@@ -102,6 +109,7 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   margin: min(1rem, 1rem);
+  margin-bottom: -100px;
   /* max-width: max-content; */
   width: clamp(min-content, max-content, max-content+1rem);
   /* max-width: 25%; */
