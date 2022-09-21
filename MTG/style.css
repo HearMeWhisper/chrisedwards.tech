@@ -18,6 +18,7 @@ background: radial-gradient(circle, #792f22 0%, #4f644f 47%, rgb(108, 127, 131) 
 }
 html{
   height: 100vh;
+  font-size:110%;
 }
 #full{
   color:rgb(165, 162, 162);
@@ -38,7 +39,7 @@ main {
 }
 
 .name {
-  font-size: 1.5rem;
+  font-size: 4vw;
   display: flex;
   margin: 0 0 10px;
   padding: 10px 0;
@@ -94,7 +95,7 @@ main {
   /* height:2rem; */
   height: calc(100%-35px);
   min-width: auto;
-  font-size: 3em;
+  font-size: 7vw;
   user-select: none;
   /* margin-bottom: -50px; */
 
@@ -120,7 +121,7 @@ main {
 
 
 .buttons {
-  font-size: 2.95rem;
+  font-size: 2.95em;
 
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
     Verdana, sans-serif;
@@ -157,11 +158,11 @@ color:rgb(141, 140, 140);
   align-content: center;
 }
 .buttonText {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   
 }
 #d20 {
-  width: 2.95rem;
+  width: 2.95em;
 }
 #center{
   color: red;
@@ -176,11 +177,11 @@ color:rgb(141, 140, 140);
 }
 
 .lifeUp{
-  font-size: 4rem;
+  font-size: 8vw;
   color: #00cc00
 }
 .lifeDown{
-  font-size: 4rem;
+  font-size: 8vw;
   color:#e60000
 }
 .vert{
@@ -210,7 +211,7 @@ color:rgb(141, 140, 140);
   left: 50%;
   transform: translate(-50%, -50%);
   color: #792f22;
-  font-size: .70rem;
+  font-size: .70em;
 } 
 /* 
 
