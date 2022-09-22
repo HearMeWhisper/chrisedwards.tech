@@ -39,7 +39,7 @@ main {
 }
 
 .name {
-  font-size: 4vw;
+  font-size: 3vh;
   display: flex;
   margin: 0 0 10px;
   padding: 10px 0;
@@ -95,7 +95,7 @@ main {
   /* height:2rem; */
   height: calc(100%-35px);
   min-width: auto;
-  font-size: 7vw;
+  font-size: 4vh;
   user-select: none;
   /* margin-bottom: -50px; */
 
@@ -121,7 +121,7 @@ main {
 
 
 .buttons {
-  font-size: 2.95em;
+  font-size: 4vh;
 
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
     Verdana, sans-serif;
@@ -162,7 +162,7 @@ color:rgb(141, 140, 140);
   
 }
 #d20 {
-  width: 2.95em;
+  width: 4vh;
 }
 #center{
   color: red;
@@ -177,16 +177,16 @@ color:rgb(141, 140, 140);
 }
 
 .lifeUp{
-  font-size: 8vw;
+  font-size: 7vh;
   color: #00cc00
 }
 .lifeDown{
-  font-size: 8vw;
+  font-size: 7vh;
   color:#e60000
 }
 .vert{
   flex-direction: column;
-  font-size: 5rem ;
+  /* font-size: 2rem ; */
 }
 
 .lifeFlex{
@@ -211,7 +211,7 @@ color:rgb(141, 140, 140);
   left: 50%;
   transform: translate(-50%, -50%);
   color: #792f22;
-  font-size: .70em;
+  font-size: 1.5vh;
 } 
 /* 
 
