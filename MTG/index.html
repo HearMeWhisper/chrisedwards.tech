@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="manifest" href="mainfest.json" />
+    <link rel="manifest" href="site.webmainfest" />
 
 </head>
 <body>
@@ -26,7 +26,7 @@
    <script>
     if('serviceWorker' in navigator) {
         window.addEventListiner('load', () => {
-            navigator.serviceWorker.register('/MTG/sw.js')
+            navigator.serviceWorker.register('sw.js')
                 .then((registration) => { 
                     console.log(`service worker registered succesfully ${registration}`) 
                 })
@@ -52,7 +52,7 @@
                                         <div class="centered" id="center">1</div>
                                     </div>
    </div>
-   
+
     <main>
         <div id="player1" class="player">
                 <div class="name" id="name1" contenteditable="true">
