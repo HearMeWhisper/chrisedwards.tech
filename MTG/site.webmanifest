@@ -1,7 +1,7 @@
 {
     "name": "MTG Life Counter",
     "short_name": "MTG Life Counter",
-    "start_url": "https://mtg.chrisedwards.tech/"
+    "start_url": "https://mtg.chrisedwards.tech/",
     "icons": [
         {
             "src": "icons/android-chrome-192x192.png",
