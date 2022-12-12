@@ -1,6 +1,7 @@
 body {
   background-color: #6497b1;
   font-family: "Courier Prime", monospace;
+  height: 100%;
 }
 
 #input {

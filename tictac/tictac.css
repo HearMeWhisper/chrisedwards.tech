@@ -1,6 +1,10 @@
+html{
+    height:100%;
+}
 body {
     background: -webkit-linear-gradient(45deg, hsla(0, 0%, 97%, 1) 0%, hsla(0, 0%, 97%, 0) 70%), -webkit-linear-gradient(315deg, hsla(0, 0%, 38%, 1) 10%, hsla(0, 0%, 38%, 0) 80%), -webkit-linear-gradient(225deg, hsla(0, 0%, 63%, 1) 10%, hsla(0, 0%, 63%, 0) 80%), -webkit-linear-gradient(135deg, hsla(0, 0%, 29%, 1) 100%, hsla(0, 0%, 29%, 0) 70%);
     background: linear-gradient(45deg, hsla(0, 0%, 97%, 1) 0%, hsla(0, 0%, 97%, 0) 70%), linear-gradient(135deg, hsla(0, 0%, 38%, 1) 10%, hsla(0, 0%, 38%, 0) 80%), linear-gradient(225deg, hsla(0, 0%, 63%, 1) 10%, hsla(0, 0%, 63%, 0) 80%), linear-gradient(315deg, hsla(0, 0%, 29%, 1) 100%, hsla(0, 0%, 29%, 0) 70%);
+    height:100%;
 }
 td{
     border: 3px solid black;

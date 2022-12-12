@@ -1,52 +1,25 @@
-function slideout() {
-    if (document.getElementById("ham").className == "ham-menu") {
-        document.getElementById("ham").className = "ham-menu2";
-        document.getElementById("ham").focus();
-        document.getElementById("menu").onclick = null; // console.log("show");
-    } else if (document.getElementById("ham").className == "ham-menu2") {
-        document.getElementById("ham").className = "ham-menu";
-        document.getElementById("menu").onclick = function() {
-            slideout()
-        }; // console.log("hide");
-    }
-}
+var navString = '<nav class="navbar is-dark" role="navigation" aria-label="main navigation"> <div class="navbar-brand"> <a class="navbar-item" href="/index.html"> <img src="/cetechwhite.png" width="50" height="50"> </a> <a role="button" class="navbar-burger is-dark" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> </a> </div> <div id="navbarBasicExample" class="navbar-menu is-dark"> <div class="navbar-start is-dark"> <a class="navbar-item is-dark" href="/index.html"> Home </a> <a class="navbar-item" href="/resume/" > Resume </a> <div class="navbar-item has-dropdown is-hoverable"> <a class="navbar-link" > Games </a> <div class="navbar-dropdown"> <a class="navbar-item" href="/yatzee/"> Yatzee </a> <a class="navbar-item" href="/tictac/"> Tic Tac Toe </a> <a class="navbar-item" href="/bingo/"> Bingo </a> <a class="navbar-item" href="/memory/"> Memory </a> <a class="navbar-item" href="https://mtg.chrisedwards.tech"> MTG Life Counter </a> </div> </div> <div class="navbar-item has-dropdown is-hoverable is-dark"> <a class="navbar-link" > Ultilities </a> <div class="navbar-dropdown"> <a class="navbar-item" href="/speak"> Speak </a> <a class="navbar-item" href="/binary/"> Binary to ASCII </a> <a class="navbar-item" href="/youtube_convert/"> YouTube Converter </a> <a class="navbar-item" href="/nato/"> NATO Alpha </a> </div> </div> </div> </div> </nav>'
+document.getElementById('navContainer').innerHTML = navString;
 
+document.addEventListener('DOMContentLoaded', () => {
 
-function closemenu1() {
-    setTimeout(function() {
-        document.getElementById("ham").className = "ham-menu";
-        document.getElementById("menu").onclick = function() {
-            slideout()
-        }
-    }, 250); //console.log("off click");
-}
-var sites = [
-    ["/", "Home"],
-    ["/resume/", "Resume"],
-    ["/tictac/", "Tic Tac Touch"],
-    ["/bingo/", "Bingo!"],
-    ["/memory/", "Memory"],
-    ["/yatzee/", "Yatzee!"],
-    ["/MTG/", "MTG"],
-    ["/youtube_convert/", "Youtube Converter"],
-    ["/binary/", "Binary Converter"],
-    ["/speak/", "Speak"],
-    ["/nato/", "NATO Phonetic Alphabet"],
-    ["/rollDice", "Dice"],
-    ["/be_mine/", "Be Mine!"],
-    ["/media/Movies", "Movies"],
-    ["/media/Tv%20Shows", "Tv Shows"]
-];
-var foobar = "";
-for (i = 0; i < sites.length; i++) {
-    // console.log(i)
-    foobar += '<ul> <li><a href="' + sites[i][0] + '">' + sites[i][1] + '</a></li> <br />';
-    // console.log(foobar)
-    foobar += "</ul>"
-}
-
-//document.getElementById("ham").addEventListener('onmouseleave', function() {slideout(), alert('test')});
-var foo = '<div  id="menu" onclick="slideout()"   ><img id="bars" src="/menu/3bar.png" /></div><div id="ham" class="ham-menu"  ><img id="bars" src="/menu/x.png" onclick="slideout()"/><div id="site"></div> </div>'
-
-document.getElementById("nav_menu").innerHTML = foo;
-document.getElementById("site").innerHTML = foobar;
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    
+    // Add a click event on each of them
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+    
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+    
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+    
+      });
+    });
+    
+    });
+  

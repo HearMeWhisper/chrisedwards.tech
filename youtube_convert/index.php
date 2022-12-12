@@ -17,15 +17,15 @@ echo '
   <link rel="stylesheet" type="text/css" href="/menu/menu.css" />
 <title>YouTube Music</title>
 <style>
-body {background-color:#8f98a8; color:white}
+body {background-color:#8f98a8; color:white; height: 100%}
 </style>
 </head>
 <body onload="">
-<div id="nav_menu">
+<div id="navContainer">
 </div>
-<script src="/menu/menu.js"></script> 
+<script defer src="/menu/menu.js"></script> 
 <script defer data-domain="chrisedwards.tech" src="https://metric1.chrisedwards.tech/js/plausible.js"></script>
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 <script language="javascript">
 
 function reload(){

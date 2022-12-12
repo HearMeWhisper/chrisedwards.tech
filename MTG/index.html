@@ -13,16 +13,18 @@
 <meta name="theme-color" content="#4C633C">
     <title>MTG Life Counter</title>
 
-    <script defer data-domain="chrisedwards.tech" src="https://metric1.chrisedwards.tech/js/plausible.js"></script>
+    <script defer data-domain="mtg.chrisedwards.tech" src="https://metric1.chrisedwards.tech/js/plausible.js"></script>
 
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="/menu/menu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="manifest" href="site.webmainfest" />
 
 </head>
 <body>
-
+    <script defer src="/menu/menu.js"></script>
+    <div id="navContainer"></div>
    <script>
     if('serviceWorker' in navigator) {
         window.addEventListiner('load', () => {

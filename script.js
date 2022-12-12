@@ -5,7 +5,7 @@ document.getElementById("type").scrollIntoView({behavior: "smooth", block: "end"
 var typewriter = new Typewriter(document.getElementById('type'), {
   loop: false,
   cursor: "_",
-  delay: 150,
+  delay: 120,
   // onCreateTextNode: scroll,
 });
 
@@ -35,6 +35,7 @@ typewriter
   .pasteString('<br>')
   .callFunction(scroll)
   .pasteString('<a class="link" href="/resume/">resume</a>  <a class="link" href="/yatzee/">yatzee</a>  <a class="link" href="/tictac/">tic tac touch</a><br>')
+  .callFunction(scroll)
   .pasteString('<a class="link" href="/MTG/">mtg life counter</a>  <a class="link" href="/youtube_convert/">youtube downloader</a>  <a class="link" href="/binary/">binary to ascii converter</a>')
    .pasteString('<br>')
    .callFunction(scroll)
