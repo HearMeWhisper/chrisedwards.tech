@@ -17,14 +17,14 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/menu/menu.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="manifest" href="site.webmainfest" />
 
 </head>
 <body>
     <script defer src="/menu/menu.js"></script>
-    <div id="navContainer"></div>
+    <!-- <div id="navContainer"></div> -->
    <script>
     if('serviceWorker' in navigator) {
         window.addEventListiner('load', () => {
@@ -42,12 +42,12 @@
 </script>
 
    <div id="buttonWrapper">
-                                            <div class="buttons"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>                    
-                                                <div onclick="removePlayer()" id="removePlayer" class="buttons"><i class="fas fa-minus-circle"></i></div>
-                                            <div onclick="reset()" id="reset" class="buttons"><i class="fas fa-undo-alt"></i><span class="buttonText"></span></div>
+                                            <div class="buttons1"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>                    
+                                                <div onclick="removePlayer()" id="removePlayer" class="buttons1"><i class="fas fa-minus-circle"></i></div>
+                                            <div onclick="reset()" id="reset" class="buttons1"><i class="fas fa-undo-alt"></i><span class="buttonText"></span></div>
                                             <!-- <div onclick="resetName()" id="reset" class="buttons">↻<span class="buttonText">reset name</span></div> -->
-                                            <div onclick="addPlayer()" id="addPlayer" class="buttons"><i class="fas fa-plus-circle"></i></div>
-                                        <div class="buttons"><i id="full" onclick="fullscreen()" class="fas fa-expand"></i></div>    
+                                            <div onclick="addPlayer()" id="addPlayer" class="buttons1"><i class="fas fa-plus-circle"></i></div>
+                                        <div class="buttons1"><i id="full" onclick="fullscreen()" class="fas fa-expand"></i></div>    
                                         <!-- <div class="buttons"><i id="roll" onclick="random()" class="fa-solid fa-dice-d20"></i></div> -->
                                     <div class="container" id="centerDiv" onclick="random()">
                                         <img id="d20" src="img/dice.webp" >
