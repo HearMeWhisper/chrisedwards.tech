@@ -1,6 +1,7 @@
 
 body{
   background-color: #b967ff;
+  height: 100%;
 }
 
 #diceContainer{
@@ -24,6 +25,7 @@ body{
   color: #fffb96;
   border-radius: 20px;
   font-size: 200%;
+  padding: 2rem;
   
 }
 #numberOfDiceSelection{
@@ -40,6 +42,22 @@ input[type=radio] {
     width: 100%;
     height: 2em;
 }
-img{
+.die{
 height:7.75em;
+}
+
+#numbers{
+  display: none;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;;
+}
+
+.wrapper{
+  position:fixed;
+  right:0;
+  bottom:0;
+}
+#math{
+   display: none;
 }

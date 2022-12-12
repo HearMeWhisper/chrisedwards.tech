@@ -23,10 +23,11 @@ h1{
     background-color: #2d2e2e !important;
 border-color:#2d2e2e !important}
 #main{
-    margin-top: 7%;
     display: flex;
-    justify-items: center;
+    margin-top: 7%;
     flex-direction: column;
+    column-gap: 50px;
+    justify-items: flex-end;
 }
 #clear{
 font-size: 35px; margin: 3%;
@@ -39,9 +40,10 @@ text-align: center !important;
 }
 #output{
     background-color: cornflowerblue;
-    max-width: 60%;
-    width: 300px;
-    height: 15rem;
+    max-width:max-content;
+    width: 75%;
+    /* height: 15rem; */
+    min-height: fit-content;
     margin: auto;
     margin-top: 50px;
     color: white;
