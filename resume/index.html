@@ -5,204 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christopher Edwards</title>
     <script defer data-domain="chrisedwards.tech" src="https://metric1.chrisedwards.tech/js/plausible.js"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/menu/menu.css">
 
-    <style>
-        body {
-            font-family: 'Open Sans', sans-serif;
-
-            height: 100vh;
-            box-sizing: border-box
-        }
-
-        img {
-            width: 15vw;
-            margin: auto;
-            padding: 10%;
-        }
-
-        #col {
-            display: flex;
-            height: 100vh
-        }
-
-        #col1 {
-            background-color: #2c2c2c;
-            width: 30vw;
-            min-height: 100vh;
-            justify-content: center;
-            justify-items: center;
-            color: white;
-            flex-direction: column;
-            overflow: auto;
-            word-wrap: break-word;
-
-        }
-
-        #col2 {
-
-            flex-direction: column;
-            width: 100vw;
-            height: 100vh;
-            justify-content: center;
-            justify-items: center;
-            overflow: auto;
-
-        }
-
-        #col1 a {
-            color: white;
-            text-decoration: none;
-        }
-
-        #col1 hr {
-            width: 75%;
-            height: .5px;
-            margin-left: 0;
-        }
-
-        #info {
-            font-size: 3vw;
-            margin-left: 2vw;
-            margin-bottom: 150px;
-        }
-
-
-        #info ul {
-            margin-left: -10vw;
-            list-style-type: none;
-            max-width: 85%;
-            word-wrap: break-word;
-            font-size: 1.5vw;
-        }
-
-        @media only screen and (min-width: 600px) {
-
-            /* For tablets: */
-            #info ul {
-                margin-left: -2.2vw;
-                list-style-type: none;
-                max-width: 85%;
-                word-wrap: break-word;
-                font-size: 1.5vw;
-            }
-
-            #contact {
-                margin-left: -50px;
-            }
-
-            #tell {
-                padding-left: 2vw;
-                background-image: url(phone.svg);
-                background-position: 0 0;
-                background-size: 1.5vw;
-                background-repeat: no-repeat;
-            }
-
-            #mail {
-                padding-left: 2vw;
-                background-image: url(mail.svg);
-                background-position: 0 0;
-                background-size: 1.5vw;
-                background-repeat: no-repeat;
-
-            }
-
-            #map {
-                padding-left: 2vw;
-                background-image: url(map.svg);
-                background-position: 0 0;
-                background-size: 1.5vw;
-                background-repeat: no-repeat;
-            }
-
-        }
-
-        @media only screen and (min-width: 768px) {
-
-            /* For desktop: */
-            #info ul {
-                margin-left: -1.5vw;
-                list-style-type: none;
-                max-width: 90%;
-                word-wrap: break-word;
-                font-size: 1.5vw;
-            }
-
-            #contact {
-                margin-left: 2vw;
-            }
-        }
-
-        .head {
-            font-weight: bolder;
-            font-size: 2.3vw;
-        }
-
-        .sm_head {
-            font-weight: 550;
-        }
-
-        #skills {
-            list-style-type: disc !important;
-            color: white;
-        }
-
-        #name {
-            font-size: 5vw;
-            text-align: center;
-            margin: auto;
-            padding-top: 5%;
-        }
-
-        #pitch {
-            font-size: 2.75vw;
-            text-align: center;
-        }
-
-
-        #tell {
-            padding-left: 2vw;
-            background-image: url(phone.svg);
-            background-position: 0 0;
-            background-size: 1.5vw;
-            background-repeat: no-repeat;
-        }
-
-        #mail {
-            padding-left: 2vw;
-            background-image: url(mail.svg);
-            background-position: 0 0;
-            background-size: 1.5vw;
-            background-repeat: no-repeat;
-
-        }
-
-        #map {
-            padding-left: 2vw;
-            background-image: url(map.svg);
-            background-position: 0 0;
-            background-size: 1.5vw;
-            background-repeat: no-repeat;
-        }
-
-        #summery {
-            font-size: 2vw;
-            margin: 15px;
-            margin-bottom: 150px;
-        }
-    </style>
 </head>
 
 <body>
+    <script defer src="/menu/menu.js"></script>
+    <div id="navContainer"></div>
     <div id="col">
 
 
         <div id="col1">
             <!---->
             <div style="background-color: white; width: 15vw; display: flex; justify-content: center; padding: 15px">
-               <img src="chris-ascii-art.png" alt="Chris Edwards">
+               <img id="img" src="chris.jpg" alt="Chris Edwards">
             </div>
             <div id="info">
                 <p>CONTACT</p>
@@ -213,7 +32,7 @@
                     </li>
                     <br>
                     <li id="mail">
-                        <a href="mailto:edwards.christophermichael@gmail.com">edwards.christophermichael@gmail.com</a>
+                        <a href="mailto:chris@chrisewards.tech">chris@chrisedwards.tech</a>
                     </li>                    
                 </ul>
                 <p>SKILLS</p>
@@ -241,9 +60,11 @@
                 <hr>
                 <ul>
                     <li>Full Stack Web Developer Certification |</li>
-                    <ul><li>
-                        Southern Careers Institute powered by Woz-U |</li>
-                    </ul>
+                    <br>
+                        <li>
+                        Southern Careers Institute powered by Woz-U |
+                    </li>
+            
                     <li>Oct 2019 - Aug 2020</li>
                     </ul>
             </div>
