@@ -7,7 +7,7 @@ let baseLinks = [
 let gameLinks = [
                  '<a class="navbar-item" href="/yatzee/"> Yatzee </a>',
                  '<a class="navbar-item" href="/tictac/"> Tic Tac Toe </a>',
-                 '<a class="navbar-item" href="/bingo/"> Bingo </a>',
+                //  '<a class="navbar-item" href="/bingo/"> Bingo </a>',
                  '<a class="navbar-item" href="/memory/"> Memory </a>',
                  '<a class="navbar-item" href="https://mtg.chrisedwards.tech"> MTG Life Counter </a>'
 ];
