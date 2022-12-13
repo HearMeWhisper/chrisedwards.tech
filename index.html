@@ -51,9 +51,14 @@
 
 
 <script>
-   
+       function addHtmlClass() {
+            var x = document.getElementById("html");
+            condole.log(x);
+            x.classList.add("has-navbar-fixed-top");
+        }
+        addHtmlClass();
 </script>
-    <script src="/menu/menu.js"></script>
+    <script defer src="/menu/menu.js"></script>
    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="script.js" defer></script>
 </body>

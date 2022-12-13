@@ -20,7 +20,7 @@ let utilLinks = [
 
 ];
 
-navString = '<nav class="navbar is-dark" role="navigation" aria-label="main navigation"> <div class="navbar-brand"> <a class="navbar-item" href="/index.html"> <img src="/cetechwhite.png" width="50" height="50"> </a> <a role="button" class="navbar-burger is-dark" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> </a> </div> <div id="navbarBasicExample" class="navbar-menu is-dark"> <div class="navbar-start is-dark"> ';
+navString = '<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation"> <div class="navbar-brand"> <a class="navbar-item" href="/index.html"> <img src="/cetechwhite.png" width="50" height="50"> </a> <a role="button" class="navbar-burger is-dark" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> </a> </div> <div id="navbarBasicExample" class="navbar-menu is-dark"> <div class="navbar-start is-dark"> ';
 for (i = 0; i < baseLinks.length; i++){
   navString += baseLinks[i];
 }
@@ -35,7 +35,7 @@ for (i = 0; i < utilLinks.length; i++){
 navString += ' </div> </div> </div> </div> </nav>'
 
 document.getElementById('navContainer').innerHTML = navString;
-
+// document.getElementsByTagName('html').classList.add('has-navbar-fixed-top');
 document.addEventListener('DOMContentLoaded', () => {
 
     // Get all "navbar-burger" elements
@@ -58,3 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     });
   
+
+    function addHtmlClass() {
+  var element = document.getElementById("");
+  element.classList.add("has-navbar-fixed-top");
+} 
+addHtmlClass();

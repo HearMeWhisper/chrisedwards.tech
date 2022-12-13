@@ -98,7 +98,7 @@ body {
   position: absolute;
   /* top: 5px; */
   right: 0;
-  z-index: 100;
+  z-index: 1;
   color: rgb(165, 162, 162);
   font-size: 3rem;
   margin-right: 5px;

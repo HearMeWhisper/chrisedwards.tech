@@ -7,18 +7,24 @@
   margin: 0;
   padding: 0;
 }
-html{
-  height: 100%
+html {
+  height: 100%;
 }
 
-
-.navbar-menu, .navbar-dropdown{
-  background-color:rgb(24, 24, 24) !important;
+.navbar-menu,
+.navbar-dropdown {
+  background-color: rgb(24, 24, 24) !important;
+  z-index: 100 !important;
+  /* position: absolute !important; */
 }
-.navbar-item{
+.navbar-item {
   color: white !important;
 }
 .navbar-item:hover {
   color: #363636 !important;
   background-color: white !important;
+}
+
+#navContainer {
+  padding-bottom: 5.5rem !important;
 }
