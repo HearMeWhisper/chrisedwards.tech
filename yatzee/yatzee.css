@@ -5,7 +5,12 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   height: 100%;
 }
+html{
 
+}
+.cells{
+  padding: 4%
+}
 #score {
   border: 2px solid black;
   background-color: rgb(46, 45, 45);
