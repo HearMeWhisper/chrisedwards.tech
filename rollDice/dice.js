@@ -36,7 +36,8 @@ function shuffle_dice() {
 function showMath(){
     var numBlock =  document.getElementById('numbers');
     console.log(numBlock.style.display)
-  if (numBlock.style.display === "none") {
+    if (numBlock.style.display === "none") {
+        document.getElementById("show").innerHTML = "Hide Math";
     numBlock.style.display = "block";
   } else {
     numBlock.style.display = "none";

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahtzee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/menu/menu.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+</head>
+<body>
+        <script defer src="/menu/menu.js"></script>
+
+    <div id="navContainer"></div>
+    <header>
+        <span id="highScore">High Score:</span>
+        <span id="fullScreen"></span>
+    </header>
+    <div id="game">
+        <div id="diceBoard">
+            <img class='dice_pic' onclick='hold(this)' src="dice/die1.png">
+            <img class='dice_pic' onclick='hold(this)' src="dice/die2.png">
+            <img class='dice_pic' onclick='hold(this)' src="dice/die3.png">
+            <img class='dice_pic' onclick='hold(this)' src="dice/die4.png">
+            <img class='dice_pic' onclick='hold(this)' src="dice/die5.png">
+
+           
+        </div>
+        <button id="roll" onclick="rollDice()">Roll</button>
+        <div id="scoreBoard">
+            <div id="upper">
+            <span class="upperLable" >One</span>
+            <span class="upperLable" >Two</span>
+            <span class="upperLable" >Three</span>
+            <span class="upperLable" >Four</span>
+            <span class="upperLable" >Five</span>
+            <span class="upperLable" >Six</span>
+            <br>
+            <div>
+                <span class="upperScore" id="oneScore">0</span>
+
+             <span class="upperScore" id="twoScore">0</span>
+
+             <span class="upperScore" id="threeScore"></span>
+
+             <span class="upperScore" id="fouScore"></span>
+
+             <span class="upperScore" id="fiveScore"></span>
+
+             <span class="upperScore" id="sixScore"></span>
+
+            </div>
+            
+            </div>
+            <div id="lower">
+
+            </div>
+        </div>
+    </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
