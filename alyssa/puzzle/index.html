@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      table {
+        border: 2px black solid;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="puzzle">
+      <table id="grid"></table>
+    </div>
+    <div id="words"></div>
+
+    <script src="script.js" defer></script>
+
+    <script>
+      let rows, cols;
+      let str = "";
+      //   function makeTable(inputRows, inputColumns) {
+      //     rows = inputRows;
+      //     console.log(rows + " rows");
+      //     cols = inputColumns;
+      //     for (i = 0; i < rows; i++) {
+      //       console.log("pass " + i);
+      //       str += '<tr><td class="cells"  id="cell' + i + '">' + i + "</td>";
+      //       //i++;
+      //       // str += '<td class="cells" onclick="" id="cell' + q + '"></td></tr>';
+      //     }
+      //     console.log(str);
+      //   }
+
+      function tableCreate(inputRows, inputColumns) {
+        const body = document.body,
+          tbl = document.createElement("table");
+        tbl.style.width = "100px";
+        tbl.style.border = "1px solid black";
+        tbl.style.borderCollapse = "collapse";
+        rows = inputRows;
+        cols = inputColumns;
+        for (let i = 0; i < rows; i++) {
+          const tr = tbl.insertRow();
+          for (let j = 0; j < cols; j++) {
+            if (i === 2 && j === 1) {
+              break;
+            } else {
+              const td = tr.insertCell();
+              td.appendChild(document.createTextNode(`Cell ${i}`));
+              td.style.border = "1px solid black";
+              td.style.borderCollapse = "collapse";
+              if (i === 1 && j === 1) {
+                td.setAttribute("rowSpan", "2");
+              }
+            }
+          }
+        }
+        body.appendChild(tbl);
+      }
+
+      function addTable(inputRows, inputColumns) {
+        rows = inputRows;
+        cols = inputColumns;
+
+        var myTableDiv = document.getElementById("puzzle");
+        myTableDiv.style.borderCollapse = "collapse";
+        var table = document.createElement("TABLE");
+        table.border = "1";
+
+        var tableBody = document.createElement("TBODY");
+        table.appendChild(tableBody);
+
+        for (var i = 0; i < rows; i++) {
+          var tr = document.createElement("TR");
+          tableBody.appendChild(tr);
+
+          for (var j = 0; j < cols; j++) {
+            var td = document.createElement("TD");
+            // td.width = "50";
+            td.appendChild(document.createTextNode("A"));
+            tr.appendChild(td);
+          }
+        }
+        myTableDiv.appendChild(table);
+      }
+      addTable(15, 15);
+
+      //   tableCreate(5, 5);
+      //   makeTable(5, 5);
+
+      //   document.getElementById("grid").innerHTML = str;
+    </script>
+  </body>
+</html>

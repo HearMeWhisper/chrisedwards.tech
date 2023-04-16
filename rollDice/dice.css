@@ -28,6 +28,9 @@ body{
   padding: 2rem;
   
 }
+.score_die{
+  height: 20px;
+}
 .numberOfDiceSelection{
   /* padding-top: 5%; */
   /* padding-right: 2%; */

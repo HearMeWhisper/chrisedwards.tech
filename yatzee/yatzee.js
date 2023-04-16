@@ -138,12 +138,12 @@ function drawboard() {
     document.getElementById("cell15").onclick = "";
     document.getElementById("cell31").onclick = "";
         //top row
-    document.getElementById("cell0").innerHTML = "Ones";
-    document.getElementById("cell2").innerHTML = "Twos";
-    document.getElementById("cell4").innerHTML = "Threes";
-    document.getElementById("cell6").innerHTML = "Fours";
-    document.getElementById("cell8").innerHTML = "Fives";
-    document.getElementById("cell10").innerHTML = "Sixes";
+    document.getElementById("cell0").innerHTML = '<img class="score_die" style="height: 2rem" src="dice/die1.png" alt="one">';
+    document.getElementById("cell2").innerHTML = '<img class="score_die" style="height: 2rem" src="dice/die2.png" alt="two">';
+    document.getElementById("cell4").innerHTML = '<img class="score_die" style="height: 2rem" src="dice/die3.png" alt="three">';
+    document.getElementById("cell6").innerHTML = '<img class="score_die" style="height: 2rem" src="dice/die4.png" alt="four">';
+    document.getElementById("cell8").innerHTML = '<img class="score_die" style="height: 2rem" src="dice/die5.png" alt="five">';
+    document.getElementById("cell10").innerHTML = '<img class="score_die" style="height: 2rem" src="dice/die6.png" alt="six">';
     document.getElementById("cell12").innerHTML = "Sub-total";
     document.getElementById("cell14").innerHTML = "Bonus";
     document.getElementById("cell16").innerHTML = "3 of a Kind";
