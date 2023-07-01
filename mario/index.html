@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mario</title>
+    <style>
+      body {
+        background-color: #121212;
+      }
+      #video1 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="video1">
+      <video
+        id="video"
+        controls
+        controlslist="nodownload"
+        src="mario.mp4
+
+"
+        type="video/mp4"
+      >
+        Your browser doesn't support embedded video. Sorry.
+      </video>
+    </div>
+    <script>
+      document.getElementById("video").addEventListener(
+        "loadedmetadata",
+        function () {
+          this.currentTime = localStorage.getItem("time");
+        },
+        false
+      );
+      // document.getElementById("video").currentTime = 50;
+      setInterval(function () {
+        localStorage.setItem(
+          "time",
+          document.getElementById("video").currentTime
+        );
+        console.log(document.getElementById("video").currentTime);
+      }, 10000);
+    </script>
+  </body>
+</html>
