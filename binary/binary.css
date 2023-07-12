@@ -46,6 +46,8 @@ body {
 
 #form {
   text-align: center;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #button {
@@ -53,5 +55,7 @@ body {
   justify-content: center;
   align-items: center;
   height: max(fit-content, 175px);
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* #button{margin-left:43%} */

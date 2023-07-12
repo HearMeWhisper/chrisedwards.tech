@@ -73,5 +73,6 @@ function copyOut() {
   navigator.clipboard.writeText(copyText.value);
 
   // Alert the copied text
-  alert("Copied the text: " + copyText.value);
+  swal("Copied the text:", copyText.value);
+  //   alert("Copied the text: " + copyText.value);
 }
