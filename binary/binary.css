@@ -42,6 +42,7 @@ body {
   background-color: #e5e4e2;
   border-radius: 5px;
   overflow: auto;
+  resize: none;
 }
 
 #form {
