@@ -166,7 +166,7 @@ let random = () => {
   spin();
   let rand = Math.floor(Math.random() * 20 + 1);
   console.log(rand);
-  document.getElementById("center").innerHTML = rand;
+  document.getElementById("d20-face").innerHTML = rand;
 };
 
 // function rolar(){

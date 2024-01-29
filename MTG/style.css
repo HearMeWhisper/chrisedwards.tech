@@ -17,12 +17,12 @@ body {
   );
   /* background-color: #85640b; */
   margin: 0;
-  display: flex;
+  /* display: flex; */
   /* height: 100vh; */
   height: 100%;
 }
 html {
-  height: 100vh;
+  height: 100%;
   font-size: 110%;
 }
 #full {
@@ -121,7 +121,7 @@ main {
 }
 
 .buttons1 {
-  font-size: 3vh;
+  font-size: 4vh;
 
   /* font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
     Verdana, sans-serif; */
@@ -129,9 +129,9 @@ main {
   color: rgb(141, 140, 140);
 
   text-shadow: 0 1px 0 #eee;
-  margin-top: 3px;
+  /* margin-top: 3px; */
 
-  user-select: none;
+  /* user-select: none; */
   align-items: center;
   justify-content: space-between;
 }
@@ -161,28 +161,37 @@ main {
   top: -40px;
   right: 0;
   margin-top: 100px;
-  padding-right: 5px;
+  /* padding-right: 5px; */
   align-content: center;
+}
+.buttonSpan {
+  /* padding: 15px 15px; */
+  font-size: 4vh;
+  border-radius: 25%;
+}
+i {
+  pointer-events: auto;
 }
 .buttonText {
   font-size: 1.5vw;
 }
 #d20 {
-  width: 3vh;
+  width: 6vh;
   height: auto;
   vertical-align: middle;
+  top: -5px;
 }
 #d20-face {
   position: absolute;
 
-  top: 53%;
+  top: 48%;
 
   left: 50%;
 
   transform: translate(-50%, -50%);
 
   text-align: center;
-  font-size: 0.75vh;
+  font-size: 1.75vh;
   /* width: 100%; */
   color: red;
 }

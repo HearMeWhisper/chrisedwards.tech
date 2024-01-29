@@ -16,25 +16,18 @@
 
     <div id="navContainer"></div>
     <div class="buttons1" id="buttonWrapper">
-      <!-- <i class="fa-solid fa-arrow-up-from-bracket"></i> -->
-      <span>
-        <i
-          id="remove"
-          class="fa-solid fa-circle-minus"
-          onclick="removePlayer()"
-        ></i>
+      <span class="icon">
+        <i onclick="removePlayer()" class="fa-solid fa-circle-minus"></i>
       </span>
-      <span>
-        <i id="reset" class="fa-solid fa-rotate-left" onclick="reset()"></i>
+      <span class="icon" onclick="reset()">
+        <i id="reset" class="fa-solid fa-rotate-left"></i>
       </span>
-
-      <!-- <span class="buttonText"></span> -->
-      <span onclick="addPlayer()"
-        ><i id="add" class="fas fa-plus-circle"></i
-      ></span>
+      <span onclick="addPlayer()">
+        <i class="fa-solid fa-circle-plus"></i>
+      </span>
 
       <span class="dice">
-        <img id="d20" src="img/dice.webp" />
+        <img id="d20" src="img/dice.webp" onclick="random()" />
         <div id="d20-face">1</div>
       </span>
     </div>
