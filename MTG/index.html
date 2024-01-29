@@ -16,16 +16,18 @@
 
     <div id="navContainer"></div>
     <div class="buttons1" id="buttonWrapper">
-      <span class="icon">
-        <i onclick="removePlayer()" class="fa-solid fa-circle-minus"></i>
+      <span class="icon" onclick="removePlayer()">
+        <i class="fa-solid fa-circle-minus"></i>
       </span>
       <span class="icon" onclick="reset()">
-        <i id="reset" class="fa-solid fa-rotate-left"></i>
+        <i class="fa-solid fa-rotate-left"></i>
       </span>
       <span onclick="addPlayer()">
         <i class="fa-solid fa-circle-plus"></i>
       </span>
-
+ <span class="icon" onclick="fullscreen()">
+  <i class="fa-solid fa-expand"></i>
+ </span>
       <span class="dice">
         <img id="d20" src="img/dice.webp" onclick="random()" />
         <div id="d20-face">1</div>
