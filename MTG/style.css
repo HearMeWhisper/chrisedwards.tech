@@ -116,6 +116,7 @@ main {
   /* width: clamp(min-content, max-content, max-content+1rem); */
   width: fit-content;
   /* max-width: 25%; */
+  padding-top: 7%;
 }
 
 .buttons1 {
