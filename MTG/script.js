@@ -45,7 +45,7 @@ function isInstalled() {
 // document.getElementById("remove").addEventListener("click", removePlayer);
 // document.getElementById("reset").addEventListener("click", reset);
 
-const startLife = 20;
+let startLife = 20;
 let playerCount;
 if (!localStorage.getItem("playerCount")) {
   playerCount = 1;
@@ -107,6 +107,7 @@ let resetLife = () => {
   for (i = 1; i < 9; i++) {
     document.getElementById("lifeCount" + i).innerHTML = 20;
   }
+  startLife = Number(20);
 };
 
 let resetName = () => {
@@ -129,6 +130,31 @@ let removePlayer = () => {
     playerCount--;
     localStorage.setItem("playerCount", playerCount);
   }
+};
+
+let commander = () => {
+  Swal.fire({
+    title: "Start Commander Match? (life will be reset to 40)",
+    showDenyButton: true,
+    showCancelButton: false,
+    confirmButtonText: "yes",
+    denyButtonText: `no`,
+  }).then((result) => {
+    /* Read more about isConfirmed, isDenied below */
+    if (result.isConfirmed) {
+      Swal.fire("Match started!", "", "success");
+      startCommander();
+    } else if (result.isDenied) {
+      return;
+    }
+  });
+};
+
+let startCommander = () => {
+  for (i = 1; i < 9; i++) {
+    document.getElementById("lifeCount" + i).innerHTML = 40;
+  }
+  startLife = Number(40);
 };
 
 function fullscreen() {
