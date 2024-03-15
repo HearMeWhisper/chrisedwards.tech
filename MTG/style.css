@@ -236,6 +236,7 @@ i {
   font-size: 1.75vh;
   /* width: 100%; */
   color: red;
+  user-select: none;
 }
 .dice {
   position: relative;
