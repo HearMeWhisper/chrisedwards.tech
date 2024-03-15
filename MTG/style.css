@@ -124,7 +124,7 @@ main {
 }
 
 .buttons1 {
-  font-size: 4vh;
+  font-size: 3.5vh;
 
   /* font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
     Verdana, sans-serif; */
@@ -270,9 +270,7 @@ i {
   /* font-size: 2rem ; */
 }
 
-.icon{
-  font-size: 4vh;
-  }
+
 
 /* Container holding the image and the text */
 .container {
