@@ -157,6 +157,10 @@ let startCommander = () => {
   startLife = Number(40);
 };
 
+let flip = () => {
+  console.log("click");
+  document.getElementsByClassName("life").innerHTML = "";
+};
 function fullscreen() {
   var elem = document.documentElement;
 

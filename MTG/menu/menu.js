@@ -1,21 +1,21 @@
 let navString = "";
 let baseLinks = [
-  '<a class="navbar-item is-dark" href="/index.html"> Home </a>',
-  '<a class="navbar-item" href="/resume/"> Resume </a>',
+  '<a class="navbar-item is-dark" href="https://chrisedwards.tech/"> Home </a>',
+  '<a class="navbar-item" href="https://chrisedwards.tech/resume/"> Resume </a>',
 ];
 let gameLinks = [
-  '<a class="navbar-item" href="/yatzee/"> Yatzee </a>',
-  '<a class="navbar-item" href="/tictac/"> Tic Tac Toe </a>',
+  '<a class="navbar-item" href="https://chrisedwards.tech/yatzee/"> Yatzee </a>',
+  '<a class="navbar-item" href="https://chrisedwards.tech/tictac/"> Tic Tac Toe </a>',
   //  '<a class="navbar-item" href="/bingo/"> Bingo </a>',
-  '<a class="navbar-item" href="/memory/"> Memory </a>',
+  '<a class="navbar-item" href="https://chrisedwards.tech/memory/"> Memory </a>',
   '<a class="navbar-item" href="https://mtg.chrisedwards.tech"> MTG Life Counter </a>',
 ];
 let utilLinks = [
-  '<a class="navbar-item" href="/speak"> Speak </a>',
-  '<a class="navbar-item" href="/binary/"> Binary to ASCII </a>',
+  '<a class="navbar-item" href="https://chrisedwards.tech/speak"> Speak </a>',
+  '<a class="navbar-item" href="https://chrisedwards.tech/binary/"> Binary to ASCII </a>',
   '<a class="navbar-item" href="https://ytdownload.chrisedwards.tech"> YouTube Converter </a>',
-  '<a class="navbar-item" href="/nato/"> NATO Alpha </a> ',
-  '<a class="navbar-item" href="/rollDice/"> Roll Dice </a> ',
+  '<a class="navbar-item" href="https://chrisedwards.tech/nato/"> NATO Alpha </a> ',
+  '<a class="navbar-item" href="https://chrisedwards.tech/rollDice/"> Roll Dice </a> ',
 ];
 
 navString =
