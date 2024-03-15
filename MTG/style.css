@@ -98,7 +98,8 @@ main {
   justify-content: center;
   align-items: center;
   /* height: 2rem; */
-  height: calc(100%-35px);
+  /* height: calc(100%-35px); */
+  height:max-content
   min-width: auto;
   font-size: 4vh;
   user-select: none;
@@ -250,7 +251,6 @@ i {
 } */
 
 .fiveLife {
-  display: flex;
   position: relative;
   z-index: 10;
   /* font-size: 3rem; */
