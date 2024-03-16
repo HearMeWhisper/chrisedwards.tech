@@ -142,13 +142,13 @@ main {
 
 
 
-.icon {
+.icons {
   position: relative;
   /* background-color: #04AA6D; */
   border: none;
 
   padding: 20px;
-  width: 200px;
+  width: ;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -158,7 +158,7 @@ main {
   border-radius: 50%;
 }
 
-.icon:after {
+.icons:after {
   content: "";
   background: #697069;
   display: block;
@@ -172,7 +172,7 @@ main {
   border-radius: 25%
 }
 
-.icon:active:after {
+.icons:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
